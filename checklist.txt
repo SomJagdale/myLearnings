@@ -1,0 +1,24 @@
+TQtag
+Update Release notes, patcher and getntr.sh
+Apply Qtag 
+check updated files with cvs diff
+Send Mail about applied Qtag on ntr-dev group
+
+
+RTag
+1. Merge all code carefully
+2. Build test
+3. Send RN for review to DOC team
+4. Select new Rtag by incrementing previous Qtag, change month if necessory  
+5. Check R-tag availability
+6. Share selected Rtag to NTR team group 
+7. Update tag id in Release notes, patcher and getntr.sh
+8. Compare tag ids in getntr.sh and releasenotes
+9. Delete Bug details from Release notes
+10. Add removed bug list to bug list file
+11. Check updated files with cvs diff
+12. Update checklist file
+13. Check-in checklist file in cvs
+14. Merge RN it into cvs copy
+14. Draft mail 
+15. Send mail to release review in cc to releas manager and ntr-dev by attaching Release notes, checklist and QE files

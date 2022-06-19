@@ -1,0 +1,18 @@
+Aug
+A5GNSA - Active Deployment 
+5GNSA - Reporting
+Enhancing NTR Binary to support RA segment CoS
+
+Sept
+[NTR-1628] - Restore Data Message Handling
+PRN ID = [CSTASK0016030-TELCA-999] - In case CSFB case, NTR not sending CLR to MME even when MME Pool is part of BRG.
+ABS Merging on sustenance bugs JIRA ID = [NTR-2256,NTR-2257,NTR-2258]
+Support for multiple instances of NTR Binary in case of pure oracle/CB deployment
+
+
+Oct
+Regarding the New Version update to "8.2" for 5GNSA feature on NTR8.0 PG Branch
+JIRA ID = [NTR-2192] - Device Level Refresh Support for Elisa Finland in NTR OTA
+PRN NTR crashes when it receives messages from HLR in passive mode.
+JIRA ID = [NTR-2287] NTR Binary enhancement for multiple config bucket
+
