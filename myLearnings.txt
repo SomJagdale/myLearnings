@@ -1,0 +1,1651 @@
+systemctl deamon-reload
+systemctl docker restart
+
+brctl 
+
+Step to register yum to redhat web repo
+create open redhat developer account -free
+subscription-manager register
+subscription-manager list --available
+subscriptoin-manager subscribe
+
+
+blkid
+
+hyprvisers - virtual box, vmware, hyper-v, xem, kvm
+CRE - container running environments for example - docker ,podman, containered, RKF, CRI-O
+DOCKER - CE and EE
+docker clients - build, pull, run 
+docker server - deamon + containers + images
+docker registry - 
+
+exec -it 
+exec vs fork
+jvm jdk javac
+curl 
+docker  context  use  remote-engine-som 
+systemctl
+/etc/os-release
+ssd
+somanath
+
+use of for in bash 
+
+-rw-r--r--. 1 oracle oinstall 1441 Aug 26  2015 shrept.lst
+drwxr-xr-x. 2 oracle oinstall 4096 May  3  2019 samples
+-rw-r--r--. 1 oracle oinstall 1807 Jun 13 16:49 tnsnames.ora
+
+Do research before responding to site people
+
+g++ options
+-g - turn on debugging (so GDB gives more friendly output)
+-Wall - turns on most warnings.
+-O or -O2 - turn on optimizations.
+-o <name> - name of the output file.
+-c - output an object file (.o)
+-I<include path> - specify an include directory.
+-L<library path> - specify a lib directory.
+
+/home4/Somanath/myLearnings> ./out32
+DefaultChar = �
+DefaultInt = 134514763
+/home4/Somanath/myLearnings> ./out64
+DefaultChar =
+DefaultInt = 4196416
+
+https://www.quora.com/Where-are-virtual-tables-stored-in-C
+
+Some things to note:
+
+the “vtable for S” and the global variable s are defined similarly, which is as expected since they’re both global variables
+unlike the global variable s, the “vtable for S” is in a special “.rodata” section where “rodata” means “read-only data”
+unlike the global variable s, the “vtable for S” is declared .weak which means that this definition can appear “in duplicate” in other object files; that ensures that having similar code in other translation units won’t cause linker errors
+the size of the global variable s is 8, which is the space needed to hold a pointer to the “vtable for S”
+the “vtable for S” points not only to the virtual functions of S (S::f in this case), but also to another implicit global variable known as “typeinfo for S” (that address is, e.g., produced by the expression typeid(S))
+the line “.quad 0” in the definition for “vtable for S” is used to implement dynamic_cast<void*>, which returns a pointer to “the most-derived object”; the value 0 is the offset from the pointer to the virtual table to the beginning of the most derived object — you’d need a case involving multiple inheritance to make it non-zero in this ABI
+
+
+As other answers point out, it’s for maximum efficiency.
+
+Pro-tip : every C compiler I’ve ever come across will initialize pointers to NULL in debug mode.
+
+So if your release build blows up but your debug build doesn’t, it’s not a quantum thing where the bug disappears through the act of observing it. It’s a reference to an uninitialized pointer.
+
+
+
+DSA - Problem Solving
+Skills - 
+Fundamental - Array, String, Two Pointers, Linked List, Sorting, Stack, Matrix, Simulation 
+Intermediate - Tree, Binary Tree, Depth First Search, Math, Hash table, Breadth-first-search, Recursion, Bit Manipulation
+Advance - BackTracking, Dynamic Programming, Devide and Conqure
+
+
+Linked list
+Pros - expand and contract, insertion and deletionis efficient,
+Cons - Extra pointer to next node, more access time O(n), more page fault.
+
+
+
+atoi, atol, atof
+strtol, strtoll and strtoq
+
+QE cos engine CE setup couchbase
+
+Can you articulate thing before you speak?
+
+I know the what is 
+InterUL time
+Inter TR time(T2 special handset timer)
+
+Important debugging tools
+gdb/dbx
+valgrind - memory leak detection
+addresssanitizer - detects buffer overflows and dangling pointers
+
+👉 Problem solving skills
+👉 Analytical thinking and business understanding
+👉 Communication
+👉 Data structures and algorithms
+
+__t='ntr-nw-imsicount-mapping' or __t='ntr-instance-state' or __t='ntr-nws' and nwid=460 and zcode=302 and cosid=302 and hnwid=43 or __t='ntr-uirdcdata' and nwid=460 and zcode=302 and cosid=302 and hnwid=43 or __t='ntr-sysparam' and name='uniq.imsi.cappped.iot.stering' or  __t='ntr-sysparam' and name='iot.hwm.for.unique.imsi'  or __t='ntr-sysparam' and name='iot.lwm.for.unique.imsi' or __t='ntr-sysparam' and name='interval.to.dump.unique.imsi'
+
+Ten thoughts for who is starting their C++ journey:
+
+1. Move semantics is not mandatory - it is optional; You don't even need to be aware of move semantics to use all the potential of the C++ language and unleash all power of modern optimizing compilers
+
+2. Move semantics was created to deal with a niche case of very large objects (matrices and images) in the 2000s and was generalized to everything by skilled propaganda; small objects do not benefit from move semantics
+
+3. Move semantics is an all-in or all-out issue - you have to pick a side before you start writing code; you cannot use it half-way.
+
+4. However if you use it once, you need to MASTER everything: prvalue, xvalue, glvalue, && and variants, std::move, std::forward, perfect forwarding etc
+
+5. Learning move semantics half way is a recipe for disaster as evidence mounts for its dangerous misuse which often backfires dramatically.
+
+6. Move semantics will introduce a lot of unnecessary complexity and boilerplate into your code (rule of 5); weight the tradeoff vis-a-vis maintenance by more junior members of the team; for managers this means your hiring pool will be shrunk by half or more
+
+7. You definitely do not need move semantics to write ultra low latency code. In fact you might be better off without it, there are alternative techniques that are simpler, faster and better
+
+8. In fact, most performance applications I know (mostly gaming and trading ) sidestep move semantics altogether
+
+9. Shared pointers, and intrusive ones in particular, render move semantics unnecessary
+
+10. unique_ptr asks for move semantics; shared_ptr avoids it
+
+Pick the red or the blue pill.
+
+__t='ntr-sysparam' and name='interval.to.dump.unique.imsi' and __t='ntr-sysparam' and name='global.iot.steering.enabled' or __t='ntr-sysparam' and name='uniq.imsi.cappped.iot.stering' or __t='ntr-sysparam' and name='iot.hwm.for.unique.imsi' or __t='ntr-sysparam' and name='iot.lwm.for.unique.imsi' or __t='ntr-nws' and nwid=460 and zcode=302 and cosid=302 or __t='ntr-nw-imsicount-mapping' or __t='ntr-instance-state'
+QE CB IMas GUI details
+[12:04] Venkateswara Datla
+/home4/udayr/purecouchbase/Abhishek/Roamware/binaries/ntr80/config/
+
+
+
+Sakshi Rambhia
+• Following
+Tesla Spring ‘22 SWE || APM @ Google || PM @ Microsoft || Founder @ Scholarship Track
+1d • 1 day ago
+
+Here are some of the resources I used to prepare for SWE and PM positions:
+
+https://lnkd.in/dx6VkDhi
+
+According to me, you don't need a hundred resources if you just thoroughly focus on a few, understand them well and keep practicing.
+
+sed -i -e 's/\r$//' getntr.sh
+
+export LD_LIBRARY_PATH="/home4/Somanath/NTRSetup/NTR80/Roamware/libs:/opt/oracle/product/12.1.0.2/client_32bit/lib//opt/rwperl/lib/5.8.9:/opt/rwperl/lib/5.8.9/i386-linux-thread-mult
+i/CORE:/home4/Somanath/NTRSetup/NTR80/Roamware/scripts/perl-pm/rfc:/opt/rwperl/lib/site_perl/5.8.9:/opt/rwperl/lib/site_perl/5.8.9/util:/opt/rwperl/lib/site_
+perl/5.8.9/i386-linux-thread-multi:/opt/rwperl/lib/site_perl/5.8.9/i386-linux-thread-multi/auto/DBD/Pg:/home4/Somanath/NTRSetup/NTR80/Roamware/scripts/perl-p
+m/rfc/Devel/RWTrace.pm:/opt/rwperl/lib/5.8.9/i386-linux-thread-multi/auto/Cwd/Cwd.so:/opt/rwperl/lib/5.8.9/i386-linux-thread-multi:/opt/rwperl/lib/5.8.9/i386
+-linux-thread-multi/auto/Data/Dumper/Dumper.so:/opt/DSI/64/:/home4/Somanath/NTRSource/NTR80/newIOT/Build/lib/"
+
+cat /etc/redhat-release
+Red Hat Enterprise Linux Server release 7.2 (Maipo)
+
+ravi narayan
+ketan lalcheta
+
+virtual vs physical memory respect to application
+char str vs char *str
+smart pointer
+virtual constructor
+virtual table
+memory leakage for application
+private constructor and private destructor 
+mutex vs monitor thread
+dead lock condition
+
+A vtable is created when a class declaration contains a virtual function. A vtable is introduced when a parent -- anywhere in the heirarchy -- has a virtual function, lets call this parent Y. Any parent of Y WILL NOT have a vtable
+#include <iostream>
+
+class test_base
+{
+  public:
+    void x(){std::cout << "test_base" << "\n"; };
+};
+
+class test_sub : public test_base
+{
+public:
+  virtual void x(){std::cout << "test_sub" << "\n"; } ;
+};
+
+class test_subby : public test_sub
+{
+public:
+  void x() { std::cout << "test_subby" << "\n"; }
+};
+
+int main() 
+{
+  test_sub sub;
+  test_base base;
+  test_subby subby;
+
+  test_sub * psub;
+  test_base *pbase;
+  test_subby * psubby;
+
+  pbase = &sub;
+  pbase->x();
+  psub = &subby;
+  psub->x();
+
+  return 0;
+}
+ 
+
+output
+
+test_base
+test_subby
+
+export LD_LIBRARY_PATH="/home4/Somanath/NTRSetup/NTR80/Roamware/libs:/opt/oracle/product/12.1.0.2/client_32bit/lib//opt/rwperl/lib/5.8.9:/opt/rwperl/lib/5.8.9/i386-linux-thread-mult
+i/CORE:/home4/Somanath/NTRSetup/NTR80/Roamware/scripts/perl-pm/rfc:/opt/rwperl/lib/site_perl/5.8.9:/opt/rwperl/lib/site_perl/5.8.9/util:/opt/rwperl/lib/site_
+perl/5.8.9/i386-linux-thread-multi:/opt/rwperl/lib/site_perl/5.8.9/i386-linux-thread-multi/auto/DBD/Pg:/home4/Somanath/NTRSetup/NTR80/Roamware/scripts/perl-p
+m/rfc/Devel/RWTrace.pm:/opt/rwperl/lib/5.8.9/i386-linux-thread-multi/auto/Cwd/Cwd.so:/opt/rwperl/lib/5.8.9/i386-linux-thread-multi:/opt/rwperl/lib/5.8.9/i386
+-linux-thread-multi/auto/Data/Dumper/Dumper.so:/opt/DSI/64/:/home4/Somanath/NTRSource/NTR80/iotSteering/Build/lib/"
+
+int &a=10;
+main.cpp:18:12: error: cannot bind non-const lvalue reference of type ‘int&’ to an rvalue of type ‘int’
+lvalue reference 
+rvalue reference
+rvalue and lvalue 
+non const lvalue reference => int& a
+const lvalue reference => const int& a
+
+curl
+curl --upload-file <FILE NAME> https://uploads.couchbase.com/mobileum/38906/ 
+Linux curl command is used to download or upload data to a server via supported protocols such as HTTP, FTP, IMAP, SFTP, TFTP, IMAP, POP3, SCP, etc. 
+It is a remote utility, so it works without user interaction. The data transfer from one place to another is one of the vital and most used tasks of 
+a computer system.
+
+
+tcp dump
+netstat
+
+
+BlessEvent -> DBSearch -> ModifyProfile -> PopulateEvent -> HandleEvent
+
+mcc2mcc1mnc1mcc3mnc3mnc2
+131006
+for this mccmnc         <avp name="Origin-Host" value="mmec0A.mmegi8008.mme.epc.mnc160.mcc310.3gppnetwork.org"></avp>
+
+can you tell me encrypted value for                  <avp name="Visited-PLMN-Id" value="0x46f110"></avp>
+
+
+    <avp name="Origin-Host" value="mme5gnsa40.mme.epc.mnc001.mcc276.3gppnetwork.org"></avp>
+                                                      720610
+
+Software Engineer specialising in developing products like Self-Service Kiosks, Point-of-Sale Terminals, Automated Teller Machines, 
+Credit Reporting System, Database Engine and Linux Kernel development using:
+ Hardcore C, C++/C++ 11/C++14, Go
+ Python (with C++ Interoperability)
+ Microservices , GraphQL, Elasticsearch, REST APIs
+ Microservices , GraphQL, Elasticsearch, REST APIs
+ Linux, Windows, Mac OS X
+ Visual Code, GNU/GCC, Git, Tortoise SVN
+ Algorithms, Data Structures, Design Patterns
+
+Experienced in:
+ SDLC, Agile, Scrum, Kanban
+ Multithreaded Programming
+ Socket Programming
+ Data Synchronisation
+ Inter Process Communication
+ Network Protocols
+
+/usr/bin/gdb networktr core.15574
+
+5G
+1. 5GNSA Active Deployment
+2. QE Raised Passive Deployment Bugs(6)
+3. Trace change for Reports Handling
+4. Device Check
+5. OTA
+6. KPI 
+7. UIRDC
+8. GUI Integration Testing
+9. Code Review
+10. Test-Case Document
+11. AG and OM document change
+12. Code check-in and Tagging
+
+===================================================================================================
+
+Resotre Data Handling 
+1. All requirement mentioned in Restore data designe document.(Same check in cvs)
+2. Unit Testing (Arount 33 files need to change) - Passive Deployment throught VLR SIMulator 
+3. Merging in NTR80 Sustenance branch - DB support for Oracle and EDB
+4. Test-Case Document
+5. Design Document change(if any)
+6. Code Review
+7. AG and OM document change
+8. Code check-in and Tagging
+
+15 Days + 2 Days Planned Leave
+===================================================================================================
+
+Porting 5GNSA Feature from NTR8.0 to NTR8.2
+1.Possible Change in MakeFile 
+2.Possible Change in Setall Script 
+3.Possible Change in Patcher 
+4.Possible Change in other configuration files like TR.cfg
+5.Possible change in any design document which support new NTR version like AG or OG.
+6.Possible change in Build flow steps 
+7.Desing Document
+8.Test-Case Document
+9.Code Review
+10.AG and OM document change
+11.Code check-in and Tagging
+
+10 Days + 1 Day Planned Leave
+===================================================================================================
+
+text2pcap -l152 ntr.log ntr.pcap
+add 0000 and end with |
+
+
+QE seagull 
+on dev-18 server
+/qe-2/ntr61/uday_segull/config
+/qe-2/ntr61/abhishek-seagull/config
+
+
+vimp --- to print the line DBMS_UTILITY.FORMAT_ERROR_BACKTRACE use this in sp in checkpoint
+
+to delete Linux Cooking message from diameter message header 
+tcprewrite --dlt=enet --enet-dmac=52:54:00:11:11:11 --enet-smac=52:54:00:22:22:22 -i in.pcap -o out.pcap
+to add new home in existing database
+./scripts/operations/ntr80/NTRModifyHomes.pl
+
+screen 
+contrl + a " to select tab ... to list tabs
+contrl + |                 ... to split windo horizontally  
+
+Cb grep string	
+__t='ntr-zonem' and hnwid=43
+config
+zonem, cosm, nws, zonecosm, userprofile, imsilist, vlrm, mechanism, checkpoint, reject_codes,aream
+rdcdata, uirdcdata, userprofile, msisdnrange, ruledefs, arean_cell
+brgzonem, brgzonecosm, brgcell,brgvlr
+hnwid, cosid, zcode, 
+passward - imas-user-ntruser
+vlr_details
+vpmn list/snmp port __t='serviceinstance'
+NTR CEL INFO - ntr-arean-cell
+system params - __t='ntr-sysparam' and name="cosengine.rpc.enabled"
+__t='ntr-imsilist', __t='ntr-imsiattri'
+__t='SOR' for NTR_SUBSCRIPTION_INFO 
+
+Transaction
+ntr-34232423432324
+
+5) Modify TR.cfg for the following build with db details
+oracle/EDB build:
+load.irdb.database.type=oci
+#profile.db.type=couchbase
+database.pools=ntr
+
+oracle/EDB + couchbase build:
+load.irdb.database.type=oci
+profile.db.type=couchbase
+database.pools=ntr
+
+couchbase build:
+load.irdb.database.type=couchbase
+profile.db.type=couchbase
+#database.pools=ntr
+
+Wed Apr 07|14:15:03.413|D|C2FFD700|testlog size of [8].|TRUtils.cpp|.|4317
+Wed Apr 07|14:15:03.413|D|C2FFD700|testlog type of [l].|TRUtils.cpp|.|4318
+Wed Apr 07|14:15:03.413|D|C2FFD700|testlog size of int [4].|TRUtils.cpp|.|4319
+Wed Apr 07|14:15:03.413|D|C2FFD700|testlog type of int [i].|TRUtils.cpp|.|4320
+
+
+
+
+NTR Rules
+1st NP GSM UL
+OnSet Rules
+Dynamic Rules P NP 
+OnReject Rules
+
+2n NP GSM UL 
+OnSet Rules
+Dynamic Rule  if (profile->userData.trStatus != E_STATUS_UNKNOWN)  Persistent Rules 
+OnReject Rules
+
+
+To toggle between the current and the last buffer use the Ctrl-^ (normal mode
+
+cmd to get screen back
+-D -RR        Do whatever is needed to get a screen session.
+
+
+Price action and pivot point strategies
+If you fail any operation through GUI, just go to imas log and see SP in error and just run that SP in DB, issue will be solved
+Numbering standards NPI	Description	Standard
+0	unknown	
+1	ISDN Telephony	E.164
+2	generic	
+3	data	X.121
+4	telex	F69
+5	maritime mobile	E.210 and E.211
+6	land mobile	E.212
+7	ISDN/mobile	E.214
+
+
+stack trace of gdb core analysis 
+check for wait or sleep or select in thread stack trace if either one of them is present then thread is normal one
+for example 
+Thread 4 (Thread 0x7f3023fff700 (LWP 29159)):
+#0  0x00000035672e0263 in select () from /lib64/libc.so.6
+#1  0x00000000014a0409 in select (handle=4, timeout=0x7f3023ffed70, read_ready=<value optimized out>, write_ready=<value optimized out>, 
+    exception_ready=<value optimized out>) at /home/roamware/amit/ACE_wrappers64/ace/OS_NS_sys_select.inl:45
+#2  ACE::handle_ready (handle=4, timeout=0x7f3023ffed70, read_ready=<value optimized out>, write_ready=<value optimized out>, exception_ready=<value optimized out>)
+    at ACE.cpp:2225
+#3  0x00000000011ffc1b in ACE::handle_read_ready (handle=4, timeout=0x7f3023ffed70) at /opt/ACE_wrappers64/ace/ACE.inl:248
+#4  0x00000000011fc1a8 in CSNMPAgent2::OnRun (this=0x54dbfd0) at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/source/SNMPAgent2.cpp:1324
+#5  0x00000000011db405 in CRoamwareThread::RunThread (this=0x54dbfd0) at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/source/RoamwareThread.cpp:36
+#6  0x00000000011db3a2 in CRoamwareThread::ThreadEntry (arg=0x54dbfd0) at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/source/RoamwareThread.cpp:29
+#7  0x0000003567607851 in start_thread () from /lib64/libpthread.so.0
+#8  0x00000035672e767d in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x7f2ec07c2700 (LWP 29290)):
+#0  0x000000356760b43c in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x00000000008dbd3b in ACE_OS::cond_wait (cv=0x8e32d40, external_mutex=0x8e32d10) at /opt/ACE_wrappers64/ace/OS_NS_Thread.inl:329
+#2  0x00000000008dcf5e in ACE_Condition<ACE_Thread_Mutex>::wait (this=0x8e32d40) at /opt/ACE_wrappers64/ace/Condition_T.cpp:90
+#3  0x00007f2eea60d5ea in TThreadSafeDynQueue<SProbeSS7Mesg*>::Get (this=0x8e32ce0)
+    at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/include/ThreadSafeDynQueue.h:180
+#4  0x00007f2eea60cd06 in CSS7DecoderQueue::GetMessage (this=0x8e32ce0)
+    at /u01/rel/64bit/NTR-7.0-R201104/Roamware/application/NTR/7.0/cpp/NTRPassiveInterface/SS7DecoderQueue.cpp:140
+#5  0x00007f2eea609c0a in CSS7Decoder::DecodeProbeData (arg=0x0)
+    at /u01/rel/64bit/NTR-7.0-R201104/Roamware/application/NTR/7.0/cpp/NTRPassiveInterface/SS7Decoder.cpp:127
+#6  0x0000003567607851 in start_thread () from /lib64/libpthread.so.0
+#7  0x00000035672e767d in clone () from /lib64/libc.so.6
+
+Thread 7 (Thread 0x7f30298fc700 (LWP 29158)):
+#0  0x000000356760ed2d in nanosleep () from /lib64/libpthread.so.0
+#1  0x000000000087ac43 in ACE_OS::sleep (tv=...) at /opt/ACE_wrappers64/ace/OS_NS_unistd.inl:951
+#2  0x0000000001216007 in CTimer::Run (arg=0x54d2a80) at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/source/Timer.cpp:76
+#3  0x0000003567607851 in start_thread () from /lib64/libpthread.so.0
+#4  0x00000035672e767d in clone () from /lib64/libc.so.6
+
+issue trace 
+Thread 1 (Thread 0x7f2ec2fc6700 (LWP 29286)):
+#0  0x00007f2eea60b073 in CSS7Decoder::DecodeProbeData (arg=0x0)
+    at /u01/rel/64bit/NTR-7.0-R201104/Roamware/application/NTR/7.0/cpp/NTRPassiveInterface/SS7Decoder.cpp:540
+#1  0x0000003567607851 in start_thread () from /lib64/libpthread.so.0
+#2  0x00000035672e767d in clone () from /lib64/libc.so.6
+]0;roamware@OM02:~/binaries/ntr70/bin[1m[roamware@OM02]/opt/Roamware/binaries/ntr70/bin>(B[m
+
+DCE - to get Cos details
+Smart DCE - for sending OTA request
+
+Complete NTR defined by this
+home - Zone - cos - network - vlr - lac and cell 
+home - area - cos - network - vlr - lac and cell 
+home - brg  - cos - network - vlr - lac and cell 
+
+know the spaces
+:/\ $
+
+If your goal is to convince the person you're arguing against, then you have to be much more careful about it.
+ The key is this: NEVER try to make them admit that they're wrong.
+ If you do, then sheer pride will keep them from agreeing with you, even in the face of all logic.
+ My favorite approach is to find something in their argument I agree with, even if you're just agreeing that the earth is round. 
+ Acknowledge their points and their rightness. Then frame your arguments as just a modification on the points they're making, and 
+ argue for your side, presenting it as a compromise between your points of view.
+	
+update makefile when we add new directory or files
+
+[roamware@mobntr01]/opt/Roamware/binaries/ntr70/bin>networktr -v
+NTR 7.0:R200402:140420103611:Linux_2.6.32-279.el6.x86_64:GCTLIB.5.0:Oracle_11G:64Bit:rwmumrel
+[roamware@mobntr01]/opt/Roamware/binaries/ntr70/bin>file networktr
+networktr: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.18, not stripped
+[roamware@mobntr01]/opt/Roamware/binaries/ntr70/bin>cat /etc/redhat-release
+Red Hat Enterprise Linux Server release 6.3 (Santiago)
+[roamware@mobntr01]/opt/Roamware/binaries/ntr70/bin>uname -a
+Linux mobntr01 2.6.32-279.el6.x86_64 #1 SMP Wed Jun 13 18:24:36 EDT 2012 x86_64 x86_64 x86_64 GNU/Linux
+[roamware@mobntr01]/opt/Roamware/binaries/ntr70/bin>
+
+vpn psw H^G%F$D#S@
+Always mention proper relevant and correct comments while checking-in source code.
+Always write proper comments for written code.
+take more time for writing code also 
+Always run precise and relevant testcases
+
+dont checking partial code ... 
+checking must be automic... 
+code change should reflect in all relevant placess ex. releasenote, patcher and cpp files
+
+
+GDB                     DBX                       for more information
+===                     ===                       ====================
+
+break <line>            stop at <line>            `help stop'
+break <func>            stop in <func>            `help stop'
+break *<addr>           stopi at <addr>           `help stopi'
+break ... if <expr>     stop ... -if <expr>       `help event specification'
+cond <n>                stop ... -if <expr>       `help event specification'
+tbreak                  stop ... -temp            `help event specification'
+watch <expr>            stop <expr>  [slow]       `help event specification'
+watch <var>             stop modify &<var> [fast] `help event modify'
+catch <x>               intercept <x>             `help intercept'
+info break              status                    `help status'
+info watch              status                    `help status'
+clear                   clear                     `help clear'
+clear <fun>             delete <n>                `help delete'
+delete                  delete all                `help delete'
+disable                 handler -disable all      `help handler'
+disable <n>             handler -disable <n>      `help handler'
+enable                  handler -enable all       `help handler'
+enable <n>              handler -enable <n>       `help handler'
+ignore <n> <cnt>        handler -count <n> <cnt>  `help handler'
+commands <n>            when ... { <cmds>; }      `help when'
+
+backtrace <n>           where <n>                 `help where'
+frame <n>               frame <n>                 `help frame'
+info reg <reg>          print $<reg>              `help registers'
+
+finish                  step up                   `help step'
+signal <num>            cont sig <num>            `help cont'
+jump <line>             cont at <line>            `help cont'
+set <var>=<expr>        assign <var>=<expr>       `help assign'
+
+x/<fmt> <addr>          x <addr>/<fmt>            `help examine'
+disassem <addr>         dis <addr>                `help dis'
+
+shell <cmd>             sh <cmd> [if needed]      `help sh'
+
+info func <regex>       funcs <regexp>            `help funcs'
+ptype <type>            whatis -t <type>          `help whatis'
+
+define <cmd>            function <cmd>            `help ksh syntax'
+
+handle <sig>            stop sig <sig>            `help event specification'
+info signals            status; catch             `help status', `help catch'
+
+attach <pid>            debug - <pid>             `help debug'
+attach <pid>            debug <a.out> <pid>       `help debug'
+file <file>             [unnecessary]
+exec <file>             debug <file>              `help debug'
+core <file>             debug <a.out> <file>      `help debug'
+
+set editing on          set -o emacs              `help editing'
+set language <x>        language <x>              `help language'
+set prompt <x>          PS1=<x>                   `help ksh PS1'
+set history size <x>    HISTSIZE=<x>              `help ksh HISTSIZE'
+
+set print object on     dbxenv output_dynamic_type on `help c++ dynamic'
+
+show commands           history                   `help history'
+dir <name>              pathmap <name>            `help pathmap'
+show dir                pathmap                   `help pathmap'
+info line <n>           listi <n>                 `help listi'
+info source             file                      `help file'
+info sources            files; modules            `help files', `help modules'
+forw <regex>            search <regex>            `help search'
+rev <regex>             bsearch <regex>           `help bsearch'
+
+
+addr2line
+addr2line -Cfpie /home/sumitb/Build64/bin/ss7txnwriter 0x1278911
+
+/home4/Somanath/NTRSource/NTR80/couchbase/Roamware/application/NTR/8.0/cpp> echo $OSNAME
+Linux
+
+/home4/Somanath/NTRSource/NTR80/couchbase/Roamware/application/NTR/8.0/cpp> echo $OSTYPE
+Linux_3.10.0-327.el7.x86_64
+
+alias t1='/opt/DKseptel/gctloadt1t2 -t1'
+alias t2='/opt/DKseptel/gctloadt1t2 -t2'
+alias cleangct='/opt/DSI/s7_log -m0xd'
+
+In descussion talk when it will be listned or will make impact in wanted result.
+Always take full responsibility, work as a team and never ever show your negative points to opposite person.
+
+PRN Provide Roaming Number
+RDC Ratio Distribution Control
+RNA Roaming Not Allowed
+RRuSF Roaming Restricted due to Unsupported Feature
+SCF Service Control Function
+SRISM Send Routing Information for Short Message
+
+Declaration(functional) vs Statements(Imperative)
+HTML CSS and JAVASCRIPT
+JSON
+Couchbase
+
+Common programming paradigms include:[1][2][3]
+
+=imperative in which the programmer instructs the machine how to change its state,
+procedural which groups instructions into procedures,
+object-oriented which groups instructions together with the part of the state they operate on,
+
+=declarative in which the programmer merely declares properties of the desired result, but not how to compute it
+functional in which the desired result is declared as the value of a series of function applications,
+logic in which the desired result is declared as the answer to a question about a system of facts and rules,
+mathematical in which the desired result is declared as the solution of an optimization problem
+
+!vi -- to open last edited file on bash terminal.
+Below are some most common commands for managing Linux Screen Windows:
+
+Ctrl+a c Create a new window (with shell)
+Ctrl+a Ctrl+a switch to previous tab
+Ctrl+a " List all window
+Ctrl+a 0 Switch to window 0 (by number )
+Ctrl+a A Rename the current window
+Ctrl+a S Split current region horizontally into two regions
+Ctrl+a | Split current region vertically into two regions
+Ctrl+a tab Switch the input focus to the next region
+Ctrl+a Ctrl+a Toggle between the current and previous region
+Ctrl+a Q Close all regions but the current one
+Ctrl+a X Close the current region
+
+
+gstack linux and pstack - solaries
+
+QE - For NTR crash bug, please provide output of following commands in the bug.
+networktr -v
+file networktr
+uname -a 
+cat /etc/redhat-release (RHEL) or cat /etc/release (Solaris)
+	
+Following are the steps to create stack trace on Linux OS :-
+gdb ./networktr core.13112
+set logging on
+thread apply all bt
+set logging off
+quit
+Look for gdb.txt
+
+Overloaded "&&" and "||" operators lose their short-circuit evaluation property.
+
+the process of reorganizing common behavior from non-abstract classes into "abstract classes" using inheritance to abstract over sub-classes
+ as seen in the object-oriented C++ and Java programming languages.
+
+Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their data. 
+ It means that a program can be designed to read, generate, analyze or transform other programs, and even modify itself while running
+Template metaprogramming (TMP) is a metaprogramming technique in which templates are used by a compiler to generate temporary source code, 
+ which is merged by the compiler with the rest of the source code and then compiled. 
+
+How Strong type checking implemented in c++? :D
+In 1979, Initially, Stroustrup's "C with Classes" added features to the C compiler, Cpre, 
+ including classes, derived classes, strong typing, inlining and default arguments.
+In 1983, "C with Classes" was renamed to "C++" (++ being the increment operator in C), adding new features that included virtual functions,
+ function name and operator overloading, references, constants, type-safe free-store memory allocation (new/delete), improved type 
+ checking, and BCPL style single-line comments with two forward slashes
+In 1989, C++ 2.0 was released, followed by the updated second edition of The C++ Programming Language in 1991.[16] New features in 2.0 
+ included multiple inheritance, abstract classes, static member functions, const member functions, and protected members. 
+In 1990, The Annotated C++ Reference Manual was published. This work became the basis for the future standard. Later feature additions 
+included templates, exceptions, namespaces, new casts, and a boolean type.
+
+
+Throughout C++'s life, its development and evolution has been guided by a set of principles:[13]
+
+It must be driven by actual problems and its features should be immediately useful in real world programs.
+Every feature should be implementable (with a reasonably obvious way to do so).
+Programmers should be free to pick their own programming style, and that style should be fully supported by C++.
+Allowing a useful feature is more important than preventing every possible misuse of C++.
+It should provide facilities for organising programs into separate, well-defined parts, and provide facilities for combining separately developed parts.
+No implicit violations of the type system (but allow explicit violations; that is, those explicitly requested by the programmer).
+User-created types need to have the same support and performance as built-in types.
+Unused features should not negatively impact created executables (e.g. in lower performance).
+There should be no language beneath C++ (except assembly language).
+C++ should work alongside other existing programming languages, rather than fostering its own separate and incompatible programming environment.
+If the programmer's intent is unknown, allow the programmer to specify it by providing manual control.
+
+https://en.wikipedia.org/wiki/New_and_delete_(C%2B%2B)
+
+2.1	Object storage
+2.1.1	Static storage duration objects
+2.1.2	Thread storage duration objects
+2.1.3	Automatic storage duration objects
+2.1.4	Dynamic storage duration objects
+
+Static storage duration objects are initialized in two phases. First, "static initialization" is performed, and only after all static 
+initialization is performed, "dynamic initialization" is performed. In static initialization, all objects are first initialized with zeros;
+ after that, all objects that have a constant initialization phase are initialized with the constant expression (i.e. variables initialized
+ with a literal or constexpr). 
+Though it is not specified in the standard, the static initialization phase can be completed at compile time and saved in the data 
+partition of the executable. Dynamic initialization involves all object initialization done via a constructor or function call (unless 
+the function is marked with constexpr, in C++11). The dynamic initialization order is defined as the order of declaration within the 
+compilation unit (i.e. the same file). No guarantees are provided about the order of initialization between compilation units.
+
+Automatic storage duration objects
+The most common variable types in C++ are local variables inside a function or block, and temporary variables.[54] The common feature about automatic variables is that they have a lifetime that is limited to the scope of the variable. They are created and potentially initialized at the point of declaration (see below for details) and destroyed in the reverse order of creation when the scope is left. This is implemented by allocation on the stack.
+
+Local variables are created as the point of execution passes the declaration point. If the variable has a constructor or initializer this is used to define the initial state of the object. Local variables are destroyed when the local block or function that they are declared in is closed. C++ destructors for local variables are called at the end of the object lifetime, allowing a discipline for automatic resource management termed RAII, which is widely used in C++.
+
+Member variables are created when the parent object is created. Array members are initialized from 0 to the last member of the array in order. Member variables are destroyed when the parent object is destroyed in the reverse order of creation. i.e. If the parent is an "automatic object" then it will be destroyed when it goes out of scope which triggers the destruction of all its members.
+
+Temporary variables are created as the result of expression evaluation and are destroyed when the statement containing the expression has been fully evaluated (usually at the ; at the end of a statement).
+http://faculty.smu.edu/yzhou/local/dbxfaq.html
+
+AddressSanitizer (or ASan) is an open source programming tool by Google that detects memory corruption bugs such as 
+buffer overflows or 
+accesses to a dangling pointer (use-after-free).
+Memory leak
+compile: g++ -O -g -fsanitize=address heap-use-after-free.cc
+It show backtrace where the memory issue arises.
+
+:%s/SendAuth message//gn  -- to count string apperance in a given file.
+Generating 2D graph in xls for more generalised analysis -> select two or more column go to insert and then click on area chart
+to recreate ntr_subscriber_profile and run all sps from database/sp/Common/Profile resetProfile.sql
+c++/cpp que set
+https://docs.google.com/document/d/1KTeXq6aIHtbH7GoXNhne6VusgIGHaNHtsHJ82-j3kUA/edit?usp=sharing
+grep -nrH -- -n line no and -r recursive and H print file name
+H for file name -n for matching line no, -r searching recursively, -m maximum serch, -B print line number before match, -A print line number after match 
+ggrep -H -n -o -r -m 10 'Wed ' NTR.20190828-193240.log
+grep 'foo[0-9][0-9]' filename
+ggrep "^Wed Aug" NTR.20190828-193240.log
+grep '^foo$' filename
+/usr/sfw/bin/ggrep ^Wed NTR.20190828-193240.log
+/usr/sfw/bin/ggrep 270$ NTR.20190828-193240.log
+/usr/sfw/bin/ggrep -E 'Tnoact|waiting' NTR.log
+grep '[0-9][0-9]G' usage2.txt
+du -h * | grep G
+zgrep
+
+(dbx) print *&(*newProfile)->hnwid
+(*newProfile)->hnwid = 12
+(dbx) print *(*&(*newProfile)->visitedNwVLRList)
+*(*newProfile)->visitedNwVLRList = {
+    buf  = "61-131-131-0002+diamproxy.mmec18.mme-N-3-1022-0-2|"
+    next = (nil)
+}
+
+All gnome commands are present in /usr/sfw/bin/ dirctory of solaries
+mapping funciton address to the function name in the binary 	
+bash-3.00$ /usr/sfw/bin/gaddr2line -Cf -e networktr 0x9cb3f3d
+
+(idb) set variable node->_data = -32
+
+/dev-3/venkatd/Roamware/scripts/operations/ntr70> cp /dev-4/venkatd/Roamware/logs/ntr70/dce/file/output/ondemand.etisalat.log /dev-4/venkatd/Roamware/logs/ntr70/dce/file/input/
+
+always write imsi in the logs
+
+find ./ -type f -newer starttime | grep -v platform | grep -v DynRouting | grep -v build | wc -l
+
+TNS database name /opt/oracle/product/11.2.0/client32/network/admin/tnsnames.ora
+
+Metaprogramming
+Reflection 
+Mock Object 
+
+Reflection makes a language more suited to network-oriented code. For example, it assists languages such as Java to 
+operate well in networks by enabling libraries for serialization, bundling and varying data formats. 
+Languages without reflection (e.g. C) have to use auxiliary compilers, e.g. for Abstract Syntax Notation,
+ to produce code for serialization and bundling.
+import java.lang.reflect.Method;
+
+// Without reflection
+Foo foo = new Foo();
+foo.hello();
+
+// With reflection
+try{
+    
+    // Alternatively: Object foo = Foo.class.newInstance();
+    Object foo = Class.forName("complete.classpath.and.Foo").newInstance();
+    
+    Method m = foo.getClass().getDeclaredMethod("hello", new Class<?>[0]);
+    m.invoke(foo);
+
+}catch(Exception e){
+
+    //Catching ClassNotFoundException, NoSuchMethodException
+    //InstantiationException, IllegalAccessException
+
+}
+
+imperative programming(procedure oriented lang) vs declarative programming(a style of building the structure and elements of computer programs—that expresses the logic of a computation without describing its control flow.[1] Many languages that apply this style attempt to minimize or eliminate side effects by describing what the) 
+
+bind "set completion-ignore-case on"
+
+shopt -s cdspell -- enable spell check 
+shopt -u cdspell -- disalbe spell check
+
+shopt - shell optional behavior.
+
+dbx: you cant set breakpoint in dynamic lib source file. In run time you have to make sure .so lib is loaded then you can apply it 
+
+dk2pcap or text2pcap
+wirshark/dk2pcap
+.\text2pcap.exe -l 142 .\DK2PCAP\NTR.log .\DK2PCAP\RNA
+
+getupdatedfiles | xargs ls -lrt
+
+xe_setp vs xd_setp
+
+Unable to load so library 
+check LD_LIBRARY_PATH
+check binary and lib version like diameter etc there may be diff in symbol table or undifined variable or function
+
+To check is there any issue with .so lib we can check it with below command 
+nm dynamiclib.so - print name list of an object file
+[Index]   Value      Size    Type  Bind  Other Shndx   Name
+[11739] |         0|       0|FUNC |GLOB |0    |UNDEF  |__1c2n6FIrknDstdJnothrow_t__pv_
+[950]   |   3376816|      70|OBJT |LOC |0    |11     |__1c2s6FrknOACE_Time_Value_2_0_
+
+:%s///gn -- to count the occurence of prevousely searched string
+
+ctrl+o and ctrl+i in vim .... jumps to previosu jump irrespective to file 
+
+gd -- go to local declartaion 
+gD -- go to global declaration
+
+ZZ write and close file in vim
+ZQ Close file in vim
+
+cp -i(interactive), -b(takebackup of dest file), -l(), -h, -p(preserv source file time stamp) 
+$ touch -r reference.txt updating.txt -- update time with refern file
+
+addr2line  -Cpie   <object> <address> --command do you use to get function detail based on its pointer
+
+pstack core.2121 >> stacktrace
+
+>expr 10 + 10 -- command calculator or it solves arithmatic operations
+>bc -- calculator 
+>sort
+>uniq -c -- removes duplicate, -c for count
+>cut -d "," -f 3 roamerdata.20190701-084227.log | sort | uniq -c | wc -l ==> 90982
+>cut -b # 	-- byte 
+>cut -c # 	-- charactor 
+>export HISTTIMEFORMAT='%F %T %t' -- history time formate
+:bdelete or just :bd Delete buffer in vim  
+:e **/BRGHandler.cpp
+
+ACE_DLL dll ;
+dll.open -- load library 
+dll.symbol -- find symbol like method 
+
+Ctrl + pg up -- previous tab
+Ctrl + pg dn -- next tab
+Ctrl + HOME -- top to pages
+Ctrl + END -- down to page 
+
+Shift + F10 -- to right click to file or folder in window 
+Ctrl+Shift+N -- to create new folder in window
+
+:pwd - print working dir
+CTRL-^  - switch to previous buffer
+:buffers  or :ls
+:file or :f shows opened file
+:h or :help /\w -- get help for regexp data
+split -b 5119795 405871003733566.log
+
+set of vim plugins 
+https://github.com/hashrocket/dotmatrix
+
+No implicit violations of the type system (but allow explicit violations; that is, those explicitly requested by the programmer).
+
+CPP  history - he motivation for creating a new language originated from Stroustrup's experience in programming for his PhD. thesis. Stroustrup found that Simula had features that were very helpful for large software development, but the language was too slow for practical use, while BCPL was fast but too low-level to be suitable for large software development. When Stroustrup started working in AT&T Bell Labs, he had the problem of analyzing the UNIX kernel with respect to distributed computing. Remembering his Ph.D. experience, Stroustrup set out to enhance the C language with Simula-like features.[13] C was chosen because it was general-purpose, fast, portable and widely used. As well as C and Simula's influences, other languages also influenced C++, including ALGOL 68, Ada, CLU and ML.
+Point:-Initially, Stroustrup's "C with Classes" added features to the C compiler, Cpre, including classes, derived classes, strong typing, inlining and default arguments.[14]
+Point:-In 1983, "C with Classes" was renamed to "C++" (++ being the increment operator in C), adding new features that included virtual functions, function name and operator overloading, references, constants, type-safe free-store memory allocation (new/delete), improved type checking, and BCPL style single-line comments with two forward slashes (//).
+In 1989, C++ 2.0 was released, followed by the updated second edition of The C++ Programming Language in 1991.[16] New features in 2.0 included multiple inheritance, abstract classes, static member functions, const member functions, and protected members. In 1990, The Annotated C++ Reference Manual was published. This work became the basis for the future standard. Later feature additions included templates, exceptions, namespaces, new casts, and a boolean type.
+
+After the 2.0 update, C++ evolved relatively slowly until, in 2011, the C++11 standard was released, adding numerous new features, enlarging the standard library further, and providing more facilities to C++ programmers. After a minor C++14 update released in December 2014, various new additions were introduced in C++17, and further changes planned for 2020.[17]
+
+pkgadd/pkgtrans/pkginfo/pkgrm/pkgchk -- package installer for solaries
+yum info/install/update/erease/list/upgrade/version/clean 
+rpm -qa | grep edb
+rpm -q/e/i/U
+	
+Semaphore
+wait(Semaphore s){
+    while (s==0);    /* wait until s>0 */
+    s=s-1;
+}
+signal(Semaphore s){
+    s=s+1;
+}
+
+Init(Semaphore s , Int v){
+    s=v;
+}
+Disadvantage
+As shown in the examples above, processes waiting on a semaphore must constantly check to see if the semaphore is not zero. This continual looping is clearly a problem in a real multiprogramming system (where often a single CPU is shared among multiple processes). This is called busy waiting and it wastes CPU cycles. When a semaphore does this, it is called a spinlock.
+Solution
+To avoid busy waiting, a semaphore may use an associated queue of processes that are waiting on the semaphore, allowing the 
+semaphore to block the process and then wake it when the semaphore is incremented. The operating system may provide the block() 
+system call, which suspends the process that calls it, and the wakeup(P <Process>) system call which resumes the execution of blocked process P.
+If a process calls wait() on a semaphore with a value of zero, the process is added to the semaphore’s queue and then blocked. 
+The state of the process is switched to the waiting state, and control is transferred to the CPU scheduler, which selects another
+process to execute. When another process increments 
+the semaphore by calling signal() and there are tasks on the queue, one is taken off of it and resumed
+wait(Semaphore s){
+    s=s-1;
+    if (s<0) {
+        // add process to queue
+        block();
+    }
+}
+
+signal(Semaphore s){
+    s=s+1;
+    if (s<=0) {
+        // remove process p from queue
+        wakeup(p);
+    }
+}
+
+Init(Semaphore s , Int v){
+    s=v;
+}
+wait(2)  vs wait(3) vs SEM_WAIT(3) 
+
+
+:ls -- a,h meaning in buffere list. it will list open files , + modified but not saved filesl
+:b#
+map * *<C-O>:%s///gn<CR>
+where n counts the no of occurence
+g is all words from same line
+to fire this we need to search this word before counting it
+
+prstat - report active process statestics
+memory allocator
+
+DCE COS Engine Details (platform cos engine)
+Configured two cos engine for load sharing cos-01(qe-180-for-odd-imsi server) and cos02(dev-17-for-even-imsi server)
+sample imsi
+Set ROAMWARE_HOME to /dev-4/somanath/cosengine/RWARSDS70R190404/reloc/Roamware/
+Start sh file path : /dev-4/somanath/cosengine/RWARSDS70R190404/reloc/Roamware/scripts/operations/cosengine
+DCE log file :/dev-4/somanath/NTRSetup/Roamware/logs/cosengine/logs/cosengine.log
+configuration file path : /dev-4/somanath/cosengine/RWARSDS70R190404/reloc/Roamware/binaries/cosengine/config/fsmapp.properties
+check this file : /dev-4/somanath/cosengine/RWARSDS70R190404/reloc/Roamware/scripts/operations/cosengine/nohup.out
+    $imsi = "232010000010131" ;
+    $imsi = "232010000010120" ;
+DCE Engine database details
+engine side - defination , feature, hierarchy, mapping, rpc 
+ntr side - rpc, distributor
+
+nohup /opt/DSI/gctload -m6000 -d -Ci0x90 &
+SIGHUP
+signal(SIGHUP, function_pointer);
+Rais programaticlly raise(SINHUP);
+raise mannually... stop main termilal contain process is running, all child proces has sent sighup signal by terminal process
+/opt/DSI> /opt/DSI/gctload
+(22051)gctload: gctload already running.
+/opt/DSI> /opt/DSI/gctload --help
+(22052)gctload : Unrecognised option : --help
+DSI gctload Release 6.8.6 (Build 1280)
+Part of the Dialogic(R) DSI Development Package for Linux
+Copyright (C) 1994-2016 Dialogic Corporation. All rights reserved.
+Syntax: gctload [-c -d -v -t1[r] -t2 -t3 -t4 -x]
+        -c  : System configuration file (default system.txt)
+        -t1 : Display system trace information (short)
+        -t1r : Display system trace information (short) and reset counters
+        -t2 : Display system trace information (long)
+        -t3 : Display enqueued messages
+        -t4 : Display license status
+        -v  : Show version
+        -d  : Diagnostics enabled
+        -x  : Terminate running system
+Example   gctload -csystem.txt -Co70 -Ca30
+For GCT module ID 
+/home/rashi/vlr> vim /opt/DSI/system.txt
+
+how to search caller for common name funciton line CRPCDistributor::Initialize (here Initialize)
+check that function is static(search for CRPCDistributor::Initialize) or non static (search for distributor->Initialize)
+or CPersistentBRGTxnRule::GetInstance()->Invoke
+
+
+Create NTR setup 
+Dowonlod ntr and ntrapp zip from ulr
+unzip both files-- gunzip 
+keep in new direcotry
+run below command to install 
+mypkgadd
+pkgtrans RWARNTRAPPS-7.0-R190208-sol10-11g-i386_64.pkg /dev-4/somanath/NewNTRSetup/TagID
+To get GUI apps 
+go to /dev-4/somanath/NewNTRSetup/R190508/RWARNTRAPPS70R190508/reloc/Roamware/temp/ntr7
+unzip NTRApps.zip
+
+
+
+NTR 7.0 Tagged with Q190206 on ntr_ABS branch
+always take effort to calculate efforts... it will avoid your future tension.
+bhai always check speling and indentation in release notes.
+changes in to get issue
+non forbidden vs forbidden lac cell ids
+removes lac cell configured in area.
+Tnoact - between ULs, Tmax - Transaction max(QOS expires), Tcl timers(cancel location validity )
+control + f7 to format one line sql query to proper sql formated query
+
+If you dont know where code located if you enable any feature, you can get there by refering configured parameter in sysparam table or in tr.cfg file
+unzip   -- to unzip files on sun solaries
+
+Always reply to mail with Kind/Descent word. Treate every one superior/senior while replying mail... take time while replying mail.... mail is very important 
+factor in communication.
+Try to think with broader perspective.
+
+pkgtrans -- to trasfor package from file systema and data stream file
+Think before saying anything or stating anything... 
+
+RW monitor stat  ntr_snmp -- available event pool size
+
+to know cpu process scheduling techniques TS-timesharing 
+dispadmin -c TS -g
+> dispadmin -c TS -g
+# Time Sharing Dispatcher Configuration
+RES=1000
+# ts_quantum  ts_tqexp  ts_slpret  ts_maxwait ts_lwait  PRIORITY LEVEL
+dispadmin -- process schedular administrator
+
+The context and involuntary context switching can be seen in a mpstat commmand. csw and icsw
+mpstat 2 2
+mpstat -- imp command -- it shows all processor statestics... falts, interupts, contest switch, involuntary process switch etc
+
+1.2.1	Service Delivery System - SDS70
+
+what is 
+254 C:TCP:10.91.10.68:20131:55 0 __thread_create 626851923
+
+315 S:TCP:10.91.10.68:34444:115 1 ProcessRequest 1770
+
+activity.log -- we can monitor stucked thread by analysing activity log
+
+map F4 :Buffere<CR>:Buffer<Space>
+
+check mail 1st in morning before talking to anyone about work
+
+strdup 
+
+who -b -H  -- to know booting time
+who -r     -- to know run level
+
+scanf - take values from string and set to variable by considering format specifier spaces uses for differentiate format specifier , returns formated variables
+printf - put values in to string by putting values from variable by cosidering its format specifier.
+
+bash basic function
+printf "string"-- print to o/p screen
+read a -- read content to string
+echo $a
+!!
+`!!`
+
+read skype message carefully and understand before replying
+strtod - convert tex to decimal number 
+
+mistake 1 not reading code carefully. consider each variable while analysing code.. never skip lines while reading them(sscanf)
+mistake 2 always check variable format specification while printing it, analyse code again and again carefully(char vs unsigned char string)
+mistake 3 always refer message specificaton while encoding or decoding (TAI and ECGI byte wise message structure)
+mistake 4 format specification (singined and unsigned char)
+
+octal - 3 bits
+hexadecimal - 4 bits
+
+we consider 3 bits for octal - 
+Thus the range of signed char is -128 to 127 whereas that of unsigned char is 0 to 255.
+singed and unsigned 
+how typecasting works between signed and unsigned 
+Mistake : Silly mistake made and approached parag for this
+
+binary(1) vs octal(3) vs 	(4)-only numbers vs hexadecimal(4) 0 to 15(F) vs BASE64-alphanumeric(0 to 9 and a to z and A to Z and + and -)
+4 bits vs 6 bits
+hexadecimal chars vs alphanumeric chars
+
+how to get pcap for req and repl message
+go to end to end identifier 
+click right click 
+select apply as filter selected
+save that filtered output in new pcap file.
+
+
+make ntr and diameter also passive 
+
+IE	Information Element
+
+shift + alt to select partial part from all lines.
+
+select networkid, count(mcc) as ct from IRDB_NETWORK_GSM_DETAIL group by networkid ORDER BY ct DESC;
+
+pstack pid_ > filename // to generate Process stack status.
+
+mypkgadd -d pkgpath destdirname //here setup will be created in destdirname, it will be created in homedirectory 
+
+Try to Avoid copy past messages. If you use copied message get more precauaiton.
+
+
+To jump to the beginning of a C code block (while, switch, if etc), use the [{ command.
+To jump to the end of a C code block (while, switch, if etc), use the ]} command.
+
+Abstract Syntax Notation One (ASN.1), Basic Encoding Rules (BER), and Distinguished Encoding Rules (DER).
+Abstract Syntax Notation One (ASN.1) is a standard interface description language for defining data structures that can be serialized and deserialized in a cross-platform way. It is broadly used in telecommunications and computer networking, and especially in cryptography.
+
+export PATH=/bin:/usr/sbin:/usr/bin:/usr/local/bin:/usr/local/bin/i386:/usr/ccs/bin:$PATH:$JAVA_HOME/bin:$ANT_HOME/bin:$CATALINA_HOME/bin
+
+export LD_LIBRARY_PATH=/usr/lib:/usr/local/lib:/opt/oracle/product/11.2.0/client32/lib:
+
+
+cscope - spacebar for next and - for back search result
+carefully merge all files
+always build and run patcher
+CHECK LOGGING THURALLY - since qe team focuses on logging only
+Search for Error and Warnig alsoeffor
+1st Search for Error if we dont get any clue we shoud consider warning also 
+	
+source ~somanath/SetupScripts/setall.rhel.64_edb.sh edb
+source ~somanath/SetupScripts/setall.rhel.64_edb.sh 11g
+source ~somanath/SetupScripts/setall.rhel.64_edb.sh 11g DK3.01
+
+bit fields
+
+Treat :Explore as normal vi editor use searcing and traversing
+
+* and # search for the word under the cursor forward/backward.
+g; jump back to last edited position.
+
+map F5 :e<CR>
+map F4 :Buffere<CR>:Buffer<Space>
+
+update .sql queries by considering upgrade and fresh installation
+
+
+alias dirtree='find . -type d | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"'
+alias filetree='find . | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"'
+
+Open source code review tools
+rhodecode
+Codebrag
+Crucible
+
+Search with considering spaces and without spaces
+
+Always do commit after any sql statement to reflect in main database
+
+# reset to vim-defaults
+if &compatible          # only if not set before:
+  set nocompatible      # use vim-defaults instead of vi-defaults (easier, more user friendly)
+endif
+
+# display settings
+set background=dark     # enable for dark terminals
+set nowrap              # dont wrap lines
+set scrolloff=2         # 2 lines above/below cursor when scrolling
+set number              # show line numbers
+set showmatch           # show matching bracket (briefly jump)
+set showmode            # show mode in status bar (insert/replace/...)
+set showcmd             # show typed command in status bar
+set ruler               # show cursor position in status bar
+set title               # show file in titlebar
+set wildmenu            # completion with menu
+set wildignore=*.o,*.obj,*.bak,*.exe,*.py[co],*.swp,*~,*.pyc,.svn
+set laststatus=2        # use 2 lines for the status bar
+set matchtime=2         # show matching bracket for 0.2 seconds
+set matchpairs+=<:>     # specially for html
+
+# editor settings
+set esckeys             # map missed escape sequences (enables keypad keys)
+set ignorecase          # case insensitive searching
+set smartcase           # but become case sensitive if you type uppercase characters
+set smartindent         # smart auto indenting
+set smarttab            # smart tab handling for indenting
+set magic               # change the way backslashes are used in search patterns
+set bs=indent,eol,start # Allow backspacing over everything in insert mode
+set tabstop=4           # number of spaces a tab counts for
+set shiftwidth=4        # spaces for autoindents
+#set expandtab           # turn a tabs into spaces
+set fileformat=unix     # file mode is unix
+#set fileformats=unix,dos    # only detect unix file format, displays that ^M with dos files
+
+# system settings
+set lazyredraw          # no redraws in macros
+set confirm             # get a dialog when :q, :w, or :wq fails
+set nobackup            # no backup~ files.
+set viminfo='20,\"500   # remember copy registers after quitting in the .viminfo file -- 20 jump links, regs up to 500 lines'
+set hidden              # remember undo after quitting
+set history=50          # keep 50 lines of command history
+set mouse=v             # use mouse in visual mode (not normal,insert,command,help mode
+
+
+# color settings (if terminal/gui supports it)
+if &t_Co > 2 || has("gui_running")
+  syntax on          # enable colors
+  set hlsearch       # highlight search (very useful!)
+  set incsearch      # search incremently (search while typing)
+endif
+
+# paste mode toggle (needed when using autoindent/smartindent)
+map <F10> :set paste<CR>
+map <F11> :set nopaste<CR>
+imap <F10> <C-O>:set paste<CR>
+imap <F11> <nop>
+set pastetoggle=<F11>
+
+
+Smart movements
+
+* and # search for the word under the cursor forward/backward.
+w to the next word
+W to the next space-separated word
+b / e to the begin/end of the current word. (B / E for space separated only)
+gg / G jump to the begin/end of the file.
+% jump to the matching { .. } or ( .. ), etc..
+{ / } jump to next paragraph.
+'. jump back to last edited line.
+g; jump back to last edited position.
+
+Quick editing commands
+I insert at the begin.
+A append to end.
+o / O open a new line after/before the current.
+v / V / Ctrl+V visual mode (to select text!)
+Shift+R replace text
+C change remaining part of line.
+Combining commands
+
+Most commands accept a amount and direction, for example:
+
+cW = change till end of word
+3cW = change 3 words
+BcW = to begin of full word, change full word
+ciW = change inner word.
+ci" = change inner between ".."
+ci( = change text between ( .. )
+ci< = change text between < .. > (needs set matchpairs+=<:> in vimrc)
+4dd = delete 4 lines
+3x = delete 3 characters.
+3s = substitute 3 characters.
+Useful programmer commands
+
+r replace one character (e.g. rd replaces the current char with d).
+~ changes case.
+J joins two lines
+Ctrl+A / Ctrl+X increments/decrements a number.
+. repeat last command (a simple macro)
+== fix line indent
+> indent block (in visual mode)
+< unindent block (in visual mode)
+Macro recording
+
+Press q[ key ] to start recording.
+Then hit q to stop recording.
+The macro can be played with @[ key ].
+
+0i:r (to turn the current line into a valid :r command),
+"cdd (to delete the line into the "c" register) and
+@c execute that command.
+
+0i:r (to turn the current line into a valid :r command),
+"cdd (to delete the line into the "c" register) and
+@c execute that command.
+
+More powerful is the :r! command. This reads the results of a command. It's the same as suspending the vi session, running a command, 
+redirecting its output to a temporary file, resuming your vi session, and reading in the contents from the temp. file.
+
+We can use m to move lines around, and j to join lines
+
+g/re/p (grep) was the way they documented how to "globally" "print" lines containing a "regular expression" 
+
+The :... g and :... v commands bear some explanation as they are incredibly powerful.
+ :... g is a prefix for "globally" applying a subsequent command to all lines which match a pattern (regular expression) 
+ while :... v applies such a command to all lines which do NOT match the given pattern ("v" from "conVerse"). 
+
+d/foo delete upto foo from current location in forward direction
+d?foo delete upto foo from current location in backword direction
+
+
+https://code-examples.net/en/q/129756
+http://www.fprintf.net/vimCheatSheet.html
+
+suppose process with pid 14881 hung, even after killing it hung not resolved then try to kill its parent with pid 8994 in our case... and go ahed like this
+
+
+
+
+
+
+:Explore
+:tabedit file2  
+gt or gT or 2gt takes you to 2nd tab
+tabfirst tablast
+tabn tabp
+tabs
+tabclose tabonly
+vi -p file1 file2
+
+dbx bin
+(dbx) run -c tr.cfg
+(dbx) stop at lno/funname/fileandlineno
+(dbx) next
+(dbx) next lineno 
+(dbx) cont
+(dbx) cont at lineno
+(dbx) list
+(dbx) programname processid
+(dbx) cont -sig cont
+
+(dbx) attach process_id
+(dbx) detach
+
+(dbx) assign speed = 90
+(dbx) assign speed = 180; cont at 124;
+
+(dbx) when at 123 { assign speed = 180; cont at 124;}
+(dbx) call change_glyph(1,3)
+(dbx) file
+(dbx) file filename
+(dbx) file filename; list lineno
+(dbx) func functionname
+(dbx) func block::block
+(dbx) scope
+(dbx) lineno
+(dbx) list
+(dbx) list functionname
+(dbx) func
+(dbx) class
+(dbx) file
+(dbx) loadobj
+(dbx) list functionname
+(dbx) print `item
+(dbx) print i
+(dbx) whatis identifier
+(dbx) whatis block::functionname
+(dbx) whatis -t typeorclassname
+(dbx) whatis -t -r classname
+
+(dbx) stop at filename:lineno
+(dbx) stop in functionname
+(dbx) stop in foo(int)
+(dbx) stop access mode address-expression [, byte-size-expression]
+(dbx) stop access r 0x4762
+(dbx) stop access wb &speed
+(dbx) stop change variable
+(dbx) stop cond condition
+(dbx) stop in foo -if a>5
+(dbx) stop cond a>5
+(dbx) delete 3 5
+
+where
+where -f frameno
+up callstacklevenumber
+down callstacklevenumber
+
+dlopen - programming interface to dynamic linkin loader 
+convert row to colmn in xls - select transpose option in "special paste"
+
+prepare2upgrade
+
+StartNTR.sh and StopNTR.sh from operation scrip
+
+ACE::Threads
+join vs detach
+ant
+!! and `!!`	
+
+fc -- command
+
+http://man7.org/linux/man-pages/man7/pthreads.7.html
+http://man7.org/linux/man-pages/man2/fork.2.html
+ACE, libACE.a
+GCT
+lockfs - change or report file system locks
+     lockfs is used to change and report the status of file  sys-
+     tem  locks.  lockfs  reports the lock status and unlocks the
+     file systems that were improperly left locked.
+
+     Using lockfs to lock a file system  is  discouraged  because
+     this  requires  extensive knowledge of SunOS internals to be
+     used effectively and correctly.
+pollsys
+select and pselect  
+select() and pselect() allow a program to monitor multiple file descriptors, waiting until one or more of the file descriptors become 
+"ready" for some class of I/O operation (e.g., input possible)
+_lwp_park -- wait interruptably in the kernel
+_lwp_park() can be used to synchronize access to resources among multiple
+     light-weight processes.
+core file and pstack  https://docs.oracle.com/cd/E36784_01/html/E36825/gnijj.html
+
+ln -s and unlink
+
+gmsc.point.codes to add opc n dpc 
+Ctrl + a – go to the start of the command line
+Ctrl + e – go to the end of the command line
+Ctrl + k – delete from cursor to the end of the command line
+Ctrl + u – delete from cursor to the start of the command line
+Ctrl + w – delete from cursor to start of word (i.e. delete backwards one word)
+
+
+dea and dra differnce
+diameter protocol avp
+session id
+origin host
+origin realm
+dest host
+dest realm
+username
+
+PMM - permanent managment mode
+MTR - MT Restoration
+
+analysing core file ==
+dbx binary core 
+where 
+frame 
+threads
+threads apply bt all
+
+debugging code 
+dbx binary
+stop at filename:line_no -- add checkpoint 
+run -x MyTR.cfg -- run application,it should be build with option -g 
+cont -- to go next checkpoint 
+next -- go to next line
+step -- step into the function body 
+print _variable 
+
+
+dbx bin core
+print -L *event
+
+
+pstack - process stack
+pmap - process map - list of virtual address space ,locations for loaded libs and location declared variable.
+scp dce.jar somanath@172.16.131.17:/dev-4/somanath/NTRSetup/Roamware/scripts/operations/ntr70
+
+:g/_string/d -- del ln containing _string
+:g!/_string/d -- del ln containing no _string
+
+g-] instead of g-ctrl-]
+
+top ---> press o to search attribute
+vimdff ]c and [c and c-w
+
+vim -d diff vi -d 
+Ctrl+w,w - change window.
+do - Get changes from other window into the current window.
+dp - Put the changes from current window into the other window.
+]c - Jump to the next change.
+[c - Jump to the previous change.
+zo - open folded lines.
+zc - close folded lines.
+
+
+:only | wq - quit other windows, write and quit.
+
+desc tablename
+control + 6 to go previous opend file
+quota and repquota
+cp -b --backup destination file
+ctr-w to close notepad++ tab
+ps -eo 'tty pid args' | grep DiameterRoutingAgent | grep -v grep| tr -s ' '|cut -f2 -d ' '
+cut -d "," -f 2 filename
+ps -eo 'tty pid args'
+
+grep -v str -- grep exclude str string
+
+javac javafile
+java classfile
+java -jar jarfile
+F2 to Explore in cvs
+find ./ -type f 
+xargs -n 1 basename
+ps -aef | grep somanath | awk '{print $2}' | xargs kill -9
+basename and dirname
+find ./ -newer ../Build/bin/MyTR.cfg
+cp -i -p // interative and 
+find ./ -ctime -1 | grep ".cpp"
+:e filename /:w newfilename
+:Explore use enter and - to get in and out 
+vimdiff search
+]c
+:qa - close all opened files
+mypkgadd -d pkg path
+sqlplus>!ls
+
+:brows oldfiles
+:b#
+:b,
+:b <Tab>       " offers all buffers in a menu
+:b car<Tab>    " offers car.c car.h
+:b *car<Tab>   " offers car.c jetcar.c car.h jetcar.h
+:b .h<Tab>     " offers the *.h buffers
+:b .c<Tab>     " offers the *.c buffers
+
+1 and contrl + G to know full name
+2 and contrl + G to know full name n buffer
+
+ACE Library, Diameter, SIGTRAN
+dbx bin core
+thread apply all bt or threads
+where
+frame
+
+find ./ -ctime/type/name/user/ -6  newer
+:g/one\|two/     : list lines containing "one" or "two"
+:g/^\s*$/d       : delete all blank lines
+:g/green/d       : delete all lines containing "green"
+:sav php.html : Save current file as php.html and "move" to php.html
+:reg     : display contents of all registers
+gd,gf,gh,ga,g*
+
+==, =%, g(start point)==G(end point)
+`. -- jump to exact spot in last modification
+:cd   --change dir in vim
+~ to change char case
+guw to change words case
+guu and gUU -- to change case of complete line
+
+:Explore and ctr+6 to get back
+:n%
+
+/^ACE
+/ACE$
+
+:%s///gn<CR> control return key
+:%s/pattern//gn - count for search pattern
+--extra=+f option while ctags
+:source filenameoffunction
+
+use tail -f to reload files
+PS1 environment variable
+
+:h jumplist 
+ctrl+o and ctrl+i in vim .... jumps to previosu jump irrespective to file 
+HELF form vim motion.txt index.txt
+gf -- go to the pointer file
+
+window+x
+du -h ./
+unzip filename
+
+grep ^$
+grep -v(exclude) -n(line nu) -i(case insensitive) -s(unreadable files)
+grep -l --only matching file
+grep -c --count the line thatn contain pattern
+/usr/xpg4/bin/grep -e 'abc' -e 'def' ... opeartion supported only in /usr/xpg4/bin/grep
+/usr/xpg4/bin/grep -E 'abc|def'
+vim :help index.txt
+:verbose map <key>
+map Q -- shows mapped value to Q
+syntax on
+set bg=light
+set hlsearch
+set incsearch
+map K :g/S1/s//S2/g
+map <F2> :echo 'Current time is ' . strftime('%c')<CR>
+
+s -- substitute single character with new text	
+
+:map
+screen -x attachtothisscreen
+export EDITOR=vim
+:ls to list opened buffered/opened files
+:b4 open 4th numbered buffered file
+
+n e NTR.rar
+cscope
+find ./ -name '*.c' -o -name '*.h' -o -name '*.cpp' -o -name '*.hpp'> cscope.files
+cscope -b
+CSCOPE_DB=/foo/cscope.out; export CSCOPE_DB   
+ctags -R *
+sqlplus show error
+
+link and unlink
+ln srcfile destfile -- harlink 
+ln -s srcfile destfile -- softlink
+/usr/bin/rm -rf TelusCanada
+screen creation ctr+a ctr+c
+screen name ctr+a shift+a
+new screen window creation screen -S screenName
+
+open existing screen screen -x screenName
+>screen -x 
+:syntax on
+ls -d */
+map k :g/search/s//replace/g
+Unused keys in vi are: K V g q v * =
+
+[[  start of function from middle of fun body 
+]]  end of function from start of fun body
+[{  start of block(func, if, while, etc)
+]}  end of block(func, if, while, etc)
+!!  -- running last command 
+
+Schema - structure or prototype
+PL/SQL - procedure plus structre query lang
+Stoard Procedure - contain pl/sql code 
+
+SNMP managers/agent/mib  
+ufw -- iptables
+comand &> output.log
+yum/rpm --- dnf
+
+cp /dev/null filename -- remove file content
+
+load buffer in vim
+specify buffer followed by data 
+for ex "a2yy or mm"ay`m(marking + specify buffer + data)
+	y[specify y or marking point]
+
+0 move to column zero
+@ vi eval
+% match respective [],(),{} on line
+; repeat last "f", "F", "t", or "T" command
+` move to marked line, first non-whitespace
+" access numbered buffer; load or access lettered buffer
+~ reverse case of current character and move cursor forward
+. repeat last text-changing command
+
+ZZ vs ZQ 
+u vs ctrl + u
+dd vs D
+cc vs C
+yy vs Y
+
+single d c y dont have any meaning, they allwasy with other char like yy dd cc or yw dw cw 
+
+ps -aef vs ps -af -- -e for every process system/kernal + user process , -f for full listing
+
+:g/search/s//replace/g -- sun solarie
+:%s/search/replace/gic -- linux
+
+
+
+
+I have opening for C/C++ professionals for one of our reputed client
+with 2-8 Yrs of experience.
+
+Key Skills: C/C++ (C++ 11/14), OOPS, Data Structures,Design Patterns,STL, MultiThreading, IPC (Socket Programming), PL/SQL on Unix/Windows platform.
+
+Job Locations: Pune/Bangalore/Hyderabad/Delhi NCR/Chennai/Chandigarh/Jaipur/Indore
+
+Employment Type: Permanent & CTH both
+Working Mode:  #Remote/Hybrid
+
+Send Your CV with below mandatory details to: girjesh.mishra@icoesolution.com
+
+
+LCB_ERR_DOCUMENT_EXISTS
+
+
+Goal of linux system
+Design principles
+Multiuser, Mulititasking, Unix compatable tools 
+Speed, eficiency, flexibility and standardisation
+
+Module I
