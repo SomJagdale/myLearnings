@@ -1,3 +1,42 @@
+https://172.16.131.53:8427/nsoraf-sor/v1/232015500000056/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id[mcc]=724&plmn-id[mnc]=05
+
+ alias gsorcfg='cd /home4/Somanath/NTRSource/NTR90/HEAD/RoamwareBuild/build/ntr90/ntr90/binaries/ntr90/soraf/config'
+ alias gsorbin='cd /home4/Somanath/NTRSource/NTR90/HEAD/RoamwareBuild/build/ntr90/ntr90/binaries/ntr90/soraf/bin'
+ alias gsorstart='cd /home4/Somanath/NTRSource/NTR90/HEAD/Roamware/application/NTR/9.0/scripts/operations/ntr'
+ alias gsormake='cd /home4/Somanath/NTRSource/NTR90/HEAD/Roamware/application/NTR/9.0/build'
+
+dom object
+
+http://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
+
+openapi
+supi 
+udm sdm soraf
+
+https://www.educative.io/individual-learner
+jdk 
+jre
+rt and supporting libs, gc
+javac
+java
+
+jshell 
+jar
+`ps -eo 'tty pid args' | grep $APPNAME | grep -v grep | tr -s ' ' | cut -f2 -d ' '`
+trivy
+sysdig
+jfrog artifactory
+artifacts.io
+bitnami
+helm
+
+
+argocd
+
+when it unsafe 
+thisisunsafe
+
+
 systemctl deamon-reload
 systemctl docker restart
 
