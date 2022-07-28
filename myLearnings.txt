@@ -1,10 +1,73 @@
+Netty java
+
+talking about Company below points should be convered
+company name - mobileum
+domain name - telecommunications
+bussiness model - B2B
+service/product - Product 
+
+talking about project below points should be convered
+General Description
+Roamware
+Platform component
+Bussiness component
+Binary/GUI
+SS7/BRG/ABS
+Technonology - GSM/GPRS/LTE/VOLTE/5GNSA
+Messages - GSM UL/GPRS UL/LTE ULR/LTE ULR 
+NODES - VLR HLR/SGSN/MME HSS/SSTP/DRA
+
+
+docker tag soraf-ubi8-rel:head 172.16.129.152:8085/mobileum/soraf-ubi8-rel:head
+docker login
+docker push 172.16.129.152:8085/mobileum/soraf-ubi8-rel:head
+
+docker pull 172.16.129.152:8085/mobileum/soraf-ubi8-rel:head
+
+docker run -itd --name sorafc10 -p 18443:8443 172.16.129.152:8085/mobileum/soraf-ubi8-rel:head
+
+1. Go to folder /etc/docker/
+    cd /etc/docker/
+
+2. create a new file named daemon.json with root access:
+    sudo vi daemon.json
+
+3. Add below entry in daemon.json :
+    {
+      "insecure-registries" : [ "http://172.16.129.152:8085" ]
+    }
+
+4. Restart the docker service :
+    sudo service docker restart
+
+Note: Check the docker restart time/status by below command
+    sudo service docker status
+
+5. Login to the mobileum nexus registry :
+    docker login -u admin -p Roamware123 172.16.129.152:8085
+
+6. Now you can pull the images with docker pull command:
+    dokcer pull 172.16.129.152:8085/mobileum/<<image-name:tag>>
+    e.g: dokcer pull 172.16.129.152:8085/mobileum/imas-ubi8-rel:R220503
+
+rpm2cpio
+mv sds to binaries
+move below application to binaries 
+sds
+sds5g
+imas
+others
+
+to download anything use wget or curl
+shadow-utils
+set -x
+jlink
+nc/netcat
+Nginx - Open source, high performance,HTTP server
+-p 18427:8427
+
+
 https://172.16.131.53:8427/nsoraf-sor/v1/232015500000056/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id[mcc]=724&plmn-id[mnc]=05
-
- alias gsorcfg='cd /home4/Somanath/NTRSource/NTR90/HEAD/RoamwareBuild/build/ntr90/ntr90/binaries/ntr90/soraf/config'
- alias gsorbin='cd /home4/Somanath/NTRSource/NTR90/HEAD/RoamwareBuild/build/ntr90/ntr90/binaries/ntr90/soraf/bin'
- alias gsorstart='cd /home4/Somanath/NTRSource/NTR90/HEAD/Roamware/application/NTR/9.0/scripts/operations/ntr'
- alias gsormake='cd /home4/Somanath/NTRSource/NTR90/HEAD/Roamware/application/NTR/9.0/build'
-
 dom object
 
 http://www.3gpp.org/ftp/Specs/archive/29_series/29.503/
@@ -234,25 +297,6 @@ class test_subby : public test_sub
 public:
   void x() { std::cout << "test_subby" << "\n"; }
 };
-
-int main() 
-{
-  test_sub sub;
-  test_base base;
-  test_subby subby;
-
-  test_sub * psub;
-  test_base *pbase;
-  test_subby * psubby;
-
-  pbase = &sub;
-  pbase->x();
-  psub = &subby;
-  psub->x();
-
-  return 0;
-}
- 
 
 output
 
