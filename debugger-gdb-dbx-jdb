@@ -90,3 +90,95 @@ gdb threads
 gdb thread #thread_number
 
 
+
+(dbx) print *&(*newProfile)->hnwid
+(*newProfile)->hnwid = 12
+(dbx) print *(*&(*newProfile)->visitedNwVLRList)
+*(*newProfile)->visitedNwVLRList = {
+    buf  = "61-131-131-0002+diamproxy.mmec18.mme-N-3-1022-0-2|"
+    next = (nil)
+}
+
+
+dbx: you cant set breakpoint in dynamic lib source file. In run time you have to make sure .so lib is loaded then you can apply it 
+
+
+dbx bin
+(dbx) run -c tr.cfg
+(dbx) stop at lno/funname/fileandlineno
+(dbx) next
+(dbx) next lineno 
+(dbx) cont
+(dbx) cont at lineno
+(dbx) list
+(dbx) programname processid
+(dbx) cont -sig cont
+
+(dbx) attach process_id
+(dbx) detach
+
+(dbx) assign speed = 90
+(dbx) assign speed = 180; cont at 124;
+
+(dbx) when at 123 { assign speed = 180; cont at 124;}
+(dbx) call change_glyph(1,3)
+(dbx) file
+(dbx) file filename
+(dbx) file filename; list lineno
+(dbx) func functionname
+(dbx) func block::block
+(dbx) scope
+(dbx) lineno
+(dbx) list
+(dbx) list functionname
+(dbx) func
+(dbx) class
+(dbx) file
+(dbx) loadobj
+(dbx) list functionname
+(dbx) print `item
+(dbx) print i
+(dbx) whatis identifier
+(dbx) whatis block::functionname
+(dbx) whatis -t typeorclassname
+(dbx) whatis -t -r classname
+
+(dbx) stop at filename:lineno
+(dbx) stop in functionname
+(dbx) stop in foo(int)
+(dbx) stop access mode address-expression [, byte-size-expression]
+(dbx) stop access r 0x4762
+(dbx) stop access wb &speed
+(dbx) stop change variable
+(dbx) stop cond condition
+(dbx) stop in foo -if a>5
+(dbx) stop cond a>5
+(dbx) delete 3 5
+
+where
+where -f frameno
+up callstacklevenumber
+down callstacklevenumber
+
+
+
+analysing core file ==
+dbx binary core 
+where 
+frame 
+threads
+threads apply bt all
+
+debugging code 
+dbx binary
+stop at filename:line_no -- add checkpoint 
+run -x MyTR.cfg -- run application,it should be build with option -g 
+cont -- to go next checkpoint 
+next -- go to next line
+step -- step into the function body 
+print _variable 
+
+
+dbx bin core
+print -L *event
+
