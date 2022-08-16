@@ -1,0 +1,92 @@
+
+GDB                     DBX                       for more information
+===                     ===                       ====================
+
+break <line>            stop at <line>            `help stop'
+break <func>            stop in <func>            `help stop'
+break *<addr>           stopi at <addr>           `help stopi'
+break ... if <expr>     stop ... -if <expr>       `help event specification'
+cond <n>                stop ... -if <expr>       `help event specification'
+tbreak                  stop ... -temp            `help event specification'
+watch <expr>            stop <expr>  [slow]       `help event specification'
+watch <var>             stop modify &<var> [fast] `help event modify'
+catch <x>               intercept <x>             `help intercept'
+info break              status                    `help status'
+info watch              status                    `help status'
+clear                   clear                     `help clear'
+clear <fun>             delete <n>                `help delete'
+delete                  delete all                `help delete'
+disable                 handler -disable all      `help handler'
+disable <n>             handler -disable <n>      `help handler'
+enable                  handler -enable all       `help handler'
+enable <n>              handler -enable <n>       `help handler'
+ignore <n> <cnt>        handler -count <n> <cnt>  `help handler'
+commands <n>            when ... { <cmds>; }      `help when'
+
+backtrace <n>           where <n>                 `help where'
+frame <n>               frame <n>                 `help frame'
+info reg <reg>          print $<reg>              `help registers'
+
+finish                  step up                   `help step'
+signal <num>            cont sig <num>            `help cont'
+jump <line>             cont at <line>            `help cont'
+set <var>=<expr>        assign <var>=<expr>       `help assign'
+
+x/<fmt> <addr>          x <addr>/<fmt>            `help examine'
+disassem <addr>         dis <addr>                `help dis'
+
+shell <cmd>             sh <cmd> [if needed]      `help sh'
+
+info func <regex>       funcs <regexp>            `help funcs'
+ptype <type>            whatis -t <type>          `help whatis'
+
+define <cmd>            function <cmd>            `help ksh syntax'
+
+handle <sig>            stop sig <sig>            `help event specification'
+info signals            status; catch             `help status', `help catch'
+
+attach <pid>            debug - <pid>             `help debug'
+attach <pid>            debug <a.out> <pid>       `help debug'
+file <file>             [unnecessary]
+exec <file>             debug <file>              `help debug'
+core <file>             debug <a.out> <file>      `help debug'
+
+set editing on          set -o emacs              `help editing'
+set language <x>        language <x>              `help language'
+set prompt <x>          PS1=<x>                   `help ksh PS1'
+set history size <x>    HISTSIZE=<x>              `help ksh HISTSIZE'
+
+set print object on     dbxenv output_dynamic_type on `help c++ dynamic'
+
+show commands           history                   `help history'
+dir <name>              pathmap <name>            `help pathmap'
+show dir                pathmap                   `help pathmap'
+info line <n>           listi <n>                 `help listi'
+info source             file                      `help file'
+info sources            files; modules            `help files', `help modules'
+forw <regex>            search <regex>            `help search'
+rev <regex>             bsearch <regex>           `help bsearch'
+
+
+GDB Day to Day Command I use
+
+gdb networktr
+gdb break CSubscriberStateManager.cpp:123
+gdb -c MyTR.cfg
+
+gdb backtrace
+gdb list
+gdb next 
+gdb event
+gdb watchpoint 
+gdb print 
+gdb step
+gdb continue 
+
+core dump analysis
+gdb backtrace 
+gdb frame #frame_number
+gdb threads
+gdb thread #thread_number
+
+
