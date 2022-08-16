@@ -70,6 +70,25 @@ rev <regex>             bsearch <regex>           `help bsearch'
 
 GDB Day to Day Command I use
 
+g++ options
+-g - turn on debugging (so GDB gives more friendly output)
+-Wall - turns on most warnings.
+-O or -O2 - turn on optimizations.
+-o <name> - name of the output file.
+-c - output an object file (.o)
+-I<include path> - specify an include directory.
+-L<library path> - specify a lib directory.
+
+
+Important debugging tools
+gdb/dbx
+valgrind - memory leak detection
+addresssanitizer - detects buffer overflows and dangling pointers
+
+
+/usr/bin/gdb networktr core.15574
+
+
 gdb networktr
 gdb break CSubscriberStateManager.cpp:123
 gdb -c MyTR.cfg
@@ -88,6 +107,24 @@ gdb backtrace
 gdb frame #frame_number
 gdb threads
 gdb thread #thread_number
+
+
+
+stack trace of gdb core analysis 
+check for wait or sleep or select in thread stack trace if either one of them is present then thread is normal one
+for example 
+Thread 4 (Thread 0x7f3023fff700 (LWP 29159)):
+#0  0x00000035672e0263 in select () from /lib64/libc.so.6
+#1  0x00000000014a0409 in select (handle=4, timeout=0x7f3023ffed70, read_ready=<value optimized out>, write_ready=<value optimized out>, 
+    exception_ready=<value optimized out>) at /home/roamware/amit/ACE_wrappers64/ace/OS_NS_sys_select.inl:45
+#2  ACE::handle_ready (handle=4, timeout=0x7f3023ffed70, read_ready=<value optimized out>, write_ready=<value optimized out>, exception_ready=<value optimized out>)
+    at ACE.cpp:2225
+#3  0x00000000011ffc1b in ACE::handle_read_ready (handle=4, timeout=0x7f3023ffed70) at /opt/ACE_wrappers64/ace/ACE.inl:248
+#4  0x00000000011fc1a8 in CSNMPAgent2::OnRun (this=0x54dbfd0) at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/source/SNMPAgent2.cpp:1324
+#5  0x00000000011db405 in CRoamwareThread::RunThread (this=0x54dbfd0) at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/source/RoamwareThread.cpp:36
+#6  0x00000000011db3a2 in CRoamwareThread::ThreadEntry (arg=0x54dbfd0) at /u01/rel/64bit/NTR-7.0-R201104/Roamware/platform/rfc/6.0/cpp/source/RoamwareThread.cpp:29
+#7  0x0000003567607851 in start_thread () from /lib64/libpthread.so.0
+#8  0x00000035672e767d in clone () from /lib64/libc.so.6
 
 
 
