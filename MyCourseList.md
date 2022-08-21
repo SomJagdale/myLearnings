@@ -10,14 +10,14 @@
 
 ## Undergoing
 Core Java
-  Collection
-  Reflection
-  Networking
-  Threading
-  Synchronisation
-  IO
-  Exception
-  File Handling
+- Collection
+- Reflection
+- Networking
+- Threading
+- Synchronisation
+- IO
+- Exception
+- File Handling
 
 ## Aspired to do
 AWS Certified Solutions Architect - Professional
