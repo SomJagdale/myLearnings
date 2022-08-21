@@ -18,11 +18,19 @@
 - Networking Foundations: Networking Basics
 - Software Architecture: Patterns for Developers
 
+- jenkin 
+- debugging
+- git
+- 5g
+- wireshark
+- agile application development
+- git hub
 
 
 ## Undergoing
 - Public Speacking Throught - Toastmaster
 - Working on accent
+- Leadership and Story Telling
 - Core Java
   - Collection
   - Reflection
