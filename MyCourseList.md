@@ -6,6 +6,18 @@
 - Docker 
 - Kubernetes
 - vim 
+- Learning GitHub
+- Building Professional Relationships
+- C++ Standard Template Library
+- Effective Listening
+- Interpersonal Communication
+- Introduction to Web APIs
+- Learning Linux Command Line
+- Writing Emails People Want to Read
+- 5G Technology Strategy: Next-Generation Mobile Networking
+- Networking Foundations: Networking Basics
+- Software Architecture: Patterns for Developers
+
 
 
 ## Undergoing
