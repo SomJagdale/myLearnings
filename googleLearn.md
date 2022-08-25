@@ -1,1 +1,3 @@
-Composition vs Inner class
+composition vs aggregation
+inner class vs nested class
+
