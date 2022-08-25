@@ -1,0 +1,1 @@
+Composition vs Inner class
