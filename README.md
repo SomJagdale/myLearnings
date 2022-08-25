@@ -1,5 +1,87 @@
+
 # myLearnings
 Recording of my day to day learning in this repository.
+==========================================================================================
+
+
+Circular dependency between two classes
+
+composition vs aggregation
+inner class vs nested class
+
+
+reason - Current Compenstation is not up to the current market trend
+I am specifically looking company from the telecom domain plus product base, also it based on the powai
+
+
+java material
+https://www.oracle.com/java/technologies/language-environment.html
+file:///C:/Users/somanath.jagadale/Desktop/jls8.pdf
+https://docs.oracle.com/javase/8/docs/api/overview-summary.html
+
+
+Design pattern Youtube
+
+
+Cache 
+https://wiki.mobileum.com:8443/display/PLAT/Cache
+
+Mobileum_Config__couchbase__default_cluster= 10.10.18.187
+
+1.) "Mobileum_Config" (with one underscore)
+
+2.) "__" (double underscore)
+
+3.) couchbase (section name of config file[fsmapp.properties])
+
+4.) "__" (double underscore)
+
+5.) "default_cluster" (the key which you want to update value from file [fsmapp.properties])
+
+For Example
+      - Mobileum_Config__couchbase__default_user= rashi
+	  
+      - Mobileum_Config__application__home_mcc_mnc=23201
+	  
+
+jetty vs netty
+This is crude simplification, but it allows to understand the difference easily:
+
+Netty is a framework to write TCP and UDP applications.
+
+Jetty is a framework to write HTTP applications.
+synchronised
+reentrant lock
+
+
+javap -private FetchImsiInfo.class
+javap -version FetchImsiInfo.class
+
+
+jar cf jar-file input-file(s)
+jar tf ntr_soraf.jar
+jar xf jar-file [archived-file(s)]
+
+cat META-INF/MANIFEST.MF
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.1
+Created-By: 25.181-b13 (Oracle Corporation)
+
+Name: Release Specifications
+Product-Title: NTR
+Product-Version: 9.0
+Product-Label: Q220701
+Product-Vendor: Roamware Inc.
+Build-Date: August 02 2022 11:39:16 AM
+Build-Host: RW-MUM-131.53
+Support-Email: support@roamware.com
+
+makefile patsubst wildcard 
+compilar optiomisation
+g++ O2 -DDONT_USE_VOL
+
+Netty - Reactor pattern
+
 
 
 Netty java
