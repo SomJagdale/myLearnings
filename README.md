@@ -4,6 +4,17 @@ Recording of my day to day learning in this repository.
 ==========================================================================================
 
 
+Here how to get rid of it:
+
+open the file
+press ESC
+type :nohl
+press Enter
+
+
+QE IPROBE and DRA - ntr61/ntr61 172.16.131.18
+
+
 Circular dependency between two classes
 
 composition vs aggregation
