@@ -1,3 +1,6 @@
+Source Content 
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
 git config - this user sets the auther name and email id to be used with commits
 git config --global user.name "somnath"
 git config --global user.email "somnath.jagadale@gmail.com"
@@ -10,3 +13,12 @@ git init /home4/somanath/NTRSource
 git clone - it obtain the repository from the existing clone 
 git clone https://github.com/opt/Roamware/NTR.git
 
+
+git commit - this commands record or snapshot the file permanently in the version history
+git commit -m "BRG and ABS changes" 
+
+git commit -a this commands record or snapshot the file permanently in the version history, also adds the file in stagging area
+
+
+git diff - this commands shows the file difference which are not yet changed
+git diff -stagged - this command shows the file difference between the files in the stagging area and the latest version present.
