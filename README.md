@@ -2,6 +2,11 @@
 # myLearnings
 Recording of my day to day learning in this repository.
 ==========================================================================================
+Situation – Provide the context and background around the situation or task you were involved.  Tip - Ensure you give a specific event as opposed to talking generally.
+Task – Describe your role and responsibility within the scenario.  Tip – Explain the goal you set out to achieve.
+Action – Explain the actions you took to address the situation.  Tip – Remember we are interested in what you specifically did, so even if there was team involvement, make sure you focus on your own contributions.
+Results - Describe the outcome of your actions.  Tip – Try to provide real tangible results to show the great impact you made.
+
 Job Summary
 A strong programmer and problem-solver to develop engineering productivity apps
 
