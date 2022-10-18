@@ -2,9 +2,26 @@
 # myLearnings
 Recording of my day to day learning in this repository.
 ==========================================================================================
+Job Summary
+A strong programmer and problem-solver to develop engineering productivity apps
 
 
-Here how to get rid of it:
+Take pride in developing high-quality software and dislike shortcuts and hacks
+Love developing apps that make the software engineering process more efficient
+You enjoy sharing coding best-practices
+You love learning many facets of computer programming - variety of programming languages, operating systems, networking, distributed computing, web, etc.
+
+Responsibilities
+
+Programming in a variety of languages including C/C++, Javascript and Perl/Python/PHP.
+Advance existing applications by adding features
+Develop new tooling to meet new needs and opportunities, going from minimal-viable-product to full production use.
+Minimum Qualifications
+A bachelor's degree and 7 years of professional work experience (or a master's degree and 5 years of professional work experience, or a PhD degree, or equivalent experience) is required.
+Additional Qualifications
+Knowledge and comfort in a wide range of programming languages including C/C++, Javascript, and Perl/Python/PHP etc.
+Experience with systems-level programming on Linux or Windows a plus.
+Experience with C++/OOAD development is a plus
 
 open the file
 press ESC
