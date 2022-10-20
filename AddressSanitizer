@@ -1,0 +1,15 @@
+Memory Detections aeras - 
+  1. Memory Leak
+  2. Buffer Overflow(Stack, Heap, Golbal)
+  3. Acess to Dangling Pointer
+  4. Uninitialised Memory Read
+
+How to run it?
+Compile -g -fsanitize=kerne-address
+Benifits of AddressSanitizer
+1. Memory Leak
+2. Buffer Overflow(Stack, Heap, Golbal)
+3. Acess to Dangling Pointer
+
+Limitation
+1. Uninitialised Memory Read
