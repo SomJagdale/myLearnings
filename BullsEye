@@ -1,0 +1,7 @@
+BullsEye - It is programming tool to measure code coverage of a software applicaiton.
+
+Below details shown in coverage reports
+1. Function coverage 
+2. Condition/Decision coverage
+3. Uncovered function coverage
+4. Uncovered Condition/decision coverage
