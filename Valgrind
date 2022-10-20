@@ -1,0 +1,12 @@
+Valigrind - Memory Leak Detection Programming Tool
+
+How to run it?
+Compile Program with -g option
+Run program with memory-leak=yes option
+For example valgrind memory-leak=yes networktr -f NTR.cfg
+Benifts Used for below things
+1. Memory Debugging
+2. Analysing Memory Leak 
+3. Profiling
+
+Limitations
