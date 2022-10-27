@@ -1,6 +1,15 @@
 
 # myLearnings
 
+Core dump analysis 
+Most useful commands are:
+
+bt (backtrace)
+info locals (show values of local variables)
+info registers (show values of CPU registers)
+frame X (change to stack frame X)
+up and down (navigate in the stack frame (call chain))
+
 Padding and Packing 
 pragma pack
 
