@@ -1,5 +1,46 @@
 
 # myLearnings
+
+Padding and Packing 
+pragma pack
+
+Valgrind - memory leak and memory error
+Bullseye - code coverage tool 
+Jira - Spring tracking and bug tracking system
+Jenkin - Build automation tool
+git/cvs - Source code version system
+docker hub - Docker image repository 
+
+fork vs exec 
+
+Singals 
+#define SIGHUP  1   /* Hangup the process */ 
+#define SIGINT  2   /* Interrupt the process */ 
+#define SIGQUIT 3   /* Quit the process */ 
+#define SIGILL  4   /* Illegal instruction. */ 
+#define SIGTRAP 5   /* Trace trap. */ 
+#define SIGABRT 6   /* Abort. */
+
+// User-defined Signal Handler
+#include<stdio.h>
+#include<signal.h>
+  
+// Handler for SIGINT, caused by
+// Ctrl-C at keyboard
+void handle_sigint(int sig)
+{
+    printf("Caught signal %d\n", sig);
+}
+  
+int main()
+{
+    signal(SIGINT, handle_sigint);
+    while (1) ;
+    return 0;
+}
+
+
+
 Recording of my day to day learning in this repository.
 ==========================================================================================
 Situation – Provide the context and background around the situation or task you were involved.  Tip - Ensure you give a specific event as opposed to talking generally.
