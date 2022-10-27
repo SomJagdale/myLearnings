@@ -1,0 +1,27 @@
+	Unix and Multi threading Concepts
+    - process creation
+    - Signals
+    - Fork
+    - Exec 
+    - Mutex
+    - Samaphore 
+    - Threads 
+    - Deadlock 
+    
+Memory Leak & Memory Error 
+Valgrind & Address Sanitizer 
+
+Code coverage application 
+Bullseye 
+
+
+Multithreading debugging 
+
+
+Core dump analysis 
+
+High CPU Utilisation 
+
+
+
+Library Creation and Linking 
