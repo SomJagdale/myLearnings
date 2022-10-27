@@ -1,6 +1,9 @@
 
 # myLearnings
 
+Library creation and linking
+
+
 Core dump analysis 
 Most useful commands are:
 
