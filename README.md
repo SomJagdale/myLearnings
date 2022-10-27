@@ -40,6 +40,9 @@ int main()
 }
 
 
+top -H to know running threads in system
+
+Process creation - fork and exec
 
 Recording of my day to day learning in this repository.
 ==========================================================================================
