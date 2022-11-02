@@ -1,3 +1,15 @@
+Multithreading and Java concurrecy 
+Concurrancy vs parallelism
+Threads
+Runnable
+Run
+Executer Framework
+Callable 
+Call
+Submit
+Think task not thread in multiprocessing or multithreading
+
+
 Netty java
 
 talking about Company below points should be convered
