@@ -1,6 +1,67 @@
 
 # myLearnings
 
+if java build fail check only build.xml
+if application not starting properly check startscript
+
+gcore
+pstack 
+gdb 
+netstat
+wireshark 
+ipc 
+process
+thread
+critical section 
+race condition 
+synchronisation primitieves
+mutex
+seamaphore 
+condition variables 
+bariears 
+deadlock 
+
+socket
+bind 
+listen 
+accept 
+read 
+write 
+select and then read and write
+poll 
+blocking nonblocking calls
+fdctl 
+
+ipc
+file
+pipe
+socket
+semaphore
+shared memory 
+message queue
+
+
+
+lTrim and rTrim
+
+javac -classpath ".:/home/path/mail.jar:/home/path/servlet.jar:" MyJavaFile.java
+
+W1405656
+Resilience@89
+
+__t='irdb-net'
+__t='irdb-net-backup'
+
+email subject line
+Summerise the content 
+Summerise the action 
+Keep it short 
+
+
+before sending
+double check the name
+reread email round 
+
 Library creation and linking
 
 
