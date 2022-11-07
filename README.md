@@ -1,6 +1,10 @@
 
 # myLearnings
 
+dbx gdb debugger 
+To run core file ask site to provide all libraries linked by ldd
+
+
 if java build fail check only build.xml
 if application not starting properly check startscript
 
