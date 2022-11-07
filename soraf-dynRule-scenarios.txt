@@ -1,0 +1,105 @@
+Soraf message from the Preferred Network
+04-Nov-2022,14:43:14,23201000009257,0,0,0,0,1,SORAF,0,0,0,4,SOR_EVT_ALLWD,0,5002,SoR_Proxy,0,30,Self chosen preferred network,43,0,0,A1 Telekom Austria AG,0,0,-1,326,null,null,0,P,326,0,0,326,0,1,LBTR,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,,0,N,1,true,false,false,false,1,0,0,0,0,
+
+Soraf message from the Non-Preferred Network
+04-Nov-2022,20:33:53,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,601,First Soraf Message of the transaction,43,0,0,A1 Telekom Austria AG,0,0,-1,326,null,null,0,N,326,0,0,326,0,1,LBTR,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,,0,N,1,true,false,false,false,1,0,0,0,0,
+
+Soraf message from the Forbidden Network
+04-Nov-2022,20:10:47,0,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,79,Network is forbidden,43,0,0,A1 Telekom Austria AG,0,0,-1,326,null,null,0,F,326,0,0,326,0,1,LBTR,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,,0,N,1,true,false,false,false,1,0,0,0,0,
+
+Preferred
+__t='ntr-nws' and hnwid=43 and zcode=326 and cosid=326 and nwid=781  and mmc=724 and mnc=05
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22724%22%2C%22mnc%22%3A%2205%22%7D
+
+Non-Preferred
+__t='ntr-nws' and hnwid=43 and zcode=326 and cosid=326 and nwid=416 and mmc=724 and mnc=00
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22724%22%2C%22mnc%22%3A%2200%22%7D
+
+Forbidden
+__t='ntr-nws' and hnwid=43 and zcode=326 and cosid=326 and nwid=503 and mmc=724 and mnc=02
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22724%22%2C%22mnc%22%3A%2202%22%7D
+
+
+
+__t='ntr-zonecosm' and hnwid=43 and  trmechanism=3 and zcode=301 and cosid=301
+
+__t='ntr-uirdcdata' and hnwid=43 and zcode=301 and cosid=301
+112  276 01 -1
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22276%22%2C%22mnc%22%3A%2201%22%7D
+07-Nov-2022,10:22:06,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,601,First Soraf Message of the transaction,43,232,01,A1 Telekom Austria AG,0,Default,-1,112,276,01,Telekom Albania Sh.A.,-1,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,500,
+{"a":2,"b":500,"d":{"ProblemDetails":{"status":"403","detail":"ACCESS_NOT_ALLOWED"}}}
+
+__t='ntr-uirdcdata' and hnwid=43 and zcode=301 and cosid=301
+113  276 02 30
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22276%22%2C%22mnc%22%3A%2202%22%7D
+07-Nov-2022,10:26:12,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,84,RDC allowed the subscriber after TR,43,232,01,A1 Telekom Austria AG,0,Default,-1,113,276,02,Vodafone Albania,30,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,200,
+{"a":1,"b":200}
+07-Nov-2022,10:26:19,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,84,RDC allowed the subscriber after TR,43,232,01,A1 Telekom Austria AG,0,Default,-1,113,276,02,Vodafone Albania,30,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,200,
+{"a":1,"b":200}
+07-Nov-2022,10:26:28,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,601,First Soraf Message of the transaction,43,232,01,A1 Telekom Austria AG,0,Default,-1,113,276,02,Vodafone Albania,30,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,500,
+{"a":2,"b":500,"d":{"ProblemDetails":{"status":"403","detail":"ACCESS_NOT_ALLOWED"}}}
+
+__t='ntr-uirdcdata' and hnwid=43 and zcode=301 and cosid=301
+5505 276 03 70
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22276%22%2C%22mnc%22%3A%2203%22%7D
+07-Nov-2022,10:20:56,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,84,RDC allowed the subscriber after TR,43,232,01,A1 Telekom Austria AG,0,Default,-1,5505,276,03,Eagle Mobile sh.a.,70,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,200,
+{"a":1,"b":200}
+07-Nov-2022,10:23:23,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,84,RDC allowed the subscriber after TR,43,232,01,A1 Telekom Austria AG,0,Default,-1,5505,276,03,Eagle Mobile sh.a.,70,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,200,
+{"a":1,"b":200}
+07-Nov-2022,10:23:35,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,601,First Soraf Message of the transaction,43,232,01,A1 Telekom Austria AG,0,Default,-1,5505,276,03,Eagle Mobile sh.a.,70,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,500,
+{"a":2,"b":500,"d":{"ProblemDetails":{"status":"403","detail":"ACCESS_NOT_ALLOWED"}}}
+
+
+
+__t='ntr-uirdcdata' and hnwid=43 and zcode=301 and cosid=301
+5654 425 06 -2
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22425%22%2C%22mnc%22%3A%2206%22%7D
+
+
+__t='ntr-uirdcdata' and hnwid=43 and zcode=301 and cosid=301
+5781 276 04 0
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22276%22%2C%22mnc%22%3A%2204%22%7D
+07-Nov-2022,10:17:59,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,601,First Soraf Message of the transaction,43,232,01,A1 Telekom Austria AG,0,Default,-1,112,276,01,Telekom Albania Sh.A.,-1,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,500,
+{"a":2,"b":500,"d":{"ProblemDetails":{"status":"403","detail":"ACCESS_NOT_ALLOWED"}}}
+
+
+__t='ntr-uirdcdata' and hnwid=43 and zcode=301 and cosid=301
+5813 310 400 -1
+https://172.16.131.53:8427/nsoraf-sor/v1/23201000009257/sor-information?supported-features=abc123&access-type=3GPP_ACCESS&plmn-id=%7B%22mcc%22%3A%22310%22%2C%22mnc%22%3A%22400%22%7D
+
+
+
+
+
+06-11-2022,16:06:43.755,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Obtain,0,602,First time Soraf Message,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,N,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,326|0,Brazil,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,724-32-4|724-33-4|724-34-4|724-18-4|724-00-4|724-39-4|724-54-4|724-16-4|724-31-4|724-02-4,0,0,0,0,
+06-11-2022,16:06:55.772,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Obtain,0,602,First time Soraf Message,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,N,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,326|0,Brazil,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,724-32-4|724-33-4|724-34-4|724-18-4|724-00-4|724-39-4|724-54-4|724-16-4|724-31-4|724-02-4,0,0,0,0,
+06-11-2022,16:18:31.967,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Obtain,0,30,Self chosen preferred network,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,P,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,326|0,Brazil,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,724-05-4|724-32-4|724-33-4|724-34-4|724-18-4|724-00-4|724-39-4|724-54-4|724-16-4|724-31-4,0,0,0,0,
+06-11-2022,16:18:38.269,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Obtain,0,30,Self chosen preferred network,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,P,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,326|0,Brazil,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,724-05-4|724-32-4|724-33-4|724-34-4|724-18-4|724-00-4|724-39-4|724-54-4|724-16-4|724-31-4,0,0,0,0,
+06-11-2022,16:24:05.451,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Obtain,0,79,Network is forbidden,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,F,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,326|0,Brazil,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,724-32-4|724-33-4|724-34-4|724-18-4|724-00-4|724-39-4|724-54-4|724-16-4|724-31-4|724-02-4,0,0,0,0,
+06-11-2022,16:24:12.830,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Obtain,0,79,Network is forbidden,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,F,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,326|0,Brazil,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,724-32-4|724-33-4|724-34-4|724-18-4|724-00-4|724-39-4|724-54-4|724-16-4|724-31-4|724-02-4,0,0,0,0,
+
+./application/NTR/9.0/java/com/roamware/app/soraf/util/RejectCodesSelector.java
+./application/NTR/9.0/java/com/roamware/app/soraf/EventHandlers/LUPHandler/LUPHandler.java
+./application/NTR/9.0/java/com/roamware/app/soraf/EventHandlers/LUPHandler/LUPRules/RulesAdjudicator.java
+./application/NTR/9.0/java/com/roamware/app/soraf/action/HandleEvent.java
+./application/NTR/9.0/java/com/roamware/app/soraf/action/SorAfLogger.java
+
+Network Is Forbidden
+06-Nov-2022,18:45:46,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,79,Network is forbidden,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,F,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,0,0,0,instance-1,500,
+{"a":2,"b":500,"d":{"ProblemDetails":{"status":"403","detail":"ACCESS_NOT_ALLOWED"}}}
+
+Network Is Preferred
+06-Nov-2022,18:52:22,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,30,Self chosen preferred network,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,P,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,0,0,0,instance-1,500,
+{"a":1,"b":200}
+
+Network Is Non-Preferred
+06-Nov-2022,18:55:27,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,601,First Soraf Message of the transaction,43,232,01,A1 Telekom Austria AG,0,Default,-1,781,724,05,Claro,N,326,Brazil,0,326,Default,1,LBTR,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,5,0,0,0,0,0,5GSATest,0,W,1,true,false,false,false,1,0,0,0,0,instance-1,500,
+{"a":2,"b":500,"d":{"ProblemDetails":{"status":"403","detail":"ACCESS_NOT_ALLOWED"}}}
+
+SRDC 
+07-Nov-2022,06:57:42,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,84,RDC allowed the subscriber after TR,43,232,01,A1 Telekom Austria AG,0,Default,-1,5505,276,03,Eagle Mobile sh.a.,70,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,200,
+07-Nov-2022,06:59:03,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,84,RDC allowed the subscriber after TR,43,232,01,A1 Telekom Austria AG,0,Default,-1,5781,276,04,PLUS COMMUNICATION Sh.a.,0,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,200,
+07-Nov-2022,06:59:18,23201000009257,0,0,0,0,12,SORAF,0,0,0,36,SORAF_EVT_ALLOWED,0,5002,SoR_Proxy,0,84,RDC allowed the subscriber after TR,43,232,01,A1 Telekom Austria AG,0,Default,-1,5781,276,04,PLUS COMMUNICATION Sh.a.,0,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,200,
+
+07-Nov-2022,10:17:59,23201000009257,0,0,0,0,12,SORAF,0,0,0,37,SORAF_TXN_START,0,5002,SoR_Proxy,0,601,First Soraf Message of the transaction,43,232,01,A1 Telekom Austria AG,0,Default,-1,112,276,01,Telekom Albania Sh.A.,-1,301,Albania,0,301,Default,3,SRDC,0,0,0,0,0,0|0,0,0|0,0,0,0,0,0,600,3,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,-1|0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,Default,0,W,1,true,false,false,false,1,0,0,0,0,0,500,
+{"a":2,"b":500,"d":{"ProblemDetails":{"status":"403","detail":"ACCESS_NOT_ALLOWED"}}}
