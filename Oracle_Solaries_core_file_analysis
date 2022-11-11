@@ -1,0 +1,13 @@
+Types of Core file 
+1. System core file
+2. Process core file 
+
+Content of core dump file 
+1. Content of the running process 
+2. Content of the registers 
+
+Signals Due to which Crash Happens 
+1. SIGSEGV - indicates that the application is accessing an invalid memory address
+2. SIGBUS - indicates that the application is accessing a memory address that does not conform to CPU memory alignment rules
+
+
