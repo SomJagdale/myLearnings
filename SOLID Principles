@@ -14,3 +14,27 @@ Goals
   - Dependency Inversion
   
   
+Context
+- Zoo Game 
+- Lets models the different characters in the game
+
+Design A Animal 
+```java 
+class Animal{
+  // Attributes (Properties)
+    species
+    weight
+    color 
+    noOfWings
+    hasWings 
+    
+  // Behavior (Methods)
+  eat
+  fly 
+  swim 
+  
+  
+  
+  all material 
+  https://github.com/kshitijmishra23/low-level-design-concepts/tree/master/src/oops/SOLID
+}
