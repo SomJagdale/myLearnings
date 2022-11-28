@@ -1,7 +1,9 @@
 TQtag
+Choose QTag Number 
+Anounce it in Development Group
 Update Release notes, patcher and getntr.sh
 Apply Qtag 
-check updated files with cvs diff
+Check updated files with cvs diff
 Send Mail about applied Qtag on ntr-dev group
 
 
