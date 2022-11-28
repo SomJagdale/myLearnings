@@ -1,0 +1,169 @@
+Java learning
+
+4.3.2 The Class Object
+The class Object is a superclass (§8.1.4) of all other classes.
+All class and array types inherit (§8.4.8) the methods of class Object, which are
+summarized as follows:
+• The method clone is used to make a duplicate of an object.
+• The method equals defines a notion of object equality, which is based on value,
+not reference, comparison.
+• The method finalize is run just before an object is destroyed (§12.6).
+• The method getClass returns the Class object that represents the class of the
+object.
+A Class object exists for each reference type. It can be used, for example,
+to discover the fully qualified name of a class, its members, its immediate
+superclass, and any interfaces that it implements.
+The type of a method invocation expression of getClass is Class<? extends
+|T|>, where T is the class or interface that was searched for getClass (§15.12.1)
+and |T| denotes the erasure of T (§4.6).
+A class method that is declared synchronized (§8.4.3.6) synchronizes on the
+monitor associated with the Class object of the class.
+• The method hashCode is very useful, together with the method equals, in
+hashtables such as java.util.HashMap.
+• The methods wait, notify, and notifyAll are used in concurrent programming
+using threads (§17.2).
+• The method toString returns a String representation of the object.
+4.3.3 The Class String
+Instances of class String represent sequences of Unicode code points.
+A String object has a constant (unchanging) value.
+String literals (§3.10.5) are references to instances of class String.
+The string concatenation operator + (§15.18.1) implicitly creates a new String
+object when the result is not a constant expression (§15.28).
+
+Example 4.3.1-2. Primitive and Reference Identity
+class Value { int val; } 
+class Test { 
+ public static void main(String[] args) { 
+ int i1 = 3; 
+ int i2 = i1; 
+ i2 = 4; 
+ System.out.print("i1==" + i1); 
+ System.out.println(" but i2==" + i2); 
+ Value v1 = new Value(); 
+ v1.val = 5; 
+ Value v2 = v1; 
+ v2.val = 6; 
+ System.out.print("v1.val==" + v1.val); 
+ System.out.println(" and v2.val==" + v2.val); 
+ } 
+}
+This program produces the output:
+i1==3 but i2==4
+v1.val==6 and v2.val==6
+
+ The boolean Type and boolean Values
+The boolean type represents a logical quantity with two possible values, indicated
+by the literals true and false (§3.10.3).
+The boolean operators are:
+• The relational operators == and != (§15.21.2)
+• The logical complement operator ! (§15.15.6)
+• The logical operators &, ^, and | (§15.22.2)
+• The conditional-and and conditional-or operators && (§15.23) and || (§15.24)
+• The conditional operator ? : (§15.25)
+• The string concatenation operator + (§15.18.1), which, when given a String
+operand and a boolean operand, will convert the boolean operand to a String
+(either "true" or "false"), and then produce a newly created String that is the
+concatenation of the two strings
+Boolean expressions determine the control flow in several kinds of statements:
+• The if statement (§14.9)
+• The while statement (§14.12)
+• The do statement (§14.13)
+• The for statement (§14.14)
+A boolean expression also determines which subexpression is evaluated in the
+conditional ? : operator (§15.25).
+Only boolean and Boolean expressions can be used in control flow statements and
+as the first operand of the conditional operator ? :.
+An integer or floating-point expression x can be converted to a boolean value,
+following the C language convention that any nonzero value is true, by the
+expression x!=0.
+
+An object reference obj can be converted to a boolean value, following the C
+language convention that any reference other than null is true, by the expression
+obj!=null.
+A boolean value can be converted to a String by string conversion (§5.4).
+A boolean value may be cast to type boolean, Boolean, or Object (§5.5). No other
+casts on type boolean are allowed.
+
+Integral Types and Values
+The values of the integral types are integers in the following ranges:
+• For byte, from -128 to 127, inclusive
+• For short, from -32768 to 32767, inclusive
+• For int, from -2147483648 to 2147483647, inclusive
+• For long, from -9223372036854775808 to 9223372036854775807, inclusive
+• For char, from '\u0000' to '\uffff' inclusive, that is, from 0 to 65535
+
+
+ The Kinds of Types and Values
+There are two kinds of types in the Java programming language: primitive types
+(§4.2) and reference types (§4.3). There are, correspondingly, two kinds of data
+values that can be stored in variables, passed as arguments, returned by methods,
+and operated on: primitive values (§4.2) and reference values (§4.3).
+
+EscapeSequence:
+\ b (backspace BS, Unicode \u0008)
+\ t (horizontal tab HT, Unicode \u0009)
+\ n (linefeed LF, Unicode \u000a)
+\ f (form feed FF, Unicode \u000c)
+\ r (carriage return CR, Unicode \u000d)
+\ " (double quote ", Unicode \u0022)
+\ ' (single quote ', Unicode \u0027)
+\ \ (backslash \, Unicode \u005c)
+OctalEscape (octal value, Unicode \u0000 to \u00ff)
+
+
+Example 4.2.2-1. Integer Operations
+class Test { 
+ public static void main(String[] args) { 
+ int i = 1000000; 
+ System.out.println(i * i); 
+ long l = i; 
+TYPES, VALUES, AND VARIABLES Primitive Types and Values 4.2
+45
+ System.out.println(l * l); 
+ System.out.println(20296 / (l - i)); 
+ } 
+}
+This program produces the output:
+-727379968
+1000000000000
+and then encounters an ArithmeticException in the division by l - i
+
+
+jetty vs netty
+This is crude simplification, but it allows to understand the difference easily:
+
+Netty is a framework to write TCP and UDP applications.
+
+Jetty is a framework to write HTTP applications.
+synchronised
+reentrant lock
+
+
+javap -private FetchImsiInfo.class
+javap -version FetchImsiInfo.class
+
+
+jar cf jar-file input-file(s)
+jar tf ntr_soraf.jar
+jar xf jar-file [archived-file(s)]
+
+cat META-INF/MANIFEST.MF
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.1
+Created-By: 25.181-b13 (Oracle Corporation)
+
+Name: Release Specifications
+Product-Title: NTR
+Product-Version: 9.0
+Product-Label: Q220701
+Product-Vendor: Roamware Inc.
+Build-Date: August 02 2022 11:39:16 AM
+Build-Host: RW-MUM-131.53
+Support-Email: support@roamware.com
+
+makefile patsubst wildcard 
+compilar optiomisation
+g++ O2 -DDONT_USE_VOL
+
+
+Netty - Reactor pattern
