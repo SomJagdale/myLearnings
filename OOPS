@@ -1,0 +1,35 @@
+https://www.linkedin.com/feed/update/urn:li:activity:7005386499856707584/
+
+What is OOPS
+  - It is Object Oriented Programming as apposed to functiona programming
+  - Everything or partial part of programing based on object 
+  - Object is building block of software
+ 
+What is a Class 
+  - Class is template of set of classes that share common structure and behavior.
+  
+What is an Object
+  - Object is instance of a Class
+  - It has its state behavior and identity 
+  - It also called instance of Class 
+  
+What is an instance 
+  - An instance has state, behavior and identity 
+  - An instance is also call object 
+  
+What OOPS Core OOP's Concepts 
+  - Inheritance 
+  - Encapsulation 
+  - Abstraction 
+  - Polymorphisom
+  
+What is meant by absctraction 
+  - Abstraction defines an essential characteristics of object that distiguish it from other kinds of objects.
+  - Abstraction provides crisply-defined conceptual boundaries relative to the perspective of the viewer 
+  - Its process of focusing essential characteristics of an object.
+  - Abstraction is one of the fundamental element of the object model.
+  
+What is menat by Encapsulation 
+  - Encapsulation is the process of compartmetalising elments of an absctraction that defines the sturctre and behavior 
+  - Encapsulation helps to seprate the contractual interface of an abstraction and implementation
+  
