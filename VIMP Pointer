@@ -25,3 +25,21 @@ Feature Considerations :-
 15.	Tools - IP Probe with MBR Message support 
 16.	Pcaps - ULR, IDR, PSI, MBR
  
+New US Checklist
+1. PDD disscussion with team
+2. Develop the code 
+3. Unit testing code
+4. QTagging & updated PDD and email for letting QE what has been given and testing in UT. 
+
+
+Analysis of Crash or deadlock or restart or issue
+1. ptrace
+2. coredump
+3. print profile & print event 
+4. roamertrace for crashed imsi
+5. NTR.log(Debug), Trap log, KPI logs, for crashed imsi
+6. TR.cfg 
+7. Cache Dump (Sysparam, home, zone, cos , networ etc information)
+8. pcap
+9. Source Code of same Tag 
+10. rwmonitor (process memory usage & other system information)
