@@ -43,3 +43,70 @@ Analysis of Crash or deadlock or restart or issue
 8. pcap
 9. Source Code of same Tag 
 10. rwmonitor (process memory usage & other system information)
+
+
+Software Engineer specialising in developing products like Self-Service Kiosks, Point-of-Sale Terminals, Automated Teller Machines, 
+Credit Reporting System, Database Engine and Linux Kernel development using:
+ Hardcore C, C++/C++ 11/C++14, Go
+ Python (with C++ Interoperability)
+ Microservices , GraphQL, Elasticsearch, REST APIs
+ Microservices , GraphQL, Elasticsearch, REST APIs
+ Linux, Windows, Mac OS X
+ Visual Code, GNU/GCC, Git, Tortoise SVN
+ Algorithms, Data Structures, Design Patterns
+
+Experienced in:
+ SDLC, Agile, Scrum, Kanban
+ Multithreaded Programming
+ Socket Programming
+ Data Synchronisation
+ Inter Process Communication
+ Network Protocols
+
+/usr/bin/gdb networktr core.15574
+
+5G
+1. 5GNSA Active Deployment
+2. QE Raised Passive Deployment Bugs(6)
+3. Trace change for Reports Handling
+4. Device Check
+5. OTA
+6. KPI 
+7. UIRDC
+8. GUI Integration Testing
+9. Code Review
+10. Test-Case Document
+11. AG and OM document change
+12. Code check-in and Tagging
+
+QTag Date - 27/08/2021 (No Planned Leave)
+===================================================================================================
+
+Resotre Data Handling 
+1. All requirement mentioned in Restore data designe document.(Same check in cvs)
+2. Unit Testing (Arount 33 files need to change) - Passive Deployment throught VLR SIMulator 
+3. Merging in NTR80 Sustenance branch - DB support for Oracle and EDB
+4. Test-Case Document
+5. Design Document change(if any)
+6. Code Review
+7. AG and OM document change
+8. Code check-in and Tagging
+
+15 Days + 2 Days Planned Leave
+===================================================================================================
+
+Porting 5GNSA Feature from NTR8.0 to NTR8.2
+1.Possible Change in MakeFile 
+2.Possible Change in Setall Script 
+3.Possible Change in Patcher 
+4.Possible Change in other configuration files like TR.cfg
+5.Possible change in any design document which support new NTR version like AG or OG.
+6.Possible change in Build flow steps 
+7.Desing Document
+8.Test-Case Document
+9.Code Review
+10.AG and OM document change
+11.Code check-in and Tagging
+
+10 Days + 1 Day Planned Leave
+===================================================================================================
