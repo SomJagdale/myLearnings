@@ -1,0 +1,27 @@
+
+Please give us some background here. 
+1)	Since when have you started seeing this issue? Was it working fine earlier?
+2)	Since how long the NTR system is deployed at site? 
+3)	What has changed in the system after which this issue is seen? Was there any activity performed which has caused this issue?
+4)	Please share your L1 analysis. 
+5)	NTR version, label & database used
+
+
+Feature Considerations :-
+1.	Name - GTP based reclaim feature in BRG
+2.	Customer Name - TMO
+3.	EPIC ID - BRG3-92
+4.	NTR - NTR80_PG
+5.	Database - Couchbase mainly(Need confirmation for Oracle)
+6.	Protocol - GTPv2(GPRS Tunnelling Protocol version 2)
+7.	Message  - Diameter Modify-Bearer-Request(MBR)
+8.	Content - Cell ID information in User-Location-Information(ULI) AVP
+9.	Action - Based on this current Cell ID information in ULI AVP, Cancel Location needs to be sent to such subscribers to trigger network reselection
+10.	Impact - reducing revenue loss for T-Mobile
+11.	Binary Component - BRG 
+12.	BRG Mechanism - CELL ID 
+13.	Related feature - Roamer Reclaim 
+14.	Deployment - Passive
+15.	Tools - IP Probe with MBR Message support 
+16.	Pcaps - ULR, IDR, PSI, MBR
+ 
