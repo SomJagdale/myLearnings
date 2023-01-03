@@ -1,6 +1,73 @@
 
 # myLearnings
 
+.dat
+RDD
+Tool USP
+Hadoop ecosystem 
+DASK
+quadtree 
+geohash
+news feed 
+blob
+object storage
+MOP
+Kernel taint - In the context of operating systems, "kernel taint" refers to a state in which the integrity of the kernel (the core of the operating system that manages communication between hardware and software) has been compromised. This can occur for a variety of reasons, such as the presence of a bug or security vulnerability, or the use of a device or module that is not compatible with the kernel.
+SAN I/O 
+dmesg
+SSL & TLS
+kafka traing ques - why myid not given in the config file, if not how we can do scale up and scale down containers
+				  - zookeeper.connect 
+cvs -d :pserver:somanathj:jagadales@172.16.129.232:/cvs/platform checkout -r HEAD external5.0
+xp
+
+soraf standard mode - alisa
+proxy mode T mobile 
+
+http2
+
+Pig
+Spark
+Presto
+Big Query 
+
+Appreciation message to Venkat
+Since the start, your ideas and insights made me much easier to proceed in the right direction and complete the complex project successfully.  We are lucky to have such an experienced person amongst us. We really appreciate the knowledge and tips that you choose to impart to us. Thank you!
+
+kafka
+TDD 
+@Allargconstructor	
+java lombok 
+
+
+New US Checklist
+1. PDD disscussion with team
+2. Develop the code 
+3. Unit testing code
+4. QTagging & updated PDD and email for letting QE what has been given and testing in UT. 
+
+
+Analysis of Crash or deadlock or restart or issue
+1. ptrace
+2. coredump
+3. print profile & print event 
+4. roamertrace for crashed imsi
+5. NTR.log(Debug), Trap log, KPI logs, for crashed imsi
+6. TR.cfg 
+7. Cache Dump
+8. pcap
+9. Source Code of same Tag 
+10. rwmonitor (process memory usage & other system information)
+
+
+
+Shortcut for chatting or mailing
+AFAIK
+IMK
+AMA 
+
+optus
+
 dbx gdb debugger 
 To run core file ask site to provide all libraries linked by ldd
 
