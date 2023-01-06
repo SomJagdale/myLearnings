@@ -1,5 +1,29 @@
 
 # myLearnings
+Backend C++, Core Java Developer, Linux and my domain is Telecom
+Agile, Network programming, multithreading, docker & kubernetes, OOPS, Design pattern, OOPS
+A full stack developer is a person with skills in both back-end development. A full stack developer typically works
+
+ I want you to act as an interviewer. I will be the
+candidate and you will ask me the
+interview questions for the position position. I
+want you to only reply as the interviewer.
+Do not write all the conservation at once. I
+want you to only do the interview with me.
+Ask me the questions and wait for my answers.
+Do not write explanations. Ask me the
+questions one by one like an interviewer does
+and wait for my answers. My first
+sentence is "Hi"
+
+Data Engineer (Programming)
+Data Scientist (Math-heavy)
+Data Analysit (Data Analysis (get data, joins, visual, story telling))
+Regression model 
+Decision Tree 
+Deep Learning
+Natural Language 
+Computer Vision
 
 	.dat
 	RDD
