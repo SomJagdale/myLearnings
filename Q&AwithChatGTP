@@ -41,5 +41,22 @@ It's worth noting that if the base class function is not virtual, the function o
 You can also use the keyword override to specify that a function is intended to override a virtual function from a base class, this way the compiler will give you an error if the base class does not have a virtual function with the same signature.
 
 
+2. why C++ don't have virtual constructors?
+
+C++ does not have virtual constructors because of a concept called "object slicing."
+
+Object slicing is a phenomenon that occurs when a derived class object is assigned to a variable of its base class type. When this happens, the derived class object is "sliced" down to the size of the base class, and any members or methods that are specific to the derived class are lost.
+
+If C++ had virtual constructors, the derived class object would be constructed as a base class object, and then "sliced" down to the size of the base class, losing any members or methods that are specific to the derived class. This would make it impossible to create objects of the derived class type.
+
+Instead, C++ uses a feature called "virtual inheritance" to achieve polymorphic behavior with constructors. Virtual inheritance allows a class to inherit from a base class multiple times, with the most derived class "winning" when it comes to initialization.
+
+Additionally, C++ also uses factory patterns, which is a design pattern that defines an interface for creating an object, but lets subclasses decide which class to instantiate.
+
+It's worth noting that C++11 introduced the keyword override which allows you to specify that a function is intended to override a virtual function from a base class, this way the compiler will give you an error if the base class does not have a virtual function with the same signature.
+
+
+
+
 
 
