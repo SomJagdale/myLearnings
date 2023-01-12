@@ -1,0 +1,45 @@
+somnath.jagadale@gmail.com
+What is virtual function in C++ Language?
+In C++, a virtual function is a member function of a class that is declared as "virtual." This tells the C++ compiler that the function can be overridden by a derived class, allowing for polymorphism.
+
+When a virtual function is called through a base class pointer or reference, the program will determine at runtime which version of the function to call, based on the actual type of the object being pointed to or referenced. This is known as dynamic binding or late binding.
+
+Here is an example:
+
+Copy code
+class Shape {
+    public:
+        virtual double area() = 0;
+};
+
+class Rectangle: public Shape {
+    public:
+        double width, height;
+        double area() { return width * height; }
+};
+
+class Circle: public Shape {
+    public:
+        double radius;
+        double area() { return 3.14 * radius * radius; }
+};
+
+int main() {
+    Shape *s1 = new Rectangle();
+    s1->width = 10;
+    s1->height = 5;
+    cout << "Area of rectangle: " << s1->area() << endl;
+
+    Shape *s2 = new Circle();
+    s2->radius = 5;
+    cout << "Area of circle: " << s2->area() << endl;
+}
+In this example, the area() function is declared as virtual in the base class Shape, which allows derived classes Rectangle and Circle to override it. When the area() function is called through a base class pointer, the program will determine at runtime which version of the function to call, based on the actual type of the object being pointed to.
+
+It's worth noting that if the base class function is not virtual, the function of the base class is called even if the object's type is the derived class.
+
+You can also use the keyword override to specify that a function is intended to override a virtual function from a base class, this way the compiler will give you an error if the base class does not have a virtual function with the same signature.
+
+
+
+
