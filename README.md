@@ -1,5 +1,9 @@
 
 # myLearnings
+
+Power BI
+How to Regain Control of Your Time, Energy, and Priorities
+
 principle of reciprocity
 spars matrix
 KRA
