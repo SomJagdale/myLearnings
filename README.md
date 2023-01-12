@@ -1,6 +1,11 @@
 
 # myLearnings
 principle of reciprocity
+spars matrix
+KRA
+
+burf suit 
+tcpreplay 
 
 Backend C++, Core Java Developer, Linux and my domain is Telecom
 Agile, Network programming, multithreading, docker & kubernetes, OOPS, Design pattern, OOPS
