@@ -1,5 +1,7 @@
 
 # myLearnings
+principle of reciprocity
+
 Backend C++, Core Java Developer, Linux and my domain is Telecom
 Agile, Network programming, multithreading, docker & kubernetes, OOPS, Design pattern, OOPS
 A full stack developer is a person with skills in both back-end development. A full stack developer typically works
