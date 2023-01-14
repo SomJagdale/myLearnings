@@ -1,6 +1,19 @@
 
 # myLearnings
 
+ETH Merge
+open connect 
+cdn
+alkamai
+aws cloudfront
+presigned url
+TS - Technical Specification
+spars matrix
+KRA
+burf suit 
+tcpreplay 
+
+
 Power BI
 How to Regain Control of Your Time, Energy, and Priorities
 
