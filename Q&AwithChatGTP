@@ -1,3 +1,22 @@
+somnath.jagadale@gmail.com
+What is the maximum data that can be transferred over the Fiber optic cable?
+
+The maximum data transfer rate for fiber optic cable depends on the technology and specifications used for the cable and the equipment connected to it. Generally, fiber optic cables have a much higher capacity for data transfer compared to traditional copper cables. With the latest technology, single-mode fibers can transfer data at rates up to 100 Gbps (gigabits per second) over distances of up to 40 kilometers. Multimode fibers can transfer data at rates up to 10 Gbps over shorter distances of up to 2 kilometers. These rates are expected to increase in the future with new technology advancements.
+
+
+
+
+somnath.jagadale@gmail.com
+What is the maximum data that can be transferred over the 5G?
+The maximum data transfer rate for 5G networks can vary depending on several factors, such as the frequency band being used, the number of antennae and the amount of available spectrum. Generally, 5G networks can achieve data transfer rates of several Gbps (gigabits per second).
+
+The peak data rates for 5G networks can reach up to 20 Gbps for downloads and 10 Gbps for uploads under ideal laboratory conditions, but these are not typical in real-world scenarios. In practice, the average data transfer rate for 5G networks is expected to be around 1 Gbps, which is significantly higher than the average data transfer rate for 4G networks. However, it should be noted that these figures are constantly evolving as new technologies and standards are developed.
+
+
+
+
+Regene
+
 The transport layer in the TCP/IP protocol stack includes the following protocols:
 
 Transmission Control Protocol (TCP): TCP is a connection-oriented protocol that provides a reliable, ordered, and error-checked delivery of data. It establishes a virtual connection between two devices before transmitting data and ensures that all data is received correctly.
