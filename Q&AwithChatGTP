@@ -1,3 +1,15 @@
+The transport layer in the TCP/IP protocol stack includes the following protocols:
+
+Transmission Control Protocol (TCP): TCP is a connection-oriented protocol that provides a reliable, ordered, and error-checked delivery of data. It establishes a virtual connection between two devices before transmitting data and ensures that all data is received correctly.
+
+User Datagram Protocol (UDP): UDP is a connectionless protocol that does not establish a virtual connection before transmitting data. It is faster than TCP but provides less reliability.
+
+Stream Control Transmission Protocol (SCTP): SCTP is a transport-layer protocol that is similar to TCP but provides additional features such as multi-homing and multi-streaming. It is mainly used in telecommunication applications.
+
+Datagram Congestion Control Protocol (DCCP): DCCP is a transport-layer protocol that is similar to UDP but provides congestion control mechanisms. It is mainly used in streaming media applications.
+
+Real-time Transport Protocol (RTP): RTP is a transport-layer protocol that is designed for real-time multimedia applications such as audio and video conferencing. It provides timestamping, sequence numbering, and other features to ensure that data is transmitted in real-time.
+
 somnath.jagadale@gmail.com
 What is virtual function in C++ Language?
 In C++, a virtual function is a member function of a class that is declared as "virtual." This tells the C++ compiler that the function can be overridden by a derived class, allowing for polymorphism.
