@@ -1,3 +1,26 @@
+Docker images have several advantages, some of them are:
+
+Portability: Docker images can be run on any machine that has Docker installed, regardless of the underlying operating system. This means that an application can be developed and tested on one machine and then deployed on another with minimal changes.
+
+Isolation: Each Docker container runs in its own isolated environment, which allows multiple applications to run on the same machine without interfering with each other.
+
+Consistency: Docker images ensure that the same environment and dependencies are used in development, testing, and production. This eliminates the "works on my machine" problem and improves the reliability of the application.
+
+Small size: Docker images are typically smaller in size than virtual machines, which makes them easier to distribute and manage.
+
+Versioning: Docker images can be versioned, which makes it easy to roll back to a previous version if something goes wrong.
+
+Lightweight: Docker images are lightweight and fast, which makes them quick to start and stop, and easy to scale horizontally.
+
+Easy to distribute: Docker images can be stored in a centralized repository, making it easy to share and distribute the images to other developers and systems.
+
+Reduced infrastructure cost: With the use of Docker images, it reduces the need for more hardware, and thus reducing the costs.
+
+Better resource utilization: Docker containers share the host kernel and use fewer resources than traditional virtualization. This means that more applications can be run on the same hardware, which can lead to cost savings.
+
+
+
+Regenerate res
 somnath.jagadale@gmail.com
 What is the maximum data that can be transferred over the Fiber optic cable?
 
