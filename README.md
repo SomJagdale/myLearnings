@@ -1,6 +1,69 @@
 
 # myLearnings
 
+Four principles of technical communication: 
+1. Start at the right point (From Known to Unknown) - "show of hands" - err on the side of caution
+2. Don't go too far into the rabbit hole - explain 3 things that pique interest rather than a whole load of information
+3. Clarity is better than Accuracy - iron out the finer details later
+4. Explain why it is "cool" - enthusiasm is key 
+
+Most importantly, convey "It is not about whether you are good or bad at it, it is all about being interested in it!"
+If multiple processes use the same dynamic libraries do we need to synchronize the access toward that commonly dynamic library?
+Differenece beteen unresolved symbol vs undefined symbol error.
+C++ is a widely-used programming language that has been around for several decades. It is known for its flexibility, performance, and ability to be used in a wide range of applications, from low-level systems programming to high-performance computing, games, and more.
+
+As for the future of C++, it is considered to be a stable and mature language with a large and active community of developers. The C++ language is still being actively developed and improved through the C++ Standards Committee (also known as ISO/IEC JTC1/SC22/WG21) and the C++ community.
+
+C++20, the latest version of C++, which was released in 2020, included several new features and improvements such as modules, coroutines, and concepts. C++23 is in the works and will bring more features and improvements.
+
+C++ is widely used in industries such as gaming, finance, and simulation, and it is also used in developing operating systems, embedded systems, and high-performance computing. It is expected to continue to be a popular choice for these types of applications in the future.
+
+Additionally, the recent years have seen an increase in the use of C++ for machine learning and artificial intelligence applications, this trend is likely to continue in the future.
+
+Overall, C++ is a powerful, versatile and efficient language that will continue to be widely used in various fields, and the future looks bright for the language.
+
+SIP
+XMPP
+The maximum size of a TCP segment in the TCP/IP protocol stack is known as the Maximum Segment Size (MSS). Maximum Transmission Unit (MTU) is 1500 bytes, the MSS will be 1460 bytes (1500 - 20 (TCP header) - 20 (IP header) = 1460).
+maximum frame size of 1518 bytes
+IP packet MTU is 1500 bytes only
+web socket
+reliablity vs availablity
+CAP theroam 
+max size of whatsapp message
+idom ptency
+authication and authorisation
+kubernetes configmap
+The easiest way to explain it would be to think of a battery. Nature is about balance. You know that when you put the positive side of a magnet close to the negative side of another magnet, they're going to try to pull together. They're trying to "balance" themselves.
+Now think about that with electrons. The electrons in the negative side of the battery really REALLY want to get to the positive side. We take advantage of this by creating circuits. We give them a path to get to that positive side that they desperately want to reach, and we have them do a little work for us along the way. The MORE free electrons in the negative side of the battery, the more POTENTIAL there is for us to use (Voltage).
+This is why a fully charged battery will read its rated voltage, or close to it, and why a depleted battery will read a noticeably LOWER voltage -- reflecting the fact that many of those electrons are now at the positive side of the battery. There aren't AS MANY of them left that need to get over there anymore, so much of the FORCE they provide when traveling through the circuit has dissipated.
+
+Amp, Vol, Electron, Proton, Neutron, Copper vs robber
+SDD vs HDD
+BIOS 
+Firewall-IP, PORT, program, Domain
+DDoS
+HTTP,Why?HTTPS(SSL,TLS)-Lock sign
+DNS-Resolver, ROOT Server, TLD, Name server
+Default gateway, Subnet mask (How Machine know that this message should send to Default gateway)
+NAS vs SAN
+Type 1 and type 2 muscles
+Two Adv/disadvantages of the Docker, VM, Bare Metal
+Type 1 and Type 2 Hyperwisers
+IAAS vs PAAS, SAAS
+EC2 and S3
+Proxy server - Unanomity & Caching, No encryption
+CSMA/CD - CSMA/CA(RTS/CTS)
+RTS/CTS
+SCTP
+DCCP
+RTP
+Proxy Server
+
+Skills: C, C++, Python, Linux Protocols, Standard Template Library, Design Patterns, DevOps, Development in Linux Environment,
+Linux Networking Stack, SE Linux, Linux Firewall settings, Docker containers
+
+
 ETH Merge
 open connect 
 cdn
