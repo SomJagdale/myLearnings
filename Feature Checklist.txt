@@ -1,0 +1,51 @@
+This needs to be considered before working on the new feature
+
+1.	Quarter
+2.	Customer Name
+3.	EPID ID
+4.	Domain
+5.	Technology 
+6.	Message 
+7.	User Story 
+8.	Efforts for feature
+9.	Feature Design 
+10.	Review Design
+11.	Existing Limitations/ Need for this enhancement
+12.	Impact after the feature/enhancement implementatio
+13.	NTR Version 
+14.	Branch Name
+15.	QTag Date
+16.	RTag Date
+17.	Deployment Type - Active/Passive
+18.	Deployment at Site Type - Bare Metal/Container
+19.	Databases
+20.	Script Changes 
+21.	Change in Roamer traces
+22.	Change in Reporting 
+23.	Change in load processing 
+24.	Change in Configuration file
+25.	Changes in the databases 
+26.	Chnages in the GUI
+27.	Changes in the decoding part 
+28.	Changes in the roamertrace
+29.	Changes in KPI 
+30.	Changes if any in SS7, BRG, DBS, CoS, Zone, ZoneCoS, Network, SRDC, Rules, Queues, CoS Hierarchy.
+31.	Changes in the Traps
+32.	Changes in the Debug Log level
+33.	Changes in the MIB Files
+34.	Changes in Start/Stop Script
+35.	Code Review
+36.	Handler which will impact for this feature/enhancement
+37.	Scalablity - What if more instance are running symultaniosuly
+38.	Interoperatibility with other applications like NTR Binary 
+39.	Consistency - What if data is not updated to the couchbase cluster
+40.	Redundency – What if there is one standby instance(active&Standby)
+41.	Availablity – Does application needs to available all the time, what if any downtime occurs
+42.	Assumption – What are things are assumed while developing this feature
+43.	Limitations – What are limitations will be there if this feature developed
+44.	Dependencies – What are dependencies are there to start or work on this feature
+45.	Risk Involved in attempting promised release date  - 
+46.	Integration testing 
+47.	Migration 
+48.	Documentation 
+49.	UT cases writting
