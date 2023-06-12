@@ -1,2 +1,7 @@
 to enable the maximum size while printing the buffer in the gdb 
 (gdb) set print element 0
+
+
+to convert function poitner to function name generated in  asan address sanitizer log
+addr2line -Cfpie networktr 0x7f3ebaa0aa0a
+
