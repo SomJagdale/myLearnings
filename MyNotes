@@ -1,0 +1,2 @@
+to enable the maximum size while printing the buffer in the gdb 
+(gdb) set print element 0
