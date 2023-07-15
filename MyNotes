@@ -1,3 +1,168 @@
+[somanath@som-mobi ntr]$ xclip Chart.yaml 
+[somanath@som-mobi ntr]$ xclip -sel clip values.yaml 
+[somanath@som-mobi ntr]$ 
+
+nautilus 
+
+HTTPie  -  Alternative to wget and curl   - --  HTTPie: HTTP client, aims to be easier to use than cURL.
+                                                                            More information: https://httpie.org.
+bat         -  Alternative to cat                       ---  A `cat` clone with syntax highlighting and Git integration.
+                                                                            More information: https://github.com/sharkdp/bat.
+ncdu      - Alternative to du                         --- Disk usage analyzer with an ncurses interface.
+                                                                            More information: https://manned.org/ncdu.
+ 
+htop       - Alternative to top                        --- Display dynamic real-time information about running processes.
+                                                                            An enhanced version of `top`. More information: https://htop.dev/.
+ 
+fd            - Alternative to the find                --- Aims to be faster and easier to use than `find`.
+                                                                                More information: https://github.com/sharkdp/fd.
+ 
+exa          - Alternative to ls                          --- A modern replacement for `ls` (List directory contents).
+                                                                                More information: https://the.exa.website.
+ 
+duf          - Alternative to the df                 --- With duf, you can sort the output, list indoe information and
+                                                                                even save the output in JSON format.
+ 
+tldr           -  Alternative to man                  --- Displays simple help pages for command-line tools, from the
+                                                                                tldr-pages project.  More information: https://tldr.sh.
+
+NAME     READY   STATUS    RESTARTS   AGE
+nwtest   1/1     Running   0          2d5h
+ota-0    3/3     Running   0          2m46s
+
+
+rmsh ota
+netstat -anp
+
+no container and k8s notes
+deleting the nohup and &
+db 
+application should be run as startup - since its down k8s doesnt aware that pod is down or not.
+Create your directories in your startup script and not the image
+Use a separate script to start your application - don't use the ones that are for BM or VM
+Seprate config for different database
+Values.yaml mendatory
+Ownership of helm chart
+cleaning configuration parameters and updating it with tested values from the qe team.
+port number fsm and health should match
+
+
+java -jar ./Roamware/platform/rfc/6.0/scripts/operations/RWEncyptor.jar Roamware@123	
+
+CREATE INDEX `ind_config_type` ON `config`(`__t`) WITH { "num_replica": 0 };
+CREATE PRIMARY INDEX `#primary` ON `transaction2` WITH { "num_replica": 0 };
+CREATE INDEX `Ind_Schedule_Test` ON `config`(`process_status`,`schedule_type`,`__t`) WITH { "num_replica": 0 };
+
+CREATE INDEX `ind_transaction3_type` ON `transaction3`(`__t`)
+CREATE INDEX `index_cell` ON `config`(`hnwid`,`vlrnum`,`node_type`,`lac`,`cellid`) WHERE (`__t` = "ntr-brgcell")
+CREATE INDEX `index_guru_test3` ON `config`(`hnwid`,`zcode`,`cosid`,`nwid`) WHERE (((`__t` = "ntr-uirdcdata") and (`from_time` = "00:00:00")) and (`to_time` = "00:00:00")) WITH { "num_replica": 0 };
+CREATE INDEX `index_odreq` ON `config`(`sched_id`,`hnwid`,`zcode`,`cosid`) WHERE (`__t` = "ntr-ota-odreq") WITH { "num_replica": 0 };
+
+
+            logs/ntr80/ota/ondemandEvent
+gpg --armor --export AE5CFCE707E40D96
+unzip -q -c $1 META-INF/MANIFEST.MF
+
+x/format count address
+
+x/10xb &data[0]
+
+set print element 0
+
+points for the Dheraj
+1. Why there is time missmatch between gdb stack trace shared and gdb core file.
+
+reaelf 
+string 
+set 
+
+﻿UpdateProfileInOracleDB
+
+export TSAN_OPTIONS="print_timestamps=1"
+
+sha1sum /lib64/libasan.so.0
+3cf555c669dbecc17142b3880db2183be481fba4  /usr/lib64/libasan.so.6
+5b9c845e8467cc38eb6f75cdbf74ba636c355fde  /lib64/libasan.so.0
+
+md5sum /lib64/libasan.so.0
+cc ndc mcc mnc mapping
+SELECT c.* FROM `config` AS c WHERE c.__t='irdb-net' ORDER BY networkid
+
+mcc 310 
+mnc 590
+cc 1
+ndc 90393214
+
+
+
+./networktr -c MyTR.cfg > asan.log 2>&1
+
+&>
+ 
+set logging on 
+set logging of
+thread info
+thread id_
+thread apply all bt
+thread apply all bt full
+up 
+down 
+
+
+$cat buildNTR.log | grep "\[-W" | cut -f2 -d'[' | sort > buildNTR.log.warn
+
+__t='ntr-sysparam' and name like 'anti%'
+
+
+Artifact registries
+nexus
+quay
+docker hub
+
+
+g++ -dM -E -x c++ /dev/null | grep -F __cplusplus
+#define __cplusplus 199711L
+
+
+ g++ --version
+g++ (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44)
+
+
+
+
+ 
+
+rpm2cpio RWARSDSENV6.0-23.01.03-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDS6.0-23.01.08-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDS7.0-23.01.12-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDSEmbedded7.0-23.01.12-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDSAnalytics7.0-23.01.12-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARDRA1.0-23.01.03-R.i386.rpm | cpio -idmv
+
+
+
+
+
+
+export MALLOC_CHECK_=2 in dev setup
+asan / tsan 
+
+
+RUN mkdir /roamware
+WORKDIR /roamware
+
+COPY bin/networktr bin/
+COPY cfg/* cfg/
+COPY lib/* lib/
+COPY scripts/* scripts/
+
+
+
 NERDTree 
 Ctrl + w followed by w (press Ctrl + w, release the keys, and then press w).
 
