@@ -1,3 +1,52 @@
+
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.382.b05-2.fc37.x86_64
+
+RFC - Ramware foundation classess
+cbprompt
+
+git cherry-pick -x 3ffec955db7e40fe30243f2317985fa6bc4250a63ffec
+
+SELECT * FROM v$version;
+SELECT name FROM v$database;fcp
+SELECT tablespace_name, status FROM dba_tablespaces;
+SELECT username, account_status FROM dba_users;
+SELECT file_name, tablespace_name FROM dba_data_files;
+
+export LD_LIBRARY_PATH=/opt/DSI/64:/opt/external/5.0/couchbase/3.1.0/linuxlib64/rhel7:/home4/Somanath/NTRSource/NTR80/conveCB/Build/lib/
+
+sql> SPOOL 
+
+sqlplus ntrsomj1/ntrsomj1@172.16.129.66:1521/RWDB12C
+
+sqlplus ntrsomj1/ntrsomj1@172.16.129.66:1521/RWDB19C
+exp ntr19c/ntr19c@rwdb19c file=ntr19c.dmp log=ntr19c.log
+imp ntrsomj1/ntrsomj1@rwdb19c file=/home4/Somanath/dbdump/ntr19c.dmp log=/home4/Somanath/dbdump/ntr19cdmp.log fromuser=ntr19c touser=ntrsomj1 ignore=y
+
+
+exp ntr19c/ntr19c@rwdb19c file=ntr19c.dmp log=ntr19c.log
+
+exp ntr80t/ntr80t@rwdb18c file=ntr18c.dmp log=ntr18c80t.log
+
+http://172.16.132.92/release/ThirdParty/DSI/6.9.1-1/
+
+ sqlplus user/password@ip_address:port/service_name
+
+
+/opt/couchbase/bin/cbimport json -c couchbase://<Target-CB-Server-IP> -u <cb-username> -p <cb-password> -b <bucket-name>  -d file:///tmp/lines2.json -f lines -g %dbengg_cbe_doc_key% -t 4 --ignore-fields dbengg_cbe_doc_key 
+[04/01 11:09] Rajath Hegde
+replace db_engg_cbe_doc_key with __k ------export
+10.10.19.118
+
+/opt/couchbase/bin/cbexport json -c couchbase://192.168.130.168 -u cbadmin -p cbadmin -b config --include-key dbengg_cbe_doc_key -o mycb.json -f lines -t 4 
+/opt/couchbase/bin/cbimport json -c couchbase://192.168.130.168 -u cbadmin -p cbadmin -b config  -d mycb.json -f lines -g %dbengg_cbe_doc_key% -t 4 --ignore-fields dbengg_cbe_doc_key 
+
+ 1022  sudo yum remove DSI-6.13.2-1.el8.x86_64.rpm
+ 1023  sudo yum remove DSI-6.9.1-1.el6.i386.rpm 
+ 1024  sudo yum clean all
+ 1025  sudo yum update
+ 1026  sudo rpm -Va --nofiles --nodigest
+ 
+
 speech topics 
 Adaptability
 
