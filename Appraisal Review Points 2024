@@ -1,0 +1,68 @@
+Dev-Ops Side Feature Developmenet 
+1. Container image creation for the NTR, OTA applications
+2. Implementation of Helm Chart for NTR, SORAF, and OTA applicatoin across NTR8 and NTR9
+
+JAVA Side development
+1. Implementation of the Profile Expiry in SoR-AF.
+2. Implementation of the Rule Framework in SoR-AF.
+3. Implementation of the Static and Dynamic Rules in SoR-AF.
+4. Profile Handling between SoR-AF and NTR Binary.
+5. 5G Soraf Source Code Optimization and Removal of duplicate code
+
+C++ Side Developement
+1. Implementation of CoS Enhancement feature for CB and ORacle single handendly
+2. Integration of 5GNSA and VoLTE featurs on NTR Binary.
+3. Guiding, assiting and uplifiting 4 Team members
+
+
+Major Site Issues and Improvement for existing products
+1. Lcb_subdoc function call is not returning any error when document not exist.
+2. Providing Instrumention binary for the CHMK Site.
+3. TASK0082671 - NTR sending incorrect MSISDN value
+4. Verizon NTR crash
+5. NTR downgraded from VoLTE to LTE COS and triggered CLR
+6. PMM detection in forbidden network
+7. Garbage characters printed in roamerdata logs if msisdn is missing in the Diameter ULA message.
+8. Empty Destination Realm in Diameter CLR Message
+9. TMUS SRDC Count Validations
+10. Removing OTA Docker Image vulnerablilities.
+11. Binary Modifications Resulting from TSAN, ASAN
+12. Remove the vunerabilities present in NTR binary container image
+13. Hardening of C++
+14. Building NTR on RHEL9
+
+
+Award during this appraisal cycle 
+1. Start Award 
+2. Spot Award
+3. Team Star Award
+4. Combined worked for 13 Days on weekend and holiday to meet the delevery date
+5. Coming to office regularly 
+
+
+Training Done with team
+1. Docker 
+2. Kubernetes
+3. Planning, Scheduling and executing the training for new joinee.
+4. Guided team on How to provide the effort estiamtion 
+5. Guided team on How to approach a bug or defect 
+6. Shared approach to Enhancing Focus and Deep Work Practices with the team.
+
+New Skill Developed in this cycle
+1. Docker 
+2. Kubernetes 
+3. Git
+4. Spark
+5. Kafka 
+6. AWS
+7. Helm Charts
+
+Strenths
+1. Technical Proficiency: Skilled in DevOps tools (Docker, Kubernetes, Helm Charts), Git, Spark, Kafka, AWS, and C++ development.
+2. Development and Integration: Implemented features across Java, C++, and DevOps.
+3. Problem-Solving: Proactively resolved major site issues.
+4. Leadership and Collaboration: Guided and assisted team members.
+5. Training and Knowledge Sharing: Conducted training on Docker, Kubernetes, and other technologies.
+6. 
+
+
