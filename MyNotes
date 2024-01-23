@@ -1,3 +1,6 @@
+speech topics 
+Adaptability
+
 999  sudo sysctl -w kernel.msgmnb=624000
 1000  sudo sysctl -w kernel.msgmni=256
 
