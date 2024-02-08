@@ -1,3 +1,6 @@
+ssh-keygen -R 10.10.17.64
+sudo dnf install filezilla
+
 what is difference statically loaded vs dynamically loaded .so libraries
 
 Speech topic - adaptation
