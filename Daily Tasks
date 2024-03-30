@@ -1,7 +1,75 @@
-Daily Task list 
-1 Nov 2023 - GPRS data leakage - Issue replication - Shared recommendation to enable gprs data barring for lte cos
-2 Nov 2023 - Got another recommendation where Issue is present for the default cos only not for the subscriber cos
-3 Nov 2023 - Tried to replicate the issue "PMM detection count for subscriber incremented"
-6 Nov 2023 - Tried to replicate PMM again and Understanding the CLR without empty dest realm
-7 Nov 2023 - Tried to replicate PMM again and CLR without empty dest real
+24 March 2024 - Today's task
+	1. PG and NTR90 QTags build success confirmation DONE
+	2. Apply leaves DONE
+	3. Time cards DONE
+	4. QTag apply DONE
+	5. Sending emails for QTags.
+	6. Email for pending items. DONE
+	7. Email for open bugs. 
+	8. Email to Pankaj & Tushar, Kumar.
+	9. All Jira Updates. 
+	10. Closing all pending PR DONE
+	11. Respond to the STC-Kuwait | NTR-R240101
 
+
+23 March 2024 - Today's task
+	1. Commit changes for PG and NTR90 and get PR approved
+
+
+22 March 2024 - Today's task
+	1. P1 test case confirmation
+	2. Running below UT cases	
+		1. CSFB
+		2. TACSVN
+		3. CoS Engine
+		4. BRG Cases
+	3. Code merge dbsabs PG for oracle	
+	4. Code merging dbs and abs NTR90 
+	5. static cos merging in ntr90
+	6. QTagging PG, main, Conventional and Sustenance.
+	7. Pending iteams email 
+	8. Leave apply 
+	9. timecard 
+	
+21 March 2024 - Today's task
+	1. Running below UT cases	
+		1. CSFB
+		2. TACSVN
+		3. CoS Engine
+		4. BRG Cases
+	2. Code merging NTR9
+	3. AMBR Fixing in NTR80 DONE
+ 	4. AMBR Fixing in NTR90 DONE
+ 	5. AMBR Fixing in Sustenance DONE 
+ 	6. AMBR Fixing in Conventinal DONE
+	7. static cos merging in ntr90
+	8. P1 Cases Checking
+
+
+20 March 2024 - Today's task
+	1. Oracle support for DBS in ABS DONE
+	2. Running below UT cases	
+		1. CSFB
+		2. TACSVN
+		3. CoS Engine
+		4. BRG Cases
+	3. Code merging NTR9
+	4. AMBR Fixing in NTR80
+	5. AMBR Fixing in NTR90
+	6. static cos merging in ntr90
+	7. Test case attachemend for ABS DBS in JIRA - DONE
+	8. Responding email to Site team - DONE
+	9. P1 Cases Checking
+
+19 March 2024 - Today's task
+	1. p1 cases confirmation -
+	2. pdd attachment to user story - DONE
+	3. 5gnsa fix - 
+	4. oracle fix for dbs abs - 
+	5. integration main merging confirmation - DONE
+	6. static cos merging in ntr90 - 
+	7. mcc and mnc - 
+	8. aws skill builder - DONE
+	9. epf confirmation - 
+	10. demo call with QE Team - DONE
+	11. Sending email to QE Team. - DONE
