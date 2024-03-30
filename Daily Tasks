@@ -1,0 +1,7 @@
+Daily Task list 
+1 Nov 2023 - GPRS data leakage - Issue replication - Shared recommendation to enable gprs data barring for lte cos
+2 Nov 2023 - Got another recommendation where Issue is present for the default cos only not for the subscriber cos
+3 Nov 2023 - Tried to replicate the issue "PMM detection count for subscriber incremented"
+6 Nov 2023 - Tried to replicate PMM again and Understanding the CLR without empty dest realm
+7 Nov 2023 - Tried to replicate PMM again and CLR without empty dest real
+
