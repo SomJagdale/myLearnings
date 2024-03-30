@@ -1,0 +1,70 @@
+us-east-1a
+
+1. To get the value of the Region, in the terminal, run:
+
+region=$(aws configure get region)
+
+and then
+
+region=${region:-us-east-1}
+
+2. To create a repository name, run the following commands one at a time:
+
+repo_name="my_app"
+
+account=$(aws sts get-caller-identity --query Account --output text)
+
+fullname="${account}.dkr.ecr.${region}.amazonaws.com/${repo_name}:latest"
+
+- You are setting the variables repo_name, account, and fullname in the previous commands.
+
+=====================
+
+1. To create an Amazon ECR repository, run:
+
+aws ecr create-repository --repository-name "${repo_name}"
+
+2. To retrieve an authentication token, run:
+
+aws ecr get-login-password --region ${region}|docker login --username AWS --password-stdin ${fullname}
+
+- The AWS CLI "get-login-password" command authenticates Docker to an Amazon ECR registry.
+============================
+
+1. To create, build, and tag Docker images locally, run the following commands one at a time:
+
+cd ~/environment/first_app
+
+docker build -t ${repo_name} .
+
+- Be sure to include the space and period (.) at the end of the second command.
+- You can safely ignore the warning alert about running pip as root user.
+
+====================
+1. To verify your Docker image, run:
+
+docker images --filter reference=my_app
+
+2. Review to ensure that your repo, named my_app, appears.
+3. Go to the next step.
+===============================
+1. To push a Docker image to Amazon ECR, run the following commands one at a time.
+
+docker tag ${repo_name} ${fullname}
+
+docker push ${fullname}
+
+2. Go to the next step.
+
+
+====================
+
+596159937394.dkr.ecr.us-east-1.amazonaws.com/my_app:latest
+596159937394.dkr.ecr.us-east-1.amazonaws.com/my_second_app:latest
+
+vpc-0f8b25b066c4297a1
+sg-0012ed789a826de0c
+8443
+
+http://54.163.41.149:8443/
+
