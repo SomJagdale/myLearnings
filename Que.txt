@@ -1,3 +1,0 @@
-For points we need discussion
-1. Why there is P in “P-Visited-Network-ID”  AVP
-
