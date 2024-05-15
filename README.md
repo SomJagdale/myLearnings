@@ -1,5 +1,1581 @@
+linux command 
+stats 
+find / -name ls 2> /dev/null
+We redirect stderr(2) to stdout(1). We use &1 to mention to the shell that the destination file is a file descriptor and not a file name.
+command > /dev/null 2>&1
 
-# myLearnings
+There are four kinds of this database: document databases, key-value stores, column-oriented databases, and graph databases.
+
+ 1026  2024-05-08 11:51:01 	cat /var/log/messages
+ 1027  2024-05-08 11:51:09 	cat /var/log/boot.log
+ 1028  2024-05-08 11:51:15 	sudo cat /var/log/boot.log
+ 1029  2024-05-08 11:51:40 	journalctl -b
+ 1036  2024-05-08 11:52:50 	dmesg | grep pci
+ 1037  2024-05-08 11:54:07 	lspci | grep VGA
+ 1038  2024-05-08 11:54:34 	glxinfo | grep "OpenGL renderer"
+ 1039  2024-05-08 11:56:50 	history
+
+lspci | grep -i vga
+
+MDS - can be used by pso to pull the image
+keytool
+	mylocal imas setup
+	ntruser/ntruser789
+file your own defects	
+
+git revert e630801afaa2f35dd5b599a66a2f879bad1fc139
+
+10.10.21.101
+ 1007  2024-04-10 09:47:30 	podman pull nexus.rwb.com/mobileum/ota:alpine-Q240410-PG_Rakuten_HotFix-8.0
+				podman pull nexus.rwb.com/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
+				podman pull 10.10.21.101/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
+				
+ 1008  2024-04-10 09:49:41 	podman imagges
+ 1009  2024-04-10 09:49:45 	podman images
+ 1010  2024-04-10 09:49:54 	podman save 10.10.21.101/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0 > ota_image_11.tar
+ 
+ podman run -it --name otac11 --entrypoint sh 063128da0135
+ 063128da0135
+  podman run -it --name ntrc1 --entrypoint sh 5867ca89792c
+ 
+podman pull nexus.rwb.com/mobileum/ntr:alpine-Q240410-PG_Rakuten_HotFix-8.0
+ 
+podman pull nexus.rwb.com/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
+ 
+Pending and KB
+oracle integration not merged in main
+cb fresh insallation new fields in the documents
+
+lastAMBRCheckTime needs to delete
+how to pull the image 
+how to make tar for the image
+
+will check ula for every message, even though we are receiving message from the same network, since we are not keeping network to ambr received or not, or any last amber check timer.
+once fallback from 5gnsa to next tech, timer will start.
+
+fallback when ambr not received and only one network is available 
+
+CLogger::Debug(__FILE__, __LINE__, "[%s][%.f][%s] NTR has decided to steer this subscriber with ALL type cos[%d] even if override is present", event->baseEventPtr->roamerInfo.imsi, event->txnID, CTRUtils::GetMesgDescription(event->mesgType), event->baseEventPtr->appliedData.appliedCoSID);
+CLogger::Debug(__FILE__, __LINE__, "[%s][%.f][%s] User has provided override for prioritized tech only, 2nd prioritized will consider All type cos[%d] even if override is present", event->baseEventPtr->roamerInfo.imsi, event->txnID, CTRUtils::GetMesgDescription(event->mesgType), event->baseEventPtr->appliedData.appliedCoSID); 
+CLogger::Debug(__FILE__, __LINE__, "[%s][%.f][%s] User has provided override for only to 2nd prioritized tech, 1st priotized tech will not be considred for steering", event->baseEventPtr->roamerInfo.imsi, event->txnID, CTRUtils::GetMesgDescription(event->mesgType));
+
+
+1. When NTR dont find the device entry(TAC) in database which tell subscriber handset support/not support for 5g tech, NTR assumes it suppors.
+
+2. In 5GNSA Steering when NTR dont find the AMBR in ULA, still NTR is trying for another network and hopping for AMBR might present, but my understanding 
+AMBR is associated with subscription data and not dependent of Network, so can we initiate the email to kumar about this?
+
+4. Not all traces in NTR binary are with tokens 117.
+
+5. Static CoS Priority is not implemented for the oracle, Same with GUI.
+
+6. SAR is not merged in NTR90.
+
+7. If they provide the override user has to provide two override instead of one.
+
+
+
+getupdatedfiles | xargs -I {} cp {} ./fix
+     gpu 
+     jni
+     
+     main-cpu memory to gpu memory 
+     furiour transformation 
+     gpu memory to main-cpu memory
+     
+location - firewall 
+
+SDN - Software Defined Networking
+Southbound APIs
+Southbound APIs
+
+keytool -import -trustcacerts -keystore $JAVA_HOME/lib/security/cacerts -storepass changeit -noprompt -alias du-uae -file /opt/Roamware/cos
+user/Roamware/binaries/cosengineadaptor/config/apis.du.ae.crt
+
+sudo usermod -aG wheel Somanath
+/etc/ssl/certs/
+INSERT INTO `config` (key, value) VALUES ("NTR_COS_ID_SEQ", 30000);
+default port numbers
+oracle - 1521 
+couchbase - 8091
+apache tomcat - 8080
+	
+repeating phrases or words
+mother toung accent
+profile deleting 
+rm ~/.config/google-chrome/SingletonLock
+
+git reset
+unstage the stagged changes but keep in the current working directory or locally 
+
+git restore 
+discard changes in the working directory 
+
+
+Different betwen commit
+meld <(git show COMMIT_ID:path/to/file) path/to/file
+
+meld <(git show b5e4a0747bf31ede580f88d9eed25fe67a99e263:cpp/NTRCacheLibrary/ProfileStore/SubscriberProfileHandler.cpp) cpp/NTRCacheLibrary/ProfileStore/SubscriberProfileHandler.cpp
+
+check the unmerged change 
+git diff cpp/NTRCacheLibrary/ProfileStore/SubscriberProfileSerializerCB.h
+
+f you want to see the changes that are staged to be committed for a specific file, you can use the git diff --staged command.
+git diff --staged cpp/NTRCacheLibrary/DataCaches/SubscriptionRangeCOSCache.cpp
+git diff --staged --color
+
+
+ 1009  2024-01-24 10:35:10 	git log
+ 1010  2024-01-24 10:39:32 	git show b5e4a0747bf31ede580f88d9eed25fe67a99e263
+ 1011  2024-01-24 10:40:02 	git show --name-only b5e4a0747bf31ede580f88d9eed25fe67a99e263
+ 1012  2024-01-24 10:40:07 	history
+RFC - Ramware foundation classess
+cbprompt
+
+git cherry-pick -x 8cae7c1a086f0c2f528772ac2acf9ccd38513ad7
+
+SELECT * FROM v$version;
+SELECT name FROM v$database;fcp
+SELECT tablespace_name, status FROM dba_tablespaces;
+SELECT username, account_status FROM dba_users;
+SELECT file_name, tablespace_name FROM dba_data_files;
+
+export LD_LIBRARY_PATH=/opt/DSI/64:/opt/external/5.0/couchbase/3.1.0/linuxlib64/rhel7:/home4/Somanath/NTRSource/NTR80/conveCB/Build/lib/
+
+sql> SPOOL 
+
+jdbc:oracle:thin:@172.16.129.49:1521:rwdb12c
+
+/opt/oracle/product/19.17.0/client_64bit/bin/sqlplus ntrsomj/ntrsomj@172.16.129.66:1521/RWDB12C
+/opt/oracle/product/19.17.0/client_64bit/bin/sqlplus ntrsomj1/ntrsomj1@172.16.129.66:1521/RWDB12C
+
+/opt/oracle/product/19.17.0/client_64bit/bin/sqlplus ntrsomj1/ntrsomj1@172.16.129.66:1521/RWDB19C
+
+
+imp ntrsomj/ntrsomj@rwdb12c file=dra12c.dmp log=dra19cimport.log fromuser=ntr70t touser=ntrsomj
+
+exp ntr70t/ntr70t@rwdb12c file=dra12c.dmp log=dra12c.log
+
+exp ntr80t/ntr80t@rwdb18c file=ntr18c.dmp log=ntr18c80t.log
+
+http://172.16.132.92/release/ThirdParty/DSI/6.9.1-1/
+
+ sqlplus user/password@ip_address:port/service_name
+
+alias rsql='sqlplus ntrsomj@rwdb12c/ntrsomj'
+alias rsql1='sqlplus ntrsomj1@rwdb12c/ntrsomj1'
+alias rsqlold='sqlplus ntrsomj@rwdevdb/ntrsomj'
+alias rsqlold1='sqlplus ntrsomj1@rwdevdb/ntrsomj1'
+
+
+/opt/couchbase/bin/cbimport json -c couchbase://<Target-CB-Server-IP> -u <cb-username> -p <cb-password> -b <bucket-name>  -d file:///tmp/lines2.json -f lines -g %dbengg_cbe_doc_key% -t 4 --ignore-fields dbengg_cbe_doc_key 
+[04/01 11:09] Rajath Hegde
+replace db_engg_cbe_doc_key with __k ------export
+10.10.19.118
+
+/opt/couchbase/bin/cbexport json -c couchbase://192.168.130.168 -u cbadmin -p cbadmin -b config --include-key dbengg_cbe_doc_key -o mycb.json -f lines -t 4 
+/opt/couchbase/bin/cbimport json -c couchbase://192.168.130.168 -u cbadmin -p cbadmin -b config  -d mycb.json -f lines -g %dbengg_cbe_doc_key% -t 4 --ignore-fields dbengg_cbe_doc_key 
+
+ 1022  sudo yum remove DSI-6.13.2-1.el8.x86_64.rpm
+ 1023  sudo yum remove DSI-6.9.1-1.el6.i386.rpm 
+ 1024  sudo yum clean all
+ 1025  sudo yum update
+ 1026  sudo rpm -Va --nofiles --nodigest
+ 
+
+  999  sudo sysctl -w kernel.msgmnb=624000
+1000  sudo sysctl -w kernel.msgmni=256
+sudo firewall-cmd --permanent --add-port 9904/tcp
+sudo firewall-cmd --list-ports
+
+sudo firewall-cmd --permanent --add-port 8080/tcp
+ipprobe parameter on 53 server
+export LD_LIBRARY_PATH=/opt/oracle/product/18.3.0/client_1/lib:/libs::/opt/DSI/64/:/lib:/home4/Somanath/ipprobe/opt/Roamware/libs/
+export ORACLE_HOME=/opt/oracle/product/18.3.0/client_1
+/home4/Somanath/ipprobe/opt/Roamware/binaries/ipprobe/bin> echo $ORACLE_HOME
+
+sudo tcpdump -i eth0 -w capture.pcap
+
+Before taking issue for sprint make sure below points
+1. Is this issue got replicated?
+2. Do we have enough data from the site to take this in a sprint
+3. We will request all necessory data from site within initial 7 days.
+4. If we dont get any one from 1st and 2nd point we should make this a red
+5. Developer should udpate the RAG status
+6. If you give more work to TL, he will be a team member not a tech lead. He will not get bandwidh to help other team members and QE.
+7. more time for documentations and jira items
+8. 
+SRDC 				Configured
+258,602,01,OrangeEgypt             30                 30% 556
+259,602,02,VodafoneEgypt S.A.E                     39.8% 
+5422,602,03,EtisalatMisr                           30%
+
+awk -F, '(($16 == 2) || ($16 == 23) || ($16 == 2001)) && ($21 == 318) && ($33 == 356) && ($36 == 356) && ($28 == 258)' roamerdata.app4.20231109-0* | cut -d , -f3,14,20 | grep SS7_TXN_CLOSE | cut -d, -f1 | sort | uniq | wc -l
+
+awk -F, '(($16 == 2) || ($16 == 23) || ($16 == 2001)) && ($21 == 318) && ($33 == 431) && ($36 == 431) && ($28 == 420)' roamerdata.app4.20231109-0* | cut -d , -f3,14,20 | grep SS7_TXN_CLOSE | cut -d, -f1 | sort | uniq | wc -l
+
+awk -F, '(($16 == 2) || ($16 == 23) || ($16 == 2001)) && ($21 == 318) && ($33 == 356) && ($36 == 356) && (($28 == 258) || ($28 == 259) || ($28 == 5422))' 
+roamerdata.app6.log | cut -d , -f44 | less
+
+filtering out the configured %
+awk -F, '(($16 == 2) || ($16 == 23) || ($16 == 2001)) && ($21 == 318) && ($33 == 301) && ($29 == 276)' 
+
+awk -F, '(($16 == 2001) && ($21 == 43) && ($33 == 301) && ($36 == 301))' devtrace | cut -d , -f44
+
+awk -F, '(($16 == 2) || ($16 == 23) || ($16 == 2001)) && ($21 == 118) && ($33 == 356) && ($36 == 356) && (($28 == 258) || ($28 == 259) || ($28 == 5422))
+Actvites to work on bugs
+	Going throguth JIRA details, 
+	Going through Email chain
+	Going roamertrace, NTR.log 
+	Understanding the source code
+	Getting setup ready for replicate including same tag and databse 
+	Replicating the issue 
+	Finding out the route cause 
+	Fixing the bug 
+	Check-in fix in different branches 
+
+Analysis based on below logs 
+Request necessory setup details, including NTR Version, RTag, and Database in use etc. OR you can ask them to run the following commands to collect essential setup detail
+                networktr -v
+      cat /etc/os-release
+      file networktr
+      ldd networktr(if required)
+Check if there have been recent updates or changes to labels or configurations on the site that might triggered the issue.
+Ask if user have made configuration changes or if there have been major system activities just before the issue was observed.
+Inquire about how frequently the issue is happening. Is it a recurring problem, or is it in-consistent?
+Check if the issue is specific to particular IMSIs, networks, zones, or nodes.
+Determine if the issue occurs during high or low traffic loads.
+Request relevant logs, including Roametrace, NTR, Trap, and KPI logs.
+Ask for configuration details, such as TR.cfg, fsmpapp.properties, system parameters, network settings, and cos details. These can get from site's cache dumps.
+For more information you can request pcaps, rwmonitors, ptrace, and core dumps (for C++ applications).
+As per me best way to resolve the issue is to replicate it in a dev env. Try to recreate the same scenario case that triggered the issue on the site.
+While replicating issue try to match dev setup to site setup.
+If possible check the traces traffic source entities like DRA, IPProbe and SSTP
+Check whether the issue has a functionality impact or any revenue leakage.
+
+git push -u origin pr/pgcb
+
+git checkout -t remotes/origin/NTR80_PG-8.0
+git checkout pr/pg_helm_updates
+
+The new operator can be overloaded, whereas the malloc function cannot.
+If there is not enough memory, the new operator throws an exception, whereas the malloc function returns null.
+The return type of the new operator is of the same type for which the memory was allocated. We don't need to do typecasting.
+The new operator automatically computes the size of the data object. We don't need to use the sizeof() operator.
+The new operator allows us to initialize objects while creating memory space for them.
+
+kubectl cluster-info
+~/.kube/config
+cd ../
+~/.kube
+mkdir .kube
+cp Downloads/testk8s.config  ~/.kube/config
+kubectl get nodes
+sudo snap install helm
+sudo snap install helm --classic
+helm
+kate .kube/config 
+kubectl create namespace mobileum-dev
+kubectl get pods
+helm install icampaign -f /home/sakshi/Downloads/icampaign.yaml icampaign
+helm dependency build icampaign
+helm install icampaign -f /home/sakshi/Downloads/icampaign.yaml icampaign
+helm list
+helm uninstall icampaign
+kubectl get pods -w
+kubectl get secrets
+helm dependency build icampaign
+helm dependency update icampaign
+helm install icampaign -f /home/sakshi/Downloads/icampaign.yaml icampaign
+kubectl exec -it icampaign-0 -- sh
+helm upgrade icampaign -f /home/sakshi/Downloads/icampaign.yaml icampaign
+kubectl logs icampaign-0
+kubectl describe pod icampaign-0
+
+OratoryMastery
+Clarity: They communicate their message clearly and concisely, making it easy for the audience to understand.
+Engagement: They capture the audience's attention and maintain their interest throughout the presentation.
+Confidence: They exude confidence, which can inspire trust and credibility in their message.
+Knowledge: They are well-informed about the topic they are discussing and can provide valuable insights and information.
+Organization: They structure their speech or presentation logically, with a clear beginning, middle, and end.
+Body Language: They use appropriate gestures, facial expressions, and body language to enhance their message.
+Voice Control: They modulate their voice, tone, and volume effectively to convey emotion and emphasize key points.
+Empathy: They connect with their audience by showing empathy and understanding their needs and perspectives.
+Adaptability: They can adjust their communication style to suit different audiences and situations.
+Good Speaker (Audio Equipment):
+A good speaker, in the context of audio equipment, refers to a high-quality loudspeaker or speaker system used to reproduce sound accurately and faithfully. Characteristics of a good speaker in this context include:
+
+
+$expdp <DB_user>/<DB_pasword>@<TNSstring> directory=EXPSITEDMP dumpfile=<dumpfile_name>.dmp logfile=exp_<dumpfile_name>.log owner=<DB_USER> compression=all version=<TargetDBexactversion>
+
+sql or oracle db gui
+
+To add an application to the search box or launcher in the GUI on Fedora,
+nano ~/.local/share/applications/dbeaver.desktop
+[Desktop Entry]
+Name=DBeaver
+Exec=/home/somanath/packages/dbeaver/dbeaver
+Icon=/path/to/dbeaver/icon.png
+Type=Application
+Categories=Development;Database;
+
+update-desktop-database ~/.local/share/applications
+
+dos2unix
+[somanath@fedora RNS-NTR]$ git ls-files --eol  docs/relnotes 
+i/lf    w/lf    attr/text             	docs/relnotes/NTR61ReleaseNote.txt
+i/lf    w/lf    attr/text             	docs/relnotes/NTR70ReleaseNote.txt
+i/lf    w/crlf  attr/text             	docs/relnotes/NTR80ReleaseNote.txt
+[somanath@fedora RNS-NTR]$ dos2unix docs/relnotes/NTR80ReleaseNote.txt
+dos2unix: converting file docs/relnotes/NTR80ReleaseNote.txt to Unix format...
+[somanath@fedora RNS-NTR]$ git ls-files --eol  docs/relnotes 
+i/lf    w/lf    attr/text             	docs/relnotes/NTR61ReleaseNote.txt
+i/lf    w/lf    attr/text             	docs/relnotes/NTR70ReleaseNote.txt
+i/lf    w/lf    attr/text             	docs/relnotes/NTR80ReleaseNote.txt
+[somanath@fedora RNS-NTR]$ ^C
+[somanath@fedora RNS-NTR]$ 
+
+dos2unix
+
+--platform=linux/amd64 docker.io/alpine:3.18.2
+
+git log --show-signature --pretty=fulle
+
+Helm Chart Testing and Automation
+
+Automated the process of building image contexts and creating container images, in addition to developing and testing Helm Chart scripts for the Release team for the following applications:
+NTR8.0 (Helm Chart)
+OTA8.0 Automation (Helm Chart)
+IMAS-GUI8.0 (Helm Chart)
+NTR9.0 (Context + Helm Chart)
+Soraf Proxy and Soraf SA (Context + Helm Charts)
+
+Assumed shared setup by Dimo, with one-day contingency.
+
+git branch newbranch oldbranch
+git checkout 
+git status
+git commint -m "sdfds"
+
+git clean -f
+git clean -fd
+
+
+2023-07-31 18:13:07 CLSPCOYKVZWvRGW-L-MB-CORE-SOR01	NTR
+
+# Show a colorful and compact git log
+alias gitlog='git log --graph --oneline --all --decorate'
+
+# Show a detailed git log with a colored diff
+alias gitlogd='git log -p'
+
+# Show a colored and compact git diff
+alias gitdiff='git diff --color'
+
+# Show a detailed git diff with word-level changes
+alias gitdiffw='git diff --color --word-diff'
+
+# Show a list of local branches with the last commit for each
+alias gitbranches='git branch -v'
+
+# Show a list of stashed changes
+alias gitstash='git stash list'
+
+# Apply the most recent stash
+alias gitstashapply='git stash apply'
+
+# Apply the most recent stash and remove it from the stash list
+alias gitstashpop='git stash pop'
+
+# Create a new stash with a custom message
+alias gitstashsave='git stash save'
+
+# Amend the last commit with staged changes
+alias gitamend='git commit --amend'
+
+# Show a list of remote repositories
+alias gitremotes='git remote -v'
+
+# Show only tracked files in git status
+alias gitstatus='git status --untracked-files=no'
+
+# Show only staged changes in git status
+alias gitstatusstaged='git status --porcelain'
+
+# Checkout a remote branch and create a local tracking branch
+alias gitcheckoutremote='git fetch origin && git checkout -b'
+
+# Fetch changes from the remote without merging
+alias gitfetch='git fetch'
+
+# Fetch changes from the remote and merge the current branch
+alias gitpull='git pull'
+
+# Push the current branch to the remote
+alias gitpush='git push'
+
+# Reset the current branch to the last commit (soft reset)
+alias gitreset='git reset --soft HEAD^'
+
+# Remove untracked files and directories (dry-run)
+alias gitclean='git clean -n'
+
+# Remove untracked files and directories
+alias gitcleanforce='git clean -f'
+
+# Cherry-pick a commit from another branch
+alias cherry='git cherry-pick'
+
+# Edit the SSH config file
+alias sshconfig='nano ~/.ssh/config'
+
+# SSH to a remote host with a custom username
+alias sshuser='ssh username@'
+
+# SSH to a remote host using a custom port
+alias sshport='ssh -p'
+
+# SSH to a remote host with X11 forwarding enabled
+alias sshx11='ssh -X'
+
+
+# Copy files from local to remote using SSH (requires sshpass)
+alias scp-remote='sshpass -p PASSWORD scp'
+
+# List contents and enter a directory
+alias ls-enter='ls -l && read -p "Enter the directory: " && cd $REPLY'
+	
+# Create a new directory and enter it
+mkcd() {
+  mkdir -p "$1" && cd "$1"
+}
+
+# Interactive directory selection using fzf (requires fzf installed)
+alias cdf='fzf-cd'
+
+fzf-cd() {
+  local dir
+  dir=$(find -type d | fzf +m) && cd "$dir" || return
+}
+
+# Show the size of directories and files
+alias du='du -h --max-depth=1'
+
+# Show the size of a specific directory
+alias dus='du -h --max-depth=1'
+
+# Create and enter a temporary directory
+alias tmpdir='cd "$(mktemp -d)"'
+
+# List directories with colors and human-readable sizes
+alias lsd='ls -lh --color=auto | grep "^d"'
+
+# Git aliases with auto-completion
+alias g='git'
+alias ga='git add'
+alias gaa='git add --all'
+alias gb='git branch'
+alias gco='git checkout'
+alias gcob='git checkout -b'
+alias gd='git diff'
+alias gl='git log --oneline --decorate'
+alias gp='git pull'
+alias gps='git push'
+alias gpl='git pull origin "$(git_current_branch)"'
+alias gpsl='git push origin "$(git_current_branch)"'
+alias gst='git status'
+alias gm='git commit -m'
+alias gma='git commit -am'
+alias gr='git remote'
+alias gra='git remote add'
+alias gpu='git push -u origin'
+alias gdel='git branch -d'
+
+# Show process tree with a tree-like structure
+alias pstree='pstree -pl'
+
+# Show listening ports with their corresponding processes
+alias listening-ports='sudo lsof -i -P -n'
+
+# Recursively remove empty directories
+alias rmd='find . -type d -empty -delete'
+
+# Create a backup copy of a file with a timestamp
+alias backupfile='cp -v --backup=numbered'
+
+# Search for a keyword in man pages
+alias mansearch='apropos'
+
+# Show the largest files in the current directory
+alias largestfiles='du -ah . | sort -rh | head -n 10'
+
+
+# Show CPU information
+alias cpuinfo='lscpu'
+
+# Show memory usage and process information
+alias psinfo='ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem'
+
+# Show system load and uptime
+alias sysload='uptime'
+
+
+# View the contents of a file with syntax highlighting (requires bat)
+alias cat='bat'
+
+# Show only the first few lines of a file
+alias head='head -n'
+
+# Push the current directory onto the directory stack and change to a new directory
+alias pushd='pushd'
+# Pop the top directory off the directory stack and change to it
+alias popd='popd'
+# Show the directory stack
+alias dirs='dirs -v'
+
+# Show the most recently visited directories
+alias dhistory='cd -'
+
+# Search for files containing a specific text in the current directory and its subdirectories
+alias findtext='grep -rni'
+
+# Open a file with the default program
+alias open='xdg-open'
+
+# Run the previous command with sudo
+alias please='sudo $(fc -ln -1)'
+
+# Create and open a new note in the default editor
+alias newnote='touch ~/notes/$(date +"%Y-%m-%d").txt && $EDITOR ~/notes/$(date +"%Y-%m-%d").txt'
+# Open the notes directory in the default file manager
+alias notes='xdg-open ~/notes'
+
+# Count lines of code in the current directory and subdirectories
+alias cloc='cloc'
+
+# Display HTTP response headers for a URL
+alias response-headers='curl -I'
+
+
+# Interactive process management using htop (requires htop installed)
+alias htop='sudo htop'
+
+# Securely remove a file using shred
+alias shredfile='shred -u -z'
+
+
+# Show a brief summary of git status
+alias gst='git status -s'
+
+# Show a brief summary of git log
+alias glg='git log --oneline --graph --all'
+
+# Show running services and their listening ports
+alias listening-ports='sudo lsof -i -P -n'
+
+# Show network connections and listening ports
+alias netstat='netstat -tuln'
+
+# Display the IP address of the current machine
+alias myip='curl ifconfig.me'
+
+# Show disk usage for directories sorted by size
+alias dus='du -h --max-depth=1 | sort -hr'
+
+# Show the last N commands in history
+alias hist='history'
+alias lastcmds='history | tail -n'
+
+# Clear history
+alias clearhist='history -c'
+
+# Show system information like CPU, memory, and disk space
+alias sysinfo='uname -a; lsb_release -a; df -h; free -h'
+
+# Update package lists and upgrade installed packages
+alias update='sudo apt update && sudo apt upgrade'
+
+# Install a package using apt
+alias install='sudo apt install'
+
+# Remove a package using apt
+alias remove='sudo apt remove'
+
+# Docker shortcuts
+alias dockerps='docker ps'
+alias dockerclean='docker system prune -af'
+
+# Search for a specific text in files
+alias search='grep -rn'
+
+# Count the number of lines in a file
+alias linecount='wc -l'
+
+# Check code syntax without executing it
+alias lint='pylint'
+
+# Send a GET request using cURL
+alias get='curl -X GET'
+
+# Create a tar archive
+alias tarup='tar -czvf archive.tar.gz'
+
+# Extract a tar archive
+alias tardown='tar -xzvf'
+
+# Copy to clipboard (requires o or xsel)
+alias clipboard='xclip -selection clipboard || xsel --clipboard'
+
+# Show the current timestamp
+alias timestamp='date +%s'
+
+# Show the current date and time
+alias datetime='date "+%Y-%m-%d %H:%M:%S"'
+
+# Count the number of files in a directory
+alias filecount='ls -1 | wc -l'
+
+# Count the number of directories in a directory
+alias dircount='ls -l | grep "^d" | wc -l'
+
+# Start a simple HTTP server (Python 3)
+alias serve='python3 -m http.server'
+
+# Grep with line numbers
+alias grepln='grep -n'
+
+# Edit the SSH config file
+alias sshconfig='nano ~/.ssh/config'
+
+# Show the current Git branch
+alias gitbranch='git rev-parse --abbrev-ref HEAD'
+
+# Change file permissions recursively for directories
+alias chmoddirs='find . -type d -exec chmod'
+
+# Change file permissions recursively for files
+alias chmodfiles='find . -type f -exec chmod'
+
+# Count the occurrences of a word in a file
+alias wordcount='grep -o'
+
+# Replace all occurrences of a word in a file
+alias replace='sed -i'
+
+
+# Count the occurrences of a word in a file
+alias wordcount='grep -o'
+
+# Replace all occurrences of a word in a file
+alias replace='sed -i'
+
+# Show CPU usage by process
+alias cpuusage='ps -eo pid,%cpu,comm | sort -k2nr | head -n 10'
+
+# Show memory usage by process
+alias memusage='ps -eo pid,%mem,comm | sort -k2nr | head -n 10'
+
+# Run a command with higher priority (requires nice command)
+alias high-priority='nice -n -10'
+
+# Show disk space usage for all directories in human-readable format
+alias diskusage='du -h'
+
+# Show free memory in human-readable format
+alias freemem='free -h'
+
+# Display HTTP response headers for a URL
+alias response-headers='curl -I'
+
+# Copy files from local to remote using SSH (requires sshpass)
+alias scp-remote='sshpass -p PASSWORD scp'
+
+
+# Change file permissions recursively for directories
+alias chmoddirs='find . -type d -exec chmod'
+
+# Change file permissions recursively for files
+alias chmodfiles='find . -type f -exec chmod'
+
+
+# Show the top CPU-consuming processes
+alias topcpu='top -o %CPU'
+
+# Show the top memory-consuming processes
+alias topmem='top -o %MEM'
+
+# Send a GET request using cURL
+alias get='curl -X GET'
+
+
+When setting up your .bashrc file for developers, you can include useful Bash commands and aliases to enhance productivity and provide shortcuts for common tasks. Here are some useful commands and aliases that developers often add to their .bashrc file:
+
+Git Aliases: Create aliases for common Git commands to save typing and improve productivity.
+bash
+Copy code
+# Git aliases
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gco='git checkout'
+alias gb='git branch'
+alias gl='git log'
+alias gp='git pull'
+alias gps='git push'
+Directory Navigation Aliases: Create shortcuts for frequently used directories.
+bash
+Copy code
+# Directory navigation aliases
+alias projects='cd ~/projects'
+alias documents='cd ~/Documents'
+alias downloads='cd ~/Downloads'
+alias desktop='cd ~/Desktop'
+Clear Screen Shortcut: Create an alias to quickly clear the terminal screen.
+bash
+Copy code
+alias cls='clear'
+Colorful ls: Add colors to the ls command for better visibility.
+bash
+Copy code
+# Colorful ls
+alias ls='ls --color=auto'
+Show Hidden Files: Create an alias to show hidden files in ls command.
+bash
+Copy code
+alias lsa='ls -a'
+Confirmation for rm: Add a confirmation prompt to the rm command.
+bash
+Copy code
+alias rm='rm -i'
+Useful Development Tools: Include aliases for development tools you frequently use.
+bash
+Copy code
+# Development tools
+alias python='python3'
+alias py='python3'
+alias npm='npm --no-optional'
+Custom Functions: Add custom functions for common tasks.
+bash
+Copy code
+# Custom function to create a new directory and navigate into it
+mkcd() {
+    mkdir -p "$1" && cd "$1"
+}
+Environment Variables: Set up environment variables for development tools.
+bash
+Copy code
+export JAVA_HOME="/path/to/java"
+export PATH="$PATH:/path/to/bin"
+Remember to customize these commands and aliases to fit your specific development workflow. After adding the desired commands and aliases to your .bashrc file, you can apply the changes immediately by running:
+
+bash
+Copy code
+source ~/.bashrc
+This will enable the new commands and aliases in your current terminal session.
+
+
+
+
+User
+any more
+ChatGPT
+Sure, here are some more useful Bash commands and aliases for developers to add to their .bashrc file:
+
+File Operations:
+bash
+Copy code
+# Create a new file and open it in the default editor
+alias newfile='touch new_file.txt && $EDITOR new_file.txt'
+
+# Search for a file in the current directory and its subdirectories
+alias findfile='find . -type f -iname '
+
+# Extract common archive formats
+alias extract='
+extract() {
+  if [ -f "$1" ] ; then
+    case $1 in
+      *.tar.bz2) tar xjf "$1" ;;
+      *.tar.gz) tar xzf "$1" ;;
+      *.tar.xz) tar xJf "$1" ;;
+      *.bz2) bunzip2 "$1" ;;
+      *.rar) unrar x "$1" ;;
+      *.gz) gunzip "$1" ;;
+      *.tar) tar xf "$1" ;;
+      *.tbz2) tar xjf "$1" ;;
+      *.tgz) tar xzf "$1" ;;
+      *.zip) unzip "$1" ;;
+      *.Z) uncompress "$1" ;;
+      *.7z) 7z x "$1" ;;
+      *) echo "'$1' cannot be extracted via extract()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
+'
+File Size Information:
+bash
+Copy code
+# Show human-readable file sizes
+alias ls-size='ls -lh'
+
+# Show the total size of a directory
+alias du-size='du -sh'
+Process Management:
+bash
+Copy code
+# List running processes
+alias ps='ps aux'
+
+# Kill a process by name
+alias killproc='
+killproc() {
+  pkill -f "$1"
+}
+'
+Network Information:
+bash
+Copy code
+# Show network connections and listening ports
+alias netstat='netstat -tuln'
+
+# Display the IP address of the current machine
+alias myip='curl ifconfig.me'
+Disk Usage:
+bash
+Copy code
+# Show disk usage for directories sorted by size
+alias dus='du -h --max-depth=1 | sort -hr'
+Quick Edit .bashrc:
+bash
+Copy code
+# Open .bashrc file for editing
+alias editbashrc='nano ~/.bashrc'
+SSH Shortcut:
+bash
+Copy code
+# SSH into a remote machine with a custom port
+alias sshc='
+sshc() {
+  ssh -p "$2" "$1"
+}
+'
+Grep Case-Insensitive:
+bash
+Copy code
+# Grep with case-insensitive search
+alias igrep='grep -i'
+These are just a few more commands and aliases to enhance your developer workflow. Feel free to customize them based on your specific needs and preferences. Once you've made changes to your .bashrc file, remember to run source ~/.bashrc to apply the changes to your current terminal session.
+
+
+
+
+User
+many more
+ChatGPT
+Absolutely! Here are some additional useful Bash commands and aliases for developers:
+
+Quick Directory Jumping:
+bash
+Copy code
+# Create aliases for frequently used directories
+alias proj='cd ~/projects'
+alias doc='cd ~/Documents'
+alias dl='cd ~/Downloads'
+alias dt='cd ~/Desktop'
+History Management:
+bash
+Copy code
+# Show the last N commands in history
+alias hist='history'
+alias lastcmds='history | tail -n'
+
+# Clear history
+alias clearhist='history -c'
+Process Monitoring:
+bash
+Copy code
+# Show the top CPU-consuming processes
+alias topcpu='top -o %CPU'
+
+# Show the top memory-consuming processes
+alias topmem='top -o %MEM'
+Show System Information:
+bash
+Copy code
+# Show system information like CPU, memory, and disk space
+alias sysinfo='uname -a; lsb_release -a; df -h; free -h'
+Package Management:
+bash
+Copy code
+# Update package lists and upgrade installed packages
+alias update='sudo apt update && sudo apt upgrade'
+
+# Install a package using apt
+alias install='sudo apt install'
+
+# Remove a package using apt
+alias remove='sudo apt remove'
+Docker:
+bash
+Copy code
+# Docker shortcuts
+alias dockerps='docker ps'
+alias dockerclean='docker system prune -af'
+Python Virtual Environments:
+bash
+Copy code
+# Create and activate a new Python virtual environment
+alias venv='python3 -m venv venv && source venv/bin/activate'
+Code Navigation:
+bash
+Copy code
+# Search for a specific text in files
+alias search='grep -rn'
+
+# Count the number of lines in a file
+alias linecount='wc -l'
+
+# Check code syntax without executing it
+alias lint='pylint'
+HTTP Requests:
+bash
+Copy code
+# Send a GET request using cURL
+alias get='curl -X GET'
+Networking:
+bash
+Copy code
+# Test network connectivity to a host
+alias ping='ping -c 5'
+Archiving and Compression:
+bash
+Copy code
+# Create a tar archive
+alias tarup='tar -czvf archive.tar.gz'
+
+# Extract a tar archive
+alias tardown='tar -xzvf'
+Remember to adapt these commands and aliases to your specific needs and preferred tools. Keeping your .bashrc file organized with meaningful aliases can significantly improve your command-line productivity. Don't forget to reload your .bashrc by running source ~/.bashrc after making changes.
+
+install
+dsi
+oracle 11 12 and 18 
+coucbase two versions
+java 8 and 11
+oracle 4 versions
+git installation 
+git configuration
+ACE
+meld
+podman
+kubectl
+NERDTree
+apache tomcat 
+forticlient 
+anydesk
+editor
+configure
+jira
+node
+github
+teams
+outlook
+confluence 
+empser
+node
+xclip
+dia
+couchbase 
+
+
+sysctl -a 2>/dev/null | grep disable_ipv6
+
+Check application is compiled with IPv6.
+nm -A <binary-name> | grep set_interface
+
+For checking the IPv6 connectivity between applications.
+netstat -anp | grep <port-number>
+
+sudo alternatives --config java
+/usr/lib/jvm/java
+/usr/lib/java
+
+tldr netstat
+
+column -s, -t < statsdata.ntr06.20230721-235924.log | less -#2 -N -S
+
+Activites
+Git training
+
+new or changed files for ota
+startup.sh
+catalina.sh
+log empty
+java to java8
+NetworkInfoCache.cpp
+
+D230706-NTR80_PG-8.0
+Hi, Below is my observations
+
+Critical - 
+log4j - Not present in image, indirectly included as a dependency of com.oracle.webservices.wls.jaxws-wlswss-client.jar
+
+HIGH
+woodstox - Not present in image, indirectly included as a dependency of com.oracle.webservices.wls.jaxws-wlswss-client.jar
+axis - comming from sds, No Fixed Version available yet
+guava - Not present in image, Not sure how scanner pointed this
+
+
+Activites done in this subtasks
+Resolving the ota Vulnerabilites with the trying out different SDS 6 and SDS7 labels
+Builing ota image with Apache tomcat 8 and tomcat 9
+working on config map in helm
+working on healtcheck in helm
+Improvisiong the fsmapp.properties file for ota container image
+Improvising the tr.cfg file for ntr container image
+Updating the StartOTAScript.sh 
+Working on the startup.sh file
+Checking correctness of auto mounted script from the /config directory of ota and ntr container
+Tweaking the cpu and memory configuration to create pod on limited resource k8s cluster
+Working on complete cycle of creating context, push the image, pull the image and run the helm chart to start the pod to varify the changes
+Collaborating with Dimo, Sakshi, Rakuten support team for update and resolve the issues
+Creating new couchbase cluster on the k8s cluster
+Importing the cb db pod with 187 and 113 db dump
+Creating the cb indexes manually 
+Written sperate scripts for the container from the bare metal script
+Make sure not single command or process in container doesent run in a background
+cleaning configuration parameters and updating it with tested values from the dev team.
+port number fsm and health should match
+Create your directories in your startup script and not the image
+Need to do complete cycle for creating the contex for ota and imas like downloading, unziping, installing, running context script 
+working with git, checkout, cloning new script from the dimo and verify its correctness
+Chekcing helm chart/scripts in a NTR 8 branch
+
+
+Different Issues we faced for above activities
+VM Inaccessibility due to Hard Disk Failure
+Connectivity Issue between Kubernetes Cluster Pod and Couchbase Cluster
+Microsoft team issue 
+Request for Assistance with Laptop Headphone Connectivity Issues
+Oracle Build issue 
+Helm script Issue for the icampiagn
+Helm script issue for the NTR Binary 
+Helm script issue for the OTA binary 
+OTA Context script issue developed already
+OTA pod getting down when start in non debug loop
+Pod health check issue
+Facing issue with cpu and memory on k8s cluster
+Facing issue while connecting the cb db pod on k8s cluster 
+Parital cb data was imported when two cb dump merged into one cb db pod
+When we start the pod applicaiton runs in background
+
+cb version for verizon
+ntrapps vs ntr
+__t='ntr-nws' and hnwid=43 and zcode=495 and cosid=303892
+
+
+ and cosid=303872 - all type
+ and cosid=303892 - 5gnsa
+ amd cpsod=303870 - volte
+ 
+nexus.rwb.com/mobileum/ntrapps:alpine-R230503 image pushed to Nexus Registry successfully
+
+export ARTIFACT_REGISTRY=nexus.rwb.com/mobileum
+export ARTIFACT_REGISTRY=10.10.21.80:8081/mobileum
+
+podman pull 10.10.21.80/mobileum/ota:ubi-NTR-8.0-Q240409-PG_Rakuten_HotFix
+
+axis
+commons-io
+com.fasterxml.woodstox
+
+cb
+ip - 7f2106f33ead 
+   - 7f2106f0f000
+ 24EAD
+ binary
+ 00007f243c9f3ca9
+ 
+  1419  2023-07-19 10:46:49      ldd networktr 
+ 1420  2023-07-19 10:49:01      export LD_LIBRARY_PATH=/home4/Somanath/NTRSource/NTR80/R230413/Roamware/libs:/opt/DSI/64:/opt/external/5.0/couchbase/3.3.2/linuxlib64/rhel7
+ 1421  2023-07-19 10:49:03      ldd networktr 
+ 1422  2023-07-19 10:56:31      export LD_LIBRARY_PATH=/home4/Somanath/NTRSource/NTR80/R230413/Roamware/libs:/opt/DSI/64:/opt/external/5.0/couchbase/3.1.0/linuxlib64/rhel7
+ 1423  2023-07-19 10:56:33      ldd networktr 
+ 1424  2023-07-19 10:57:47      nm -D /opt/external/5.0/couchbase/3.1.0/linuxlib64/rhel7/libcouchbase.so.7 
+ 1425  2023-07-19 11:03:29      export LD_LIBRARY_PATH=/home4/Somanath/NTRSource/NTR80/R230413/Roamware/libs:/opt/DSI/64:/opt/external/5.0/couchbase/3.3.2/linuxlib64/rhel7
+ 1426  2023-07-19 11:03:55      nm -D /opt/external/5.0/couchbase/3.1.0/linuxlib64/rhel7/libcouchbase.so.7 > nm.out
+ 1427  2023-07-19 11:03:59      vi nm.out 
+ 1428  2023-07-19 11:05:51      readelf 
+ 1429  2023-07-19 11:07:02      readelf -sW /opt/external/5.0/couchbase/3.1.0/linuxlib64/rhel7/libcouchbase.so.7  readelf.out
+ 1430  2023-07-19 11:07:08      readelf -sW /opt/external/5.0/couchbase/3.1.0/linuxlib64/rhel7/libcouchbase.so.7  > readelf.out
+ 1431  2023-07-19 11:07:11      vi readelf.out 
+
+
+	SZoneCOSDetail  data  = {0} ;
+export LD_LIBRARY_PATH=/home4/Somanath/NTRSource/NTR80/oracle/opt/Roamware/libs/:/opt/DSI/64:/opt/external/5.0/couchbase/3.3.2
+
+20230608
+ kubectl cp mobileum-dev/ntr8-0:binaries/ntr80/config/MyTR.cfg DevTR.cfg
+
+ 
+SDS7 - R230704
+SDS6 - R230501-6.0
+NTR 80 - R230503
+
+
+ota manual stpes 
+download the rpms
+extract those
+write setup.sh script 
+run setup.sh script
+install those
+install sds6 and 7 install ntr8apps and ntr8
+commenting the CLASSPATH= fromt he catalina.sh
+change the permission in script of startotaserverlet and tomcat/bin/* files
+update the fsmapp.properties 
+bundles copying and changes
+created script dir inside ota and startup.sh also --> checkin this to git
+remove & 
+rm -rf jetty-*
+rm -rf websocket-*
+rm -rf rocksdbjni-5.18.3.jar kafka-clients-3.4.0.jar ojdbc8-21.8.0.0.jar bcprov-ext-jdk15on-161.jar ojdbc7.jar.1 pdfbox-2.0.26.jar poi-4.0.1.jar TAP_0310.jar ojdbc6.jar.1 log4j-core-2.18.0.jar reactor-core-3.5.0.jar jackson-databind-2.14.2.jar fontbox-2.0.26.jar opensaml-2.6.6.jar aerospike-client-3.3.3-jar-with-dependencies.jar rhino-1.7.12.jar i2p-2.0.0.jar jfreechart-1.0.6.jar commons-io-2.1.jar commons-io-2.7.jar
+
+reactor-core-3.5.0.jar
+jackson-databind-2.14.2.jar
+
+
+changes in conext 
+& 
+and fsmapp
+rm logs
+
+[somanath@som-mobi ntr]$ xclip Chart.yaml 
+[somanath@som-mobi ntr]$ xclip -sel clip values.yaml 
+[somanath@som-mobi ntr]$ 
+
+nautilus 
+
+HTTPie  -  Alternative to wget and curl   - --  HTTPie: HTTP client, aims to be easier to use than cURL.
+                                                                            More information: https://httpie.org.
+bat         -  Alternative to cat                       ---  A `cat` clone with syntax highlighting and Git integration.
+                                                                            More information: https://github.com/sharkdp/bat.
+ncdu      - Alternative to du                         --- Disk usage analyzer with an ncurses interface.
+                                                                            More information: https://manned.org/ncdu.
+ 
+htop       - Alternative to top                        --- Display dynamic real-time information about running processes.
+                                                                            An enhanced version of `top`. More information: https://htop.dev/.
+ 
+fd            - Alternative to the find                --- Aims to be faster and easier to use than `find`.
+                                                                                More information: https://github.com/sharkdp/fd.
+ 
+exa          - Alternative to ls                          --- A modern replacement for `ls` (List directory contents).
+                                                                                More information: https://the.exa.website.
+ 
+duf          - Alternative to the df                 --- With duf, you can sort the output, list indoe information and
+                                                                                even save the output in JSON format.
+ 
+tldr           -  Alternative to man                  --- Displays simple help pages for command-line tools, from the
+                                                                                tldr-pages project.  More information: https://tldr.sh.
+
+NAME     READY   STATUS    RESTARTS   AGE
+nwtest   1/1     Running   0          2d5h
+ota-0    3/3     Running   0          2m46s
+
+
+rmsh ota
+netstat -anp
+
+no container and k8s notes
+deleting the nohup and &
+db 
+application should be run as startup - since its down k8s doesnt aware that pod is down or not.
+Create your directories in your startup script and not the image
+Use a separate script to start your application - don't use the ones that are for BM or VM
+Seprate config for different database
+Values.yaml mendatory
+Ownership of helm chart
+cleaning configuration parameters and updating it with tested values from the qe team.
+port number fsm and health should match
+Create your directories in your startup script and not the image
+
+CREATE INDEX `ind_config_type` ON `config`(`__t`) WITH { "num_replica": 0 };
+CREATE PRIMARY INDEX `#primary` ON `transaction2` WITH { "num_replica": 0 };
+CREATE INDEX `Ind_Schedule_Test` ON `config`(`process_status`,`schedule_type`,`__t`) WITH { "num_replica": 0 };
+
+CREATE INDEX `ind_transaction3_type` ON `transaction3`(`__t`)
+CREATE INDEX `index_cell` ON `config`(`hnwid`,`vlrnum`,`node_type`,`lac`,`cellid`) WHERE (`__t` = "ntr-brgcell")
+CREATE INDEX `index_guru_test3` ON `config`(`hnwid`,`zcode`,`cosid`,`nwid`) WHERE (((`__t` = "ntr-uirdcdata") and (`from_time` = "00:00:00")) and (`to_time` = "00:00:00")) WITH { "num_replica": 0 };
+CREATE INDEX `index_odreq` ON `config`(`sched_id`,`hnwid`,`zcode`,`cosid`) WHERE (`__t` = "ntr-ota-odreq") WITH { "num_replica": 0 };
+	
+
+logs/ntr80/ota/ondemandEvent
+gpg --armor --export AE5CFCE707E40D96
+unzip -q -c $1 META-INF/MANIFEST.MF
+
+x/format count address
+
+x/10xb &data[0]
+
+set print element 0
+
+reaelf 
+string 
+set 
+
+﻿UpdateProfileInOracleDB
+
+export TSAN_OPTIONS="print_timestamps=1"
+
+sha1sum /lib64/libasan.so.0
+3cf555c669dbecc17142b3880db2183be481fba4  /usr/lib64/libasan.so.6
+5b9c845e8467cc38eb6f75cdbf74ba636c355fde  /lib64/libasan.so.0
+
+md5sum /lib64/libasan.so.0
+cc ndc mcc mnc mapping
+SELECT c.* FROM `config` AS c WHERE c.__t='irdb-net' ORDER BY networkid
+
+mcc 310 505 
+mnc 590 002
+
+cc 1
+ndc 90393214
+
+
+190393214
+
+sudo unzst 'core.a\x2eout.1001.f08e178356b443a1a1e7736193ee4960.1254199.1684212805000000.zst'
+sudo gdb /u01/rel/Somanath/test/a.out 'core.a\x2eout.1001.f08e178356b443a1a1e7736193ee4960.1254199.1684212805000000'
+
+
+
+free -h -b
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi        14Gi       155Mi       174Mi       485Mi       194Mi
+Swap:          4.9Gi       4.2Gi       726Mi
+
+1262420 rel       20   0  124.5t  13.7g  14828 S  12.6  88.9   9:21.76 networktr
+
+[rel@localhost coredump]$ pmap -x 1262420 | less
+
+total kB         133689681532 14305584 14292848
+
+
+select * from config where __t='ntr-sysparam'and name like "%isd.steering.enabled.for.home%" and hnwid=43;
+
+update  config where __t='ntr-sysparam'and name like "max.cos.per.zone";
+
+update config set configvalue="T" where __t='ntr-sysparam'and name like "ondemand.enabled";
+
+
+./networktr -c MyTR.cfg > asan.log 2>&1
+
+&>
+ 
+set logging on 
+set logging of
+thread info
+thread id_
+thread apply all bt
+thread apply all bt full
+up 
+down 
+
+
+$cat buildNTR.log | grep "\[-W" | cut -f2 -d'[' | sort > buildNTR.log.warn
+
+__t='ntr-sysparam' and name like 'anti%'
+
+
+Artifact registries
+nexus
+quay
+docker hub
+
+
+g++ -dM -E -x c++ /dev/null | grep -F __cplusplus
+#define __cplusplus 199711L
+
+
+ g++ --version
+g++ (GCC) 4.8.5 20150623 (Red Hat 4.8.5-44)
+
+[somanath@fedora RNS-NTR]$ git commit -m "[NTR-17051] - Image build failure in NTR8_PG-8.0"
+
+[NTR-17051] - Image build failure in NTR8_PG-8.0
+
+Q240410-PG_Rakuten_HotFix-8.0
+
+Q240410
+
+DRA setup on server
+
+Downloaded packages from portal http://10.10.18.53/release-RHEL7.2/pkgNEW/DRA/1.0/R230103/ with jdk 1.8.
+RWARDRA1.0-23.01.03-R.i386.rpm  (DRA/1.0/R230103)
+
+RWARSDSAnalytics7.0-23.01.12-R.i386.rpm (nodb/R230112/Withjdk1.8)
+
+RWARSDSEmbedded7.0-23.01.12-R.i386.rpm (nodb/R230112/Withjdk1.8)
+
+RWARSDSENV6.0-23.01.03-R.i386.rpm (nodb)
+
+RWARSDS6.0-23.01.08-R.i386.rpm  (nodb)
+
+RWARSDS7.0-23.01.12-R.i386.rpm (nodb/R230112/Withjdk1.8)
+ 
+
+rpm2cpio RWARSDSENV6.0-23.01.03-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDS6.0-23.01.08-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDS7.0-23.01.12-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDSEmbedded7.0-23.01.12-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARSDSAnalytics7.0-23.01.12-R.i386.rpm | cpio -idmv
+
+rpm2cpio RWARDRA1.0-23.01.03-R.i386.rpm | cpio -idmv
+
+ 
+Download oracle,jdk, dsi from release portal
+http://10.10.18.53/release-RHEL7.2/ThirdParty/RHEL8/Oracle/
+http://10.10.18.53/release-RHEL7.2/ThirdParty/RHEL8/DSI/
+http://10.10.18.53/release-RHEL7.2/jdk/
+
+
+Installed oracle 32 and 64 bit clients as below
+yum install oracle19-19.11.0-1.el8.i386.rpm
+yum install oracle19-19.11.0-1.el8.x86_64.rpm
+copied tnsnames from another server and able to connect
+
+Execute ant install for iMas and sds
+
+/home/venkat/Package/Oracle/opt/Roamware/temp/iMAS
+
+ant install
+
+/home/venkat/Package/Oracle/opt/Roamware/temp/sds
+
+export MALLOC_CHECK_=2 in dev setup
+asan / tsan 
+
+
+docker run -it --name soraf31 994ca9054a8c
+docker run -it --rm --entrypoint sh --name soraf31new a2577d183230
+docker run -it --rm --entrypoint sh --name soraf41 b00c2447d55f
+a2577d183230
+
+FROM mcalizo/rhel7.2systemd:latest
+
+LABEL email=somanath.jagadale@mobileum.com
+
+RUN mkdir /roamware
+WORKDIR /roamware
+
+COPY bin/networktr bin/
+COPY cfg/* cfg/
+COPY lib/* lib/
+COPY scripts/* scripts/
+
+RUN chmod +x bin/networktr
+
+ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/roamware/lib
+
+ENTRYPOINT ./bin/networktr -c cfg/MyTR.cfg
+
+{
+  "insecure-registries" : [ "nexus.idc.net:443" ],
+  "insecure-skip-tls-verify": true
+}
+
+
+{
+      "insecure-registries" : [ "nexus.idc.net:443" ]
+}
+
+
+      "insecure-registries" : [ "https://nexus.idc.net/v2/:443" ]
+	  
+	  sudo systemctl start docker
+Job for docker.service failed because the control process exited with error code. See "systemctl status docker.service" and "journalctl -xe" for details.
+
+
+
+
+optioal to below CA(Certificate authority) intallaiton for docker setup 
+
+To configure Docker to allow insecure repositories, follow these steps:
+
+Create or edit the Docker daemon configuration file /etc/docker/daemon.json on your host machine.
+
+Add the following content to the configuration file:
+
+json
+Copy code
+{
+    "insecure-registries": ["your_registry_domain.com:port"]
+}
+Replace "your_registry_domain.com:port" with the domain and port number of the insecure repository you want to access.
+
+Save the changes to the configuration file.
+
+Restart the Docker daemon to apply the changes.
+
+docker run -it --rm --entrypoint sh --name soraf12 3db4f55df22b
+
+
+nessus 
+
+delete empty spaces 
+:%s/\s\+$//e
+
+g++ compiler flags
+-fstack-protector
+-fsanitize=address package need is libsan
+-fsanitize=thread package need is libtsan
+
+
+Release server 
+RHEL7.2 10.10.18.53 - Production build release server
+RHEL7.7
+RHEL7.9             - Test build release server 
+
+What would need if I take the cb db export 
+userid/userpass/serverIP/bucketname/destExportfile/logfile/
+////////////////////// dump script
+#!/bin/bash
+
+CB_SERVER="SOLKTXESVZWvRGW-C-MB-CORE-APCB03"
+DATA_DIR="/opt/Roamware"
+LOG_DIR="/opt/Roamware"
+my_date=$(date +"%Y%m%d_%H%M%S")
+dump_filename=$DATA_DIR/transaction2_export.txt
+log_filename=$LOG_DIR/txn2_export_$my_date.log
+dump_stderr_filename=$LOG_DIR/txn2_export_stderr_$my_date.log
+test=$LOG_DIR/transaction2_err.txt
+
+dump () {
+        start_time="$(TZ=UTC0 printf '%(%s)T\n' '-1')"
+        /opt/couchbase/bin/cbexport json -c couchbase://[$CB_SERVER] -u CBADMIN -p cbadmin -b transaction2 -o $dump_filename -f lines -l $dump_stderr_filename
+        
+
+}
+
+dump
+////////////////////
+
+https - ssl/tls
+
+libcrypto and libssl: These are cryptographic libraries that provide various cryptographic functions, such as encryption and decryption, digital signatures, and certificate management.
+
+woodstox-core: This is a high-performance XML processor that can be used to parse and generate XML documents.
+
+commons-io: This is a Java library that provides various utilities for working with IO operations, such as file handling and input/output streams.
+
+ncurses-libs and ncurses-terminfo-base: These are libraries that provide functions for creating text-based user interfaces in a terminal or console window.
+
+ssl_client: This is a command-line tool for testing SSL/TLS connections.
+
+busybox: This is a single executable that provides a number of common Unix utilities, such as ls, cp, mv, and rm, in a smaller footprint than the full implementations.
+
+org.json: This is a Java library for working with JSON data.
+
+libretls and libcurl: These are libraries for working with TLS/SSL connections and HTTP requests, respectively.
+
+zlib: This is a compression library that provides various compression and decompression functions.
+
+curl: This is a command-line tool for transferring data using various protocols, such as HTTP, FTP, and SMTP.
+
+json-smart: This is a Java library for working with JSON data.
+
+io.netty: This is a Java library for building high-performance network applications.
+
+commons-fileupload: This is a Java library for handling file uploads in web applications.
+
+jackson-databind: This is a Java library for working with JSON data.
+
+libcom_err: This is a library that provides error-handling functions for the ext2/ext3/ext4 filesystems.
+
+apk-tools: This is a package manager for Alpine Linux.
+
+C++ Hardning 1129
+gdb <executable> <core_file>: Start GDB with the executable and core file.
+
+where: Show the stack trace of the program at the time of the crash.
+
+info registers: Display the contents of all the CPU registers at the time of the crash.
+
+info threads: List all threads in the program.
+
+thread <thread_number>: Switch to a specific thread.
+
+bt full: Display a detailed stack trace of the current thread.
+
+up/down: Move up and down the stack frames in the current thread.
+
+print <variable_name>: Print the value of a variable.
+
+info locals: Show the values of all local variables in the current stack frame.
+
+info args: Show the values of all function arguments in the current stack frame.
+
+x/<format> <address>: Examine memory at a specific address using a specific format.
+
+run: Start the program with the same arguments as the crash.
+
+set args <new_arguments>: Set new arguments for the program.
+
+set print address on: Display memory addresses when printing variables.
+
+set pagination off: Disable pagination when displaying long output.
+
+Mirae Asset Emerging Bluechip Fund - Growth
+
+process memory 
+/home4/Somanath> ps --no-headers -o rss 27610 | awk '{ printf("%.2f MB\n", $1/1024) }'
+
+
+abs queries for the venkat
+1. we are not checking the cos id when we check the vlr id
+2. nmax and nodemax, nodeInNetwork will not hit in the area
+3. do we need to check or consider anything explicitly for the srdc in case of area
+4. Inter TR is working in the SS7 
+
+du -sh ./* 2&> /dev/null
+
+SCAPEFORDUPA
+
+In the Java Virtual Machine (JVM), the Java heap is divided into several memory pools, each serving a specific purpose. 
+The different pools are:
+
+Young Generation: This is where objects are created and stored initially. The young generation is further divided into two memory pools, 
+the eden space and the survivor spaces (S0 and S1).
+
+Old Generation: This is where objects are moved after they have survived a certain number of garbage collections in the young generation. 
+The old generation is also known as the tenured generation.
+
+Permanent Generation: This is where class metadata and static variables are stored.
+
+Metaspace: This is where the JVM stores class metadata, starting from Java 8. In previous versions of Java, the permanent generation was 
+used for this purpose.
+
+Each memory pool has its own garbage collector, responsible for managing the memory in that pool. The choice of which memory pool to use 
+for storing an object depends on the object's size and age. Understanding the different memory pools and their roles is important for 
+tuning the JVM and avoiding memory-related issues such as OutOfMemoryErrors.
+
+what is eden space and the survivor spaces in java jvm
+In the Java Virtual Machine (JVM), the eden space and the survivor spaces are part of the young generation memory pool. The young generation is where newly created objects are initially stored.
+
+Eden Space: The eden space is the main memory pool in the young generation, where most objects are initially stored. When the eden space becomes full, a minor garbage collection is triggered to reclaim memory by removing objects that are no longer being used.
+
+Survivor Spaces (S0 and S1): The survivor spaces are smaller memory pools in the young generation where objects that have survived a minor garbage collection are moved. If an object survives a few minor garbage collections, it is eventually moved to the old generation. The survivor spaces are used to help minimize the number of objects that need to be moved to the old generation, thus reducing the amount of time spent in full garbage collections.
+
+In summary, the eden space is used for storing most new objects, while the survivor spaces are used for storing objects that have survived a few minor garbage collections. The use of the eden space and the survivor spaces helps minimize the time spent in full garbage collections, which can improve the overall performance of the JVM.
+
+
+This is a log generated by the jstat command line tool in Java, which provides information about the performance statistics of a Java Virtual Machine (JVM). The log provides data on various memory pools and garbage collection statistics of the JVM.
+
 
 This needs to be considered before working on the new feature
 
