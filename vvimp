@@ -1,3 +1,4 @@
+tcpdump -D
 linux command 
 stats 
 find / -name ls 2> /dev/null
