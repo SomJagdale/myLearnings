@@ -1,3 +1,9 @@
+enp3s0f0
+sudo tcpdump -i enp3s0f0 -nn -s 0 -w diameter_capture.pcap '(port 20161 and (tcp or ip protochain 132))'
+sudo find . -type f -name "*.log" -exec /usr/bin/rm -f {} \;
+ip.addr == 172.16.131.17 && (tcp.srcport == 20161 || tcp.dstport == 20161) && data contains "heartbeat response"
+
+diameter.cmd.code == 316
 tcpdump -D
 linux command 
 stats 
