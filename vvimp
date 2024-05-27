@@ -1,3 +1,8 @@
+while [ $(find ${NTR_CONTEXT_ROOT}/ -type d -empty | wc -l) -gt 0 ]
+	do
+		find ${NTR_CONTEXT_ROOT} -type d -empty -delete
+	done
+
 enp3s0f0
 sudo tcpdump -i enp3s0f0 -nn -s 0 -w diameter_capture.pcap '(port 20161 and (tcp or ip protochain 132))'
 sudo find . -type f -name "*.log" -exec /usr/bin/rm -f {} \;
