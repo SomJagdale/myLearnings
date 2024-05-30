@@ -1,3 +1,8 @@
+Platform runs below command to capture diameter traffic
+tcpdump -i <interface> port 3868 -w diameter_traffic.pcap
+PSO run below command to capture the traffic
+tcpdump -i any -w /opt/Roamware/logs/dev2_29may.pcap portrange 3865-3866
+
 while [ $(find ${NTR_CONTEXT_ROOT}/ -type d -empty | wc -l) -gt 0 ]
 	do
 		find ${NTR_CONTEXT_ROOT} -type d -empty -delete
