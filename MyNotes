@@ -1,3 +1,157 @@
+Platform runs below command to capture diameter traffic
+tcpdump -i <interface> port 3868 -w diameter_traffic.pcap
+PSO run below command to capture the traffic
+tcpdump -i any -w /opt/Roamware/logs/dev2_29may.pcap portrange 3865-3866
+
+while [ $(find ${NTR_CONTEXT_ROOT}/ -type d -empty | wc -l) -gt 0 ]
+	do
+		find ${NTR_CONTEXT_ROOT} -type d -empty -delete
+	done
+
+enp3s0f0
+sudo tcpdump -i enp3s0f0 -nn -s 0 -w diameter_capture.pcap '(port 20161 and (tcp or ip protochain 132))'
+sudo find . -type f -name "*.log" -exec /usr/bin/rm -f {} \;
+ip.addr == 172.16.131.17 && (tcp.srcport == 20161 || tcp.dstport == 20161) && data contains "heartbeat response"
+
+diameter.cmd.code == 316
+tcpdump -D
+linux command 
+stats 
+find / -name ls 2> /dev/null
+We redirect stderr(2) to stdout(1). We use &1 to mention to the shell that the destination file is a file descriptor and not a file name.
+command > /dev/null 2>&1
+
+There are four kinds of this database: document databases, key-value stores, column-oriented databases, and graph databases.
+
+ 1026  2024-05-08 11:51:01 	cat /var/log/messages
+ 1027  2024-05-08 11:51:09 	cat /var/log/boot.log
+ 1028  2024-05-08 11:51:15 	sudo cat /var/log/boot.log
+ 1029  2024-05-08 11:51:40 	journalctl -b
+ 1036  2024-05-08 11:52:50 	dmesg | grep pci
+ 1037  2024-05-08 11:54:07 	lspci | grep VGA
+ 1038  2024-05-08 11:54:34 	glxinfo | grep "OpenGL renderer"
+ 1039  2024-05-08 11:56:50 	history
+
+lspci | grep -i vga
+
+MDS - can be used by pso to pull the image
+keytool
+	mylocal imas setup
+	ntruser/ntruser789
+file your own defects	
+
+git revert e630801afaa2f35dd5b599a66a2f879bad1fc139
+
+10.10.21.101
+ 1007  2024-04-10 09:47:30 	podman pull nexus.rwb.com/mobileum/ota:alpine-Q240410-PG_Rakuten_HotFix-8.0
+				podman pull nexus.rwb.com/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
+				podman pull 10.10.21.101/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
+				
+ 1008  2024-04-10 09:49:41 	podman imagges
+ 1009  2024-04-10 09:49:45 	podman images
+ 1010  2024-04-10 09:49:54 	podman save 10.10.21.101/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0 > ota_image_11.tar
+ 
+ podman run -it --name otac11 --entrypoint sh 063128da0135
+ 063128da0135
+  podman run -it --name ntrc1 --entrypoint sh 5867ca89792c
+ 
+podman pull nexus.rwb.com/mobileum/ntr:alpine-Q240410-PG_Rakuten_HotFix-8.0
+ 
+podman pull nexus.rwb.com/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
+ 
+Pending and KB
+oracle integration not merged in main
+cb fresh insallation new fields in the documents
+
+lastAMBRCheckTime needs to delete
+how to pull the image 
+how to make tar for the image
+
+will check ula for every message, even though we are receiving message from the same network, since we are not keeping network to ambr received or not, or any last amber check timer.
+once fallback from 5gnsa to next tech, timer will start.
+
+fallback when ambr not received and only one network is available 
+
+CLogger::Debug(__FILE__, __LINE__, "[%s][%.f][%s] NTR has decided to steer this subscriber with ALL type cos[%d] even if override is present", event->baseEventPtr->roamerInfo.imsi, event->txnID, CTRUtils::GetMesgDescription(event->mesgType), event->baseEventPtr->appliedData.appliedCoSID);
+CLogger::Debug(__FILE__, __LINE__, "[%s][%.f][%s] User has provided override for prioritized tech only, 2nd prioritized will consider All type cos[%d] even if override is present", event->baseEventPtr->roamerInfo.imsi, event->txnID, CTRUtils::GetMesgDescription(event->mesgType), event->baseEventPtr->appliedData.appliedCoSID); 
+CLogger::Debug(__FILE__, __LINE__, "[%s][%.f][%s] User has provided override for only to 2nd prioritized tech, 1st priotized tech will not be considred for steering", event->baseEventPtr->roamerInfo.imsi, event->txnID, CTRUtils::GetMesgDescription(event->mesgType));
+
+
+1. When NTR dont find the device entry(TAC) in database which tell subscriber handset support/not support for 5g tech, NTR assumes it suppors.
+
+2. In 5GNSA Steering when NTR dont find the AMBR in ULA, still NTR is trying for another network and hopping for AMBR might present, but my understanding 
+AMBR is associated with subscription data and not dependent of Network, so can we initiate the email to kumar about this?
+
+4. Not all traces in NTR binary are with tokens 117.
+
+5. Static CoS Priority is not implemented for the oracle, Same with GUI.
+
+6. SAR is not merged in NTR90.
+
+7. If they provide the override user has to provide two override instead of one.
+
+
+
+getupdatedfiles | xargs -I {} cp {} ./fix
+     gpu 
+     jni
+     
+     main-cpu memory to gpu memory 
+     furiour transformation 
+     gpu memory to main-cpu memory
+     
+location - firewall 
+
+SDN - Software Defined Networking
+Southbound APIs
+Southbound APIs
+
+keytool -import -trustcacerts -keystore $JAVA_HOME/lib/security/cacerts -storepass changeit -noprompt -alias du-uae -file /opt/Roamware/cos
+user/Roamware/binaries/cosengineadaptor/config/apis.du.ae.crt
+
+sudo usermod -aG wheel Somanath
+/etc/ssl/certs/
+INSERT INTO `config` (key, value) VALUES ("NTR_COS_ID_SEQ", 30000);
+default port numbers
+oracle - 1521 
+couchbase - 8091
+apache tomcat - 8080
+	
+repeating phrases or words
+mother toung accent
+profile deleting 
+rm ~/.config/google-chrome/SingletonLock
+
+git reset
+unstage the stagged changes but keep in the current working directory or locally 
+
+git restore 
+discard changes in the working directory 
+
+
+Different betwen commit
+meld <(git show COMMIT_ID:path/to/file) path/to/file
+
+meld <(git show b5e4a0747bf31ede580f88d9eed25fe67a99e263:cpp/NTRCacheLibrary/ProfileStore/SubscriberProfileHandler.cpp) cpp/NTRCacheLibrary/ProfileStore/SubscriberProfileHandler.cpp
+
+check the unmerged change 
+git diff cpp/NTRCacheLibrary/ProfileStore/SubscriberProfileSerializerCB.h
+
+f you want to see the changes that are staged to be committed for a specific file, you can use the git diff --staged command.
+git diff --staged cpp/NTRCacheLibrary/DataCaches/SubscriptionRangeCOSCache.cpp
+git diff --staged --color
+
+
+ 1009  2024-01-24 10:35:10 	git log
+ 1010  2024-01-24 10:39:32 	git show b5e4a0747bf31ede580f88d9eed25fe67a99e263
+ 1011  2024-01-24 10:40:02 	git show --name-only b5e4a0747bf31ede580f88d9eed25fe67a99e263
+ 1012  2024-01-24 10:40:07 	history
+RFC - Ramware foundation classess
+cbprompt
+
+git cherry-pick -x 8cae7c1a086f0c2f528772ac2acf9ccd38513ad7
+
+
 metaphorically
 culinary
 ingrediants 
