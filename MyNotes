@@ -44,14 +44,10 @@ file your own defects
 
 git revert e630801afaa2f35dd5b599a66a2f879bad1fc139
 
-10.10.21.101
- 1007  2024-04-10 09:47:30 	podman pull nexus.rwb.com/mobileum/ota:alpine-Q240410-PG_Rakuten_HotFix-8.0
-				podman pull nexus.rwb.com/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
-				podman pull 10.10.21.101/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0
+
 				
  1008  2024-04-10 09:49:41 	podman imagges
  1009  2024-04-10 09:49:45 	podman images
- 1010  2024-04-10 09:49:54 	podman save 10.10.21.101/mobileum/ota:alpine-Q240411-PG_Rakuten_HotFix-8.0 > ota_image_11.tar
  
  podman run -it --name otac11 --entrypoint sh 063128da0135
  063128da0135
@@ -182,7 +178,6 @@ Aspects of speech Developement
 5. Work on the body language 
 6. Work on Pitch.
 
-ssh-keygen -R 10.10.17.64
 sudo dnf install filezilla
 
 what is difference statically loaded vs dynamically loaded .so libraries
@@ -261,7 +256,6 @@ http://172.16.132.92/release/ThirdParty/DSI/6.9.1-1/
 /opt/couchbase/bin/cbimport json -c couchbase://<Target-CB-Server-IP> -u <cb-username> -p <cb-password> -b <bucket-name>  -d file:///tmp/lines2.json -f lines -g %dbengg_cbe_doc_key% -t 4 --ignore-fields dbengg_cbe_doc_key 
 [04/01 11:09] Rajath Hegde
 replace db_engg_cbe_doc_key with __k ------export
-10.10.19.118
 
 /opt/couchbase/bin/cbexport json -c couchbase://192.168.130.168 -u cbadmin -p cbadmin -b config --include-key dbengg_cbe_doc_key -o mycb.json -f lines -t 4 
 /opt/couchbase/bin/cbimport json -c couchbase://192.168.130.168 -u cbadmin -p cbadmin -b config  -d mycb.json -f lines -g %dbengg_cbe_doc_key% -t 4 --ignore-fields dbengg_cbe_doc_key 
@@ -1055,7 +1049,6 @@ Remember to adapt these commands and aliases to your specific needs and preferre
 
 verizon details
 NTR 8.0:R230413:170423194456:Linux_3.10.0-1160.el7.x86_64:GCTLIB.5.0:COUCHBASE:64Bit:localhost.localdomain initializing|BaseApplication.cpp|.|241
-VM with core details - root@10.10.21.37 	
 
 install
 dsi
