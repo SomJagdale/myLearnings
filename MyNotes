@@ -1,3 +1,5 @@
+nohup /opt/DSI/gctload -c/opt/DSI/system.txt &
+
 Platform runs below command to capture diameter traffic
 tcpdump -i <interface> port 3868 -w diameter_traffic.pcap
 PSO run below command to capture the traffic
