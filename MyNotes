@@ -1,3 +1,14 @@
+addr2line -Cfpie /root/Roja/Roamware/binaries/ntr80/bin/networktr 0xbdfff6
+addr2line -Cfpie /root/Roja/Roamware/binaries/ntr80/bin/networktr 0xbdec3d
+addr2line -Cfpie /root/Roja/Roamware/binaries/ntr80/bin/networktr 0xbde746
+addr2line -Cfpie /root/Roja/Roamware/binaries/ntr80/bin/networktr 0x10786fc
+
+server
+nc -l -p 21152
+
+from the client
+nc 10.34.121.1 21152
+
 nohup /opt/DSI/gctload -c/opt/DSI/system.txt &
 
 Platform runs below command to capture diameter traffic
