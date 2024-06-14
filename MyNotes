@@ -1,3 +1,8 @@
+hostname
+cat /etc/hosts  --- static hostname to ip address
+cat /etc/resolve.conf  -- dns entry
+
+
 addr2line -Cfpie /root/Roja/Roamware/binaries/ntr80/bin/networktr 0xbdfff6
 addr2line -Cfpie /root/Roja/Roamware/binaries/ntr80/bin/networktr 0xbdec3d
 addr2line -Cfpie /root/Roja/Roamware/binaries/ntr80/bin/networktr 0xbde746
