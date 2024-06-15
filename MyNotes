@@ -1,3 +1,5 @@
+Wrtting blog for VI editor
+
 hostname
 cat /etc/hosts  --- static hostname to ip address
 cat /etc/resolve.conf  -- dns entry
