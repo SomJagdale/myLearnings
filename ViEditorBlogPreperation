@@ -1,3 +1,19 @@
+Hi All, 
+Recently I realised I have been working in software developement for an decade, I did lot of mistakes and learned lot of things, So I decided 
+to impart my learning lessons what I leared past 10 years, while sharing knowledge I will assure you to share information without any incenties, like sharign partial information or ask to visit on personal website or connect with me one to one. I believe sharing something with you can hugely benifit me also. 
+
+Since this is my 1st post so I have chosen the VI Editor, I am sure people having similler experiance or more than me can resonate this topic.
+Vi can seem daunting at first glance. The controls look strange, and the lack of a mouse interface might feel limiting. However, once you get over the initial learning curve, you realize that Vi is far superior for editing configuration files, programs, and other text-based tasks.
+
+I would say if you want to editor which works 
+				Its universal availability across Unix-like systems
+				with your speed of thought and imagination, 
+				Dont want to wast time to touch the mouse
+				a sense of concentration and clarity
+				compatibility issues on any server
+
+Vi’s controls are based on combining movements and actions, a logic that eventually makes perfect sense.
+
 ### Why I Love the Vi Editor: A Decade of Efficiency and Simplicity in Software Development
 
 As a seasoned back-end developer, I’ve had the privilege of working with various text editors and IDEs over the past decade. However, none have come close to matching the simplicity and efficiency offered by the Vi editor. Its universal availability across Unix-like systems ensures I can dive straight into coding without worrying about setup or compatibility issues on any server.
