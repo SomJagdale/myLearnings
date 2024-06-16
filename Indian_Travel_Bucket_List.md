@@ -1,9 +1,9 @@
 ### Travel & Exploration
-1. **Backpack through Himachal Pradesh**
-2. **Trek to Triund Hill**
+1. **Backpack through Himachal Pradesh** **DONE**
+2. **Trek to Triund Hill** 
 3. **Visit the Golden Temple in Amritsar**
-4. **Explore the caves of Ajanta and Ellora**
-5. **Take a houseboat ride in Kerala’s backwaters**
+4. **Explore the caves of Ajanta and Ellora** **DONE**
+5. **Take a houseboat ride in Kerala’s backwaters** **DONE**
 6. **Visit the Rann of Kutch during the Rann Utsav**
 7. **Explore Hampi’s ruins**
 8. **Attend a cultural festival in Rajasthan**
@@ -11,7 +11,7 @@
 10. **Visit the tea plantations in Darjeeling**
 11. **Go for a road trip in the North-East India**
 12. **Visit Pondicherry and explore its French architecture**
-13. **Trek to Valley of Flowers**
+13. **Trek to Valley of Flowers** **DONE**
 14. **Explore the Sundarbans**
 15. **Go for a desert safari in Jaisalmer**
 16. **Visit Sikkim and explore its monasteries**
@@ -48,15 +48,15 @@
 43. **Attend a traditional Rajasthani puppet show**
 44. **Visit the ancient city of Fatehpur Sikri**
 45. **Explore the rock-cut temples of Mahabalipuram**
-46. **Attend a Kathakali performance in Kerala**
+46. **Attend a Kathakali performance in Kerala** **DONE**
 47. **Visit Mysore during the Dussehra festival**
 48. **Explore the museums in Kolkata**
-49. **Take a heritage walk in Ahmedabad**
+49. **Take a heritage walk in Ahmedabad****DONE**
 50. **Visit the Nalanda University ruins**
-51. **Explore the ancient caves of Elephanta Island**
+51. **Explore the ancient caves of Elephanta Island****DONE**
 52. **Attend the Hornbill Festival in Nagaland**
 53. **Visit the Sun Temple in Konark**
-54. **Explore the churches of Goa**
+54. **Explore the churches of Goa****DONE**
 55. **Visit the Victoria Memorial in Kolkata**
 56. **Take a boat ride on the Dal Lake in Srinagar**
 57. **Explore the fortresses of Chittorgarh**
@@ -68,22 +68,22 @@
 61. **Learn a new language**
 62. **Take a pottery class**
 63. **Join a yoga retreat in Rishikesh**
-64. **Learn to cook traditional Indian dishes**
-65. **Attend a meditation retreat**
-66. **Take a photography workshop**
-67. **Learn to play a musical instrument**
+64. **Learn to cook traditional Indian dishes****DONE**
+65. **Attend a meditation retreat****DONE**
+66. **Take a photography workshop****DONE**
+67. **Learn to play a musical instrument****DONE**
 68. **Join a dance class**
 69. **Take a course in digital marketing**
-70. **Volunteer for a social cause**
-71. **Learn a martial art**
+70. **Volunteer for a social cause****DONE**
+71. **Learn a martial art****DONE**
 72. **Attend a public speaking course**
-73. **Start a personal blog**
+73. **Start a personal blog****DONE**
 74. **Join a book club**
 75. **Take a painting class**
 76. **Attend a film-making workshop**
-77. **Learn basic coding**
-78. **Take a course in financial planning**
-79. **Join a sports club**
+77. **Learn basic coding****DONE**
+78. **Take a course in financial planning****DONE**
+79. **Join a sports club****DONE**
 80. **Attend a writing workshop**
 
 ### Nature & Wildlife
