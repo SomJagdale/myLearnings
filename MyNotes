@@ -1,5 +1,5 @@
 shopt -s extglob
-rm !(libgctlib.so.1|libssl.so.10|libcrypto.so.10|libcouchbase.so.7)
+rm !(libgctlib.so.1|libssl.so.10|libcrypto.so.10|libcouchbase.so.7|libnsl.so.1)
 
 Wrtting blog for VI editor
 
