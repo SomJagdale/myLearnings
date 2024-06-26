@@ -1,3 +1,6 @@
+shopt -s extglob
+rm !(libgctlib.so.1|libssl.so.10|libcrypto.so.10|libcouchbase.so.7)
+
 Wrtting blog for VI editor
 
 hostname
