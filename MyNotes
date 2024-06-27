@@ -1,3 +1,4 @@
+Using pauses while responding or talking to people increases the power and authority
 shopt -s extglob
 rm !(libgctlib.so.1|libssl.so.10|libcrypto.so.10|libcouchbase.so.7|libnsl.so.1)
 
