@@ -1,3 +1,6 @@
+podman ps -q
+podman run -it --name aap --entrypoint sh e2ee7e125
+
 Today's Learnings
 1. Crafting Polished email
 2. Understanding Disput
