@@ -1,3 +1,9 @@
+NerdTree keys
+Ctrl-w
+Ctrl-^
+:ls
+:b _number
+
 to check the available plugins in vim
 :scriptnames
 
