@@ -1,3 +1,7 @@
+pushd /usr/local
+dirs -v
+popd
+
 NerdTree keys
 Ctrl-w
 Ctrl-^
