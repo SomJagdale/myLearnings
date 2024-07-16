@@ -1,3 +1,20 @@
+UE - User Equipement
+RAN - Radio Access NEtworks
+5G Core network - 
+AMF - Manages user equipment (UE) registration. Handles connection and mobility management.
+UDM - Unified Data Management (UDM) - Storing and updating user subscription data, such as service entitlements, Quality of Service (QoS) parameters, and user identities.
+cSEPP - Provides security for control plane messages exchanged between different network operators.
+pSEPP
+SCP - Service Communication Proxy, Routing messages between network functions. Load balancing and traffic management.
+SUPI - Subscription Permanent Identifier this is like 
+GUTI (Globally Unique Temporary Identifier)
+IMEI (International Mobile Equipment Identity)
+
+
+how to copy from pod to host machine
+kubectl cp mobileum/ntrpod:/opt/roamware/script/startup.sh /home/somanath/
+
+
 if google chrome is stopped working on fedora remove below files from 
 SingletonLock, SingletonCookie and SingletonSocket from directory /home/somanath/.config/google-chrome
 
