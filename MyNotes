@@ -1,3 +1,6 @@
+if google chrome is stopped working on fedora remove below files from 
+SingletonLock, SingletonCookie and SingletonSocket from directory /home/somanath/.config/google-chrome
+
 pushd /usr/local
 dirs -v
 popd
