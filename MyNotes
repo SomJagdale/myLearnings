@@ -1,3 +1,24 @@
+[3:14 pm] Somanath Jagadale
+To pull the image from the nexus repostory 
+ 
+podman pull nexus.rwb.com/mobileum/ota:ubi-Q240717-9.0
+ 
+Run the container from the image 
+ 
+podman run -it --name ota1345 --entrypoint sh 446ffaa78263
+ 
+To access the created container 
+ 
+podman exec -it ota112 sh
+ 
+here you can access the icamp conatiner and run the script manually 
+script/startup.sh
+ 
+add this line to your /etc/hosts file
+ 
+10.10.21.101 nexus.rwb.com
+ 
+
 CRD customer resource defination 
 SSC Service 
 DAC Dynamic admission controller
