@@ -1,4 +1,29 @@
-[3:14 pm] Somanath Jagadale
+NERDTree usage on vim editor
+1. Using Vim Buffers
+Vim maintains a list of open buffers, and you can navigate between them using buffer commands. Here are some useful commands:
+
+:b# - Switch to the previous buffer.
+:bn - Switch to the next buffer.
+:bp - Switch to the previous buffer.
+:ls or :buffers - List all open buffers.
+:b <number> - Switch to the buffer with the specified number.
+2. Using NERDTree
+If you have navigated to files using NERDTree, you can close and reopen it or use its own navigation commands:
+
+o - Open a file or directory.
+t - Open a file in a new tab.
+T - Open a file in a new tab silently.
+i - Open a file in a new horizontal split.
+s - Open a file in a new vertical split.
+u - Go up one directory.
+3. Using Vim Tabs
+If you are using Vim tabs, you can navigate between them:
+
+:tabn or gt - Go to the next tab.
+:tabp or gT - Go to the previous tab.
+:tabs - List all tabs.
+:tab <number> - Switch to the tab with the specified number.
+
 To pull the image from the nexus repostory 
  
 podman pull nexus.rwb.com/mobileum/ota:ubi-Q240717-9.0
