@@ -1,0 +1,87 @@
+Ever wondered how container runtimes create hundreds of containers, each with dedicated CPU, RAM, disk space, file system, processes, and IP address?
+
+Below are the top 3 motivation to existance of contaner runntime like docker or podman 
+Portablity - This eliminates the "It works on my machine" problem. Containers package applications with all their dependencies, ensuring that they run consistently across different environments
+Isolation -  It eliminates the problem of saying, 'Please stop your application; my application doesn't have enough RAM or CPU.  resource isolation, allowing multiple applications to run on the same host without conflicts
+Resource Efficiency: "It eliminates the problem of 'The host machine started to hang due to running multiple VMs.'  Containers are lightweight and share the host OS kernel, making them more efficient as compare to VM
+
+Container runtimes, like Docker, achieve the creation of hundreds of containers with dedicated resources through the following mechanisms
+
+Here’s a structured breakdown of the Linux system calls, APIs, and kernel mechanisms involved in container features:
+
+### 1. Namespace Isolation
+Namespaces provide process, network, and filesystem isolation for containers.
+
+- PID Namespace: Isolates process IDs so that each container has its own process space.
+  - System Call: `clone()` with `CLONE_NEWPID`
+  - Kernel Mechanism: Manages process IDs to ensure each container has its own process space.
+
+- Network Namespace:Assigns unique IP addresses to each container, providing network isolation.
+  - System Call: `unshare()`, `setns()`
+  - Kernel Mechanism: Provides network isolation, allowing containers to have separate network stacks and IP addresses.
+
+- Mount Namespace:Gives each container its own filesystem.
+  - System Call: `mount()`, `umount()`, `pivot_root()`
+  - Kernel Mechanism: Manages filesystem mounts, ensuring containers have their own filesystem views.
+
+- UTS Namespace:Provides host and domain name isolation.
+  - System Call: `unshare()`, `sethostname()`
+  - Kernel Mechanism: Isolates hostnames and domain names.
+
+- IPC Namespace:Isolates inter-process communication resources.
+  - System Call: `unshare()`, `setns()`
+  - Kernel Mechanism: Isolates inter-process communication (IPC) resources such as semaphores and message queues.
+
+- User Namespace:Isolates user and group IDs.
+  - System Call: `unshare()`, `setgroups()`, `setuid()`, `setgid()`
+  - Kernel Mechanism: Provides user and group ID isolation to manage privileges within containers.
+
+Here is the information presented in a structured format:
+
+### 2. Control Groups (cgroups)
+Control groups (cgroups) manage resource allocation and usage for containers.
+
+- CPU: Allocates specific CPU shares to each container, ensuring fair usage and isolation.
+- Memory: Limits the amount of RAM a container can use, preventing it from consuming excessive memory.
+- Disk I/O: Controls disk I/O operations to ensure balanced usage among containers.
+
+- System Call: Managed via the `cgroup` filesystem.
+
+- Kernel Mechanism: Implements resource limits for CPU, memory, and I/O using the `cgroup` filesystem and its subsystems (`cpu`, `memory`, `blkio`).
+
+### 3. Overlay Filesystem
+Overlay filesystems provide efficient storage management for containers.
+
+- Description: Uses a layered filesystem approach to efficiently share and manage storage, enabling containers to share common files while maintaining their own isolated filesystems.
+- System Call: `mount()` (with `overlay` filesystem type)
+- Kernel Mechanism: Utilizes overlay filesystems (like OverlayFS) to layer and manage container storage efficiently.
+
+### 4. Resource Configuration
+Containers can be configured with specific resource limits to control their usage.
+
+- Description: Containers are assigned resource limits (CPU, memory, etc.) to ensure stability and optimal performance of the host system.
+- System Call: 
+  - `prlimit()` for setting and querying resource limits (such as CPU and memory) for processes.
+  - `setrlimit()` for configuring limits on resource usage for processes.
+
+Below are the set of files you where you can see the details which are defined above
+1. `ls /sys/fs/cgroup/`: Lists the available cgroup hierarchies and controllers on the host.
+
+2. `cat /proc/self/cgroup`: Displays the cgroup hierarchy for the current process.
+
+3. `cat /proc/[pid]/cgroup`: Shows the cgroup hierarchy for the specified process ID.
+
+4. `/var/lib/docker/overlay2/`: Contains the layered filesystem data for Docker containers.
+
+5. `/var/lib/docker/images/`: Stores Docker images on the host system.
+
+6. `ls -l /proc/self/ns/mnt`: Lists the mount namespace of the current process.
+
+7. `ls -l /proc/self/ns/user`: Lists the user namespace of the current process.
+
+8. `ip netns list`: Lists all network namespaces on the system.
+
+9. `prlimit`: Gets or sets resource limits for processes on the system.
+
+
+By leveraging these mechanisms, container runtimes can efficiently manage and isolate resources for each container, allowing hundreds of containers to run simultaneously on a single host, depending on the available hardware resources and the resource requirements of each container.
