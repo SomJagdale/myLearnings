@@ -1,3 +1,19 @@
+git checkout origin/main -- docs/relnotes/NTR90ReleaseNote.txt
+
+enp3s0f0
+sudo tcpdump -i enp3s0f0 -nn -s 0 -w diameter_capture.pcap '(port 20161 and (tcp or ip protochain 132))'
+sudo find . -type f -name "*.log" -exec /usr/bin/rm -f {} \;
+ip.addr == 172.16.131.17 && (tcp.srcport == 20161 || tcp.dstport == 20161) && data contains "heartbeat response"
+
+diameter.cmd.code == 316
+
+linux command 
+stats 
+find / -name ls 2> /dev/null
+We redirect stderr(2) to stdout(1). We use &1 to mention to the shell that the destination file is a file descriptor and not a file name.
+command > /dev/null 2>&1
+
+
 NERDTree usage on vim editor
 1. Using Vim Buffers
 Vim maintains a list of open buffers, and you can navigate between them using buffer commands. Here are some useful commands:
