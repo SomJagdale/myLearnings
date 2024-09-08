@@ -1,3 +1,5 @@
+find . -type f -name "*.log" -delete
+
 git checkout origin/main -- docs/relnotes/NTR90ReleaseNote.txt
 
 enp3s0f0
