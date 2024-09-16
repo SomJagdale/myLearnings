@@ -1,3 +1,8 @@
+below command would avoid reboot post installing forticlient vpn tool
+sudo systemctl restart NetworkManager
+sudo systemctl daemon-reload
+sudo systemctl restart forticlient
+
 dnf list installed
 dnf repolist
 
