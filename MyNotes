@@ -1,3 +1,6 @@
+dnf list installed
+dnf repolist
+
 there was on error in sds5g 
 [javac] java.lang.OutOfMemoryError: GC overhead limit exceeded
 it got resolved by increasing limit by below commad
