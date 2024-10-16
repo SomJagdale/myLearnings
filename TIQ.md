@@ -1,5 +1,5 @@
 C++ 11
-
+ 
 ### Core Language Runtime Performance Enhancements
 
 1.  Can you explain how rvalue references and move constructors improve performance in C++11? Could you provide a practical example where using move semantics significantly reduces overhead, particularly in the context of a class that manages a resource?
