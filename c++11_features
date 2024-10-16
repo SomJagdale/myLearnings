@@ -1,0 +1,54 @@
+Core language runtime performance enhancements
+  1. Rvalue references and move constructors
+  2. constexpr – Generalized constant expressions
+
+
+Core language build-time performance enhancements
+  1. Extern template
+
+Core language usability enhancements
+  1. Initializer lists
+  2. Uniform initialization
+  3. Type inference
+  4. Range-based for loop
+  5. Lambda functions and expressions
+  6. Alternative function syntax
+  7. Object construction improvement
+  8. Explicit overrides and final
+  9. Null pointer constant and type
+  10. Strongly typed enumerations
+  11. Right angle bracket
+  12. Explicit conversion operators
+  13. Template aliases
+  14. Unrestricted unions
+
+
+Core language functionality improvements
+  1. Variadic templates
+  2. New string literals
+  3. User-defined literals
+  4. Multithreading memory model
+  5. Thread-local storage
+  6. Explicitly defaulted special member function
+  7. Explicitly deleted functions
+  8. Type long long int
+  9. Static assertions
+  10. Allow sizeof to work on members of classes without an explicit object
+  11. Control and query object alignment
+  12. Allow garbage collected implementations
+
+C++ standard library changes
+  1. Upgrades to standard library components
+  2. Threading facilities
+  3. Tuple types
+  4. Hash tables
+  5. std::array and std::forward_list
+  6. Regular expressions`
+  7.  General-purpose smart pointers
+  8. Extensible random number facility
+  9. Wrapper referenc
+  10. Type traits for metaprogramming
+  11. Uniform method for computing the return type of function objects
+
+
+
