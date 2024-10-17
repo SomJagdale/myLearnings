@@ -1,3 +1,50 @@
+
+### Data Structure Questions
+
+1. **What is the difference between a stack and a queue? Can you provide real-world examples of each?**
+
+2. **Explain the concept of a linked list. What are its advantages and disadvantages compared to an array?**
+
+3. **What is a binary tree? Can you explain the difference between a binary tree and a binary search tree (BST)?**
+
+4. **How would you implement a hash table? What are the common collision resolution techniques?**
+
+5. **What is the time complexity of searching for an element in a balanced binary search tree? How does it differ in an unbalanced BST?**
+
+6. **Can you explain the concept of dynamic programming? Provide an example of a problem that can be solved using dynamic programming.**
+
+7. **What is a graph? Describe the differences between directed and undirected graphs. When would you use one over the other?**
+
+8. **Explain the concept of a priority queue. How is it different from a regular queue, and what data structure is commonly used to implement it?**
+
+9. **What is a trie, and what are its advantages in searching and storing strings? Can you describe a scenario where a trie would be useful?**
+
+10. **What are the primary operations of a double-ended queue (deque)? In what scenarios would you prefer a deque over a vector or a list?**
+
+11. **How do you detect a cycle in a linked list? Can you describe the algorithm you would use?**
+
+12. **What is a segment tree, and when would you use it? Can you explain its basic operations?**
+
+13. **Describe the difference between depth-first search (DFS) and breadth-first search (BFS) in graph traversal. What are the use cases for each?**
+
+14. **How would you implement an LRU (Least Recently Used) cache? What data structures would you use to achieve optimal time complexity for get and put operations?**
+
+15. **What is the difference between a shallow copy and a deep copy of an object? How does this relate to data structures?**
+
+16. **Explain how you would implement a binary search algorithm. What conditions must be met for binary search to work?**
+
+17. **What are the trade-offs between using a linked list and an array for implementing a stack?**
+
+18. **Can you explain the concept of a balanced binary tree? What are some types of balanced trees?**
+
+19. **What is the importance of the load factor in hash tables? How does it affect performance?**
+
+20. **How do you find the kth largest element in an unsorted array? Describe the algorithm you would use and its time complexity.**
+
+These questions cover a range of topics and complexities within data structures, allowing you to gauge a developer's proficiency and understanding in this critical area of software development.
+
+#### Advance Level
+
 ### 1. **Explain the differences between a HashMap and a Balanced Tree in terms of time complexity, use cases, and memory consumption. When would you prefer one over the other?**
 
 **Answer:**
