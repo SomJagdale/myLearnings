@@ -64,8 +64,6 @@ Yes, **emotions** and **feelings** are deeply connected, but they are not the sa
      Regular exercise, proper sleep, and a balanced diet can improve emotional resilience.
    - **Step 11: Use Relaxation Techniques**  
      Try mindfulness, meditation, or yoga to stay grounded.
-   - **Step 12: Seek Support**  
-     Talk to a trusted friend, family member, or therapist if emotions feel overwhelming.
 
 ---
 
@@ -92,3 +90,6 @@ Yes, **emotions** and **feelings** are deeply connected, but they are not the sa
      4. Respond: Thank the person for their input and ask clarifying questions.
      5. Reflect: Later, think about how you handled the situation and what you can learn.
 
+
+## Anatoher cycle where Thought is part of it
+**Thought → Emotion → Feeling → Action**  
