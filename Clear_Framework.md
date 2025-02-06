@@ -1,4 +1,5 @@
 C.L.E.A.R. Framework for Effective Speaking
+
 1️⃣ C – Context (Set the Stage)
 🔹 Start with why the topic matters.
 🔹 Provide background information to align everyone’s understanding.
@@ -24,7 +25,10 @@ C.L.E.A.R. Framework for Effective Speaking
 🔹 Provide a next step or call to action.
 🔹 Example: “To get started with Generative AI, try learning Python and experimenting with AI tools like ChatGPT.”
 
+
+
 C.L.E.A.R. as a Listener
+
 1️⃣ C – Comprehend (Understand the Speaker’s Intent)
 🔹 Focus on what they are saying and why they are saying it.
 🔹 Avoid interrupting; instead, listen actively and ask clarifying questions if needed.
