@@ -26,4 +26,21 @@ In-detailed plan
 4th Week - Deep Learning Specialisation
 
 Wrok parallely on below habits
-1. Expressessing 
+1. Applying the C.L.E.A.R. Framework in Different Situations
+   1. Context - Set the Stage
+   2. Logic - Structure your Message (Points, Reasons, Examples )
+   3. Emotions - Connect with Listner
+   4. Action - Make it clear and Consise
+   5. Response - Encourage Two-Way Communication
+
+2. C.L.E.A.R. as a Listener
+   1. Comprehand - Understand spearkers intend
+   2. Listen Actively - Engage fully
+   3. Empathise - Connect with their perspective
+   4. Analyze Thoughtfully - 
+   5. Respond Constructively
+
+
+
+   
+
