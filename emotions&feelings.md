@@ -32,7 +32,7 @@ Yes, **emotions** and **feelings** are deeply connected, but they are not the sa
 
 ---
 
-### **2. Pause and Create Space**
+### **2. Respite - Pause and Create Space**
    - **Step 4: Take a Breath**  
      Use deep breathing techniques to calm your nervous system.  
      Example: Inhale for 4 seconds, hold for 4 seconds, exhale for 6 seconds.
