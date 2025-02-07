@@ -1,3 +1,20 @@
+Active Voice - Definition: In active voice, the subject of the sentence performs the action expressed by the verb. The focus is on the doer of the action.
+Passive Voice - Definition: In passive voice, the subject of the sentence is acted upon by the verb. The focus is on the receiver of the action, not the doer.
+
+1. "Could Have" (Possibility / Ability in the Past) - I could have been a musician, but I chose engineering.
+2. "Would Have" (Hypothetical / Unreal Past Situations) - I would have called you if I had your number.
+
+Usage	Example
+Past Habit	- When I was younger, I would read every night.
+Past Hypothetical	- If I had known, I would have helped you.
+Reported Speech (Future in the Past)	- He said he would come.
+Politeness (Present & Future)	- Would you like some tea?
+Hypothetical -	If I had more time, I would exercise daily.
+Future Hypothetical	- If it rained, we would stay home.
+What would you do if you won the lottery?
+Would you move abroad if you got a great job offer?
+Expressing Preference	- I would rather take the train.
+
 #### Phrase, Phrasel Verb, Idioms, Proverb, Metaphore, Analogies, Hyperbole, Oxymoron, Paradoxes.
 ### **100 Common Phrasal Verbs with Meanings & Examples**  
 #### **1️⃣ Daily Activities**  
