@@ -6,13 +6,21 @@ Passive Voice - Definition: In passive voice, the subject of the sentence is act
 
 Usage	Example
 Past Habit	- When I was younger, I would read every night.
+
 Past Hypothetical	- If I had known, I would have helped you.
+
 Reported Speech (Future in the Past)	- He said he would come.
+
 Politeness (Present & Future)	- Would you like some tea?
+
 Hypothetical -	If I had more time, I would exercise daily.
+
 Future Hypothetical	- If it rained, we would stay home.
+
 What would you do if you won the lottery?
+
 Would you move abroad if you got a great job offer?
+
 Expressing Preference	- I would rather take the train.
 
 #### Phrase, Phrasel Verb, Idioms, Proverb, Metaphore, Analogies, Hyperbole, Oxymoron, Paradoxes.
