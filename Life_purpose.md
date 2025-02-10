@@ -1,7 +1,3 @@
-✅ Physical health (Exercise, nutrition, sleep) - DONE
-✅ Mental health (Peace of mind, emotional resilience) 
-✅ Spiritual health (Sense of purpose, inner fulfillment)
-
 Life is a balance of multiple aspects, and no single factor alone guarantees fulfillment. However, **wisdom** lies in understanding their **interdependence** rather than choosing one over the other.  
 
 ### **1. Health – The Foundation of Everything**  
