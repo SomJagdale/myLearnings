@@ -9,25 +9,25 @@ The **C.L.E.A.R.** framework helps organize thoughts, ensuring clarity and impac
 ### **C.L.E.A.R. Breakdown**
 1. **C** → **Context** (Set the Stage)  
    - Explain **why** the topic is important.  
-   - Provide relevant background information.  
-   - Example: *"In today's data-driven world, understanding AI is crucial for businesses to stay competitive."*
+   - Provide relevant background information or Bigger picture.  
 
 2. **L** → **Logical Flow** (Structure Ideas)  
-   - Present key points in a logical sequence.  
+   - Present key points in a logical sequence/steps/points.  
    - Use lists, comparisons, or step-by-step explanations.  
-   - Example: *"To build an AI model, you need three things: data, algorithms, and computing power."*
+   - Tractionsitions between those logical points or steps
 
-3. **E** → **Examples & Evidence** (Support Claims)  
-   - Use real-world examples, statistics, or analogies.  
-   - Example: *"Netflix recommends shows based on AI algorithms that analyze your viewing habits."*
+3. **E** → **Engagement** (Support Claims)  
+   - Use real-world examples, statistics, or analogies.
+   - Examples, Evidence, Facts, Anacdotes
+   - Ask questions, encourage participation, or use storytelling, 
 
-4. **A** → **Active Engagement** (Interact with Audience)  
-   - Ask questions, encourage participation, or use storytelling.  
-   - Example: *"Have you ever wondered why YouTube suggests videos you actually like?"*
-
-5. **R** → **Resolution** (Conclude with Impact)  
+4. **A** → **Active Engagement** (Interact with Audience)
+   Access the content and information that being said try to classify
+   it in putting in Facts, Knowlege, Believes or the emotions
+   
+6. **R** → **Resolution** (Conclude with Impact)  
    - Summarize key takeaways and call to action.  
-   - Example: *"Understanding AI isn’t just for engineers—it’s for everyone shaping the future of technology."*
+
 
 ### **When to Use C.L.E.A.R.?**
 ✅ **Explaining a concept**  
