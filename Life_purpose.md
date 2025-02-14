@@ -12,7 +12,7 @@ Without health, neither wealth nor relationships can be fully enjoyed. Imagine h
 At the end of life, people rarely regret not making more money, but they often regret not spending more time with loved ones. Strong relationships provide:  
 ✅ **Support in difficult times**  
 ✅ **Joy in achievements**  
-✅ **A sense of belonging**  
+✅ **A sense of belonging**  - Love, Joy, Belonging, Support
 
 👉 **"We are not rich by what we possess but by what we can share."** – Immanuel Kant  
 
