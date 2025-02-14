@@ -10,9 +10,10 @@ Without health, neither wealth nor relationships can be fully enjoyed. Imagine h
 
 ### **2. Relationships – The Source of Meaning**  
 At the end of life, people rarely regret not making more money, but they often regret not spending more time with loved ones. Strong relationships provide:  
-✅ **Support in difficult times**  
+✅ **Love**  
 ✅ **Joy in achievements**  
-✅ **A sense of belonging**  - Love, Joy, Belonging, Support
+✅ **A sense of belonging**
+✅ **Support in difficult times**  
 
 👉 **"We are not rich by what we possess but by what we can share."** – Immanuel Kant  
 
