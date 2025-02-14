@@ -20,7 +20,7 @@ At the end of life, people rarely regret not making more money, but they often r
 ### **3. Money – The Enabler, Not the Goal**  
 Money provides comfort, security, and opportunities, but it should be a tool, not the purpose of life. It’s important to:  
 ✅ Earn enough to meet needs and dreams  
-✅ Avoid excessive attachment that leads to stress  
+✅ Invest for the Future  
 ✅ Use money wisely to **create experiences, not just possessions**  
 
 👉 **"Money is a good servant but a bad master."** – Francis Bacon  
@@ -57,7 +57,6 @@ In life, we face **uncertainties, challenges, and emotional storms**. The key to
 ### **How to Cultivate Peace of Mind?**  
 ✅ **Acceptance** – Let go of things beyond your control. (e.g., You can’t control people’s opinions, but you can control your reactions.)  
 ✅ **Mindfulness & Presence** – Stay in the moment rather than dwelling on the past or fearing the future.  
-✅ **Detachment** – Recognize that everything (money, status, problems) is temporary. Attachments create suffering.  
 ✅ **Simplicity** – Reduce unnecessary mental clutter; less distraction = more clarity.  
 ✅ **Gratitude** – Focusing on what you have instead of what’s missing reduces anxiety.  
 
@@ -75,11 +74,9 @@ In life, we face **uncertainties, challenges, and emotional storms**. The key to
 **Definition:** Emotional resilience is **your ability to handle stress, failure, criticism, and emotional pain without breaking down**. Resilient people don’t avoid difficulties; they **face them, learn from them, and grow stronger**.  
 
 ### **How to Build Emotional Resilience?**  
-✅ **Self-Awareness** – Recognize and understand your emotions instead of suppressing them.  
+✅ **Self-Awareness** – Recognize and understand your emotions instead of suppressing them Accept and Achknowldge with Mindfullness.  
 ✅ **Growth Mindset** – See failures as lessons rather than as permanent setbacks.  
 ✅ **Control Your Thoughts** – Don’t let negative thoughts spiral; replace them with constructive ones.  
-✅ **Strong Relationships** – Having supportive people makes a huge difference in how well you cope with stress.  
-✅ **Healthy Coping Mechanisms** – Exercise, journaling, meditation, or deep breathing can help regulate emotions.  
 
 ### **Signs of Emotional Resilience:**  
 ✔ You don’t let failure define you; you learn from it.  
