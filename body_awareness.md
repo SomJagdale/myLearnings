@@ -33,10 +33,10 @@ For **Gut Health & Physical Well-being**:
 (Think: **"Great People Thrive With Proper Wellness"**)  
 - **G** → GutHealth  
 - **P** → PhysicalWellbeing  
-- **T** → TruellyHungry  
-- **W** → WellHydrated  
+- **H** → TruellyHungry  
+- **H** → WellHydrated  
 - **P** → PhysicallyEngaged  
-- **W** → WellRested  
+- **R** → WellRested  
 
 For **Feeling & Mind State**:  
 👉 **F-M-P-B-B**  
