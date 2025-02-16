@@ -18,7 +18,6 @@
 ✅ Am I feeling sluggish or focused? (⚡ Productive / 😴 Drowsy)  
 ✅ Have I taken a break to reset? (Yes/No)  
 ✅ How is my breathing? (☑️ Deep & relaxed / 😤 Shallow & tense)  
-✅ Did I wake up feeling rested? (Yes/No)  
 
 📌 **Action:** Pause, deep breathe, stretch, and check in with yourself emotionally.
 
