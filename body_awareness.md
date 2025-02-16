@@ -7,7 +7,7 @@
 ✅ Am I truly hungry or just craving something? (☑️ Hungry / 😋 Craving / 😐 Bored)  
 ✅ Have I had enough water today? (Yes/No)  
 ✅ Have I moved my body today? (Yes/No)  
-✅ Do I feel ready for restful sleep? (Yes/No)  
+✅ How was my sleep/rest? (Yes/No)  
 
 📌 **Action:** Hydration, Adjust food(Fiber and Protien), movement, wind down, avoid screens, and relax for better sleep.  
 
