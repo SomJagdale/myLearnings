@@ -175,10 +175,15 @@ Wisdom is not about choosing one thing over another—it’s about creating harm
 
 
 🛠 Exercise: Write down: If I had unlimited time and money, what would I love doing every day?
+
 🛠 Exercise: Before sleeping, ask: Did I appreciate and enjoy today, or was I only chasing the next thing?
+
 🛠 Exercise: Once a week, disconnect from technology for an hour and just observe life without judgment.
+
 🛠 Exercise: Every night, spend 5 minutes journaling about your thoughts, emotions, and experiences.
+
 🛠 Exercise: Start with 5-10 minutes of breathing meditation daily. Just observe your breath.
+
 🛠 Exercise: Every morning, write down 3 things you’re grateful for.
 
 
