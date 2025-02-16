@@ -4,7 +4,7 @@
 ✅ How do I feel right now? (☑️ Energetic / 😴 Tired / 🤕 Sore)  
 ✅ How is my digestion? (☑️ Good / 🤨 Bloated / 😩 Constipated)  
 ✅ Any discomfort (headache, acidity, pain, muscle tension)? (Yes/No)  
-✅ Am I truly hungry or just craving something? (☑️ Hungry / 😋 Craving / 😐 Bored/ 😞 Stress)  
+✅ Am I truly hungry or just craving something? (☑️ Hungry / 😋 Craving / 😐 Bored)  
 ✅ Have I had enough water today? (Yes/No)  
 ✅ Have I moved my body today? (Yes/No)  
 ✅ Do I feel ready for restful sleep? (Yes/No)  
