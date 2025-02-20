@@ -11,6 +11,10 @@ Daily Voice Excersize
   - 28 Toung twister
 
 
+
+
+
+================================================================
 - Pronounce the letter H at the beginning of words like "hat" and "hamper"
 - Don't pronounce the R in a word unless it comes before a vowel
 - Make your vowels longer
