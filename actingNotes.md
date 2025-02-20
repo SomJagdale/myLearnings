@@ -1,3 +1,9 @@
+1. The Art of Relating
+2. The Art of Acceptance
+3. The Art of Giving and Receiving
+4. The Art of Concentration
+5. The Art of Not Knowing
+
 ### **1. The Art of Relating**  
 Acting is all about connection. Whether it's with another character, the audience, or even an inanimate object on stage, your ability to relate makes your performance real.  
 - **Why is this important?** If you don't genuinely react to others, the scene feels fake.  
