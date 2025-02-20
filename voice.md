@@ -1,14 +1,14 @@
 Daily Voice Excersize 
-1 Diaphram Breathing
-2 Jaw
-3 Lips
-4 Toung tip
-5 Hmmm
-6 Non-Voiced Sounds - sssss, ssssss
-7 Voiced Sounds - Zhaaaaaa, ffff
-14 Saregam - 
-21 min - fast English reading (phrases)
-28 Toung twister
+  1 Diaphram Breathing
+  2 Jaw
+  3 Lips
+  4 Toung tip
+  5 Hmmm
+  6 Non-Voiced Sounds - sssss, ssssss
+  7 Voiced Sounds - Zhaaaaaa, ffff
+  14 Saregam - 
+  21 min - fast English reading (phrases)
+  28 Toung twister
 
 
 - Pronounce the letter H at the beginning of words like "hat" and "hamper"
