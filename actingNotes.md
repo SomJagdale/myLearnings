@@ -1,5 +1,3 @@
-Certainly! These five essentials form the foundation of great acting. Let me break them down in a practical and engaging way:  
-
 ### **1. The Art of Relating**  
 Acting is all about connection. Whether it's with another character, the audience, or even an inanimate object on stage, your ability to relate makes your performance real.  
 - **Why is this important?** If you don't genuinely react to others, the scene feels fake.  
