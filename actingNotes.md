@@ -1,7 +1,7 @@
 1. The Art of Relating
-2. The Art of Acceptance
-3. The Art of Giving and Receiving
-4. The Art of Concentration
+2. The Art of Giving and Receiving
+3. The Art of Concentration
+4. The Art of Acceptance
 5. The Art of Not Knowing
 
 ### **1. The Art of Relating**  
