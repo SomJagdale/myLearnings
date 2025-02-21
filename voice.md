@@ -4,7 +4,7 @@ Daily Voice Excersize
   - 3 Lips
   - 4 Toung tip
   - 5 Hmmm
-  - 6 Non-Voiced Sounds - sssss, ssssss
+  - 6 Non-Voiced Sounds - sssss, shsss
   - 7 Voiced Sounds - Zhaaaaaa, ffff, Vi
   - 8 bottle and straw exercise - humming, sirens, 7min
   - 14 Saregam - 
