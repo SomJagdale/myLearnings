@@ -10,8 +10,8 @@ Morning Routine
 10. Daily Problem Solution
 11. Daily C++ Concept
 12. Video Recording for 5min.
-
-Evening Routine    
+13. Health Eating
 14. Gratitude Journel EOD.
 15. Revision for Maths, Python, ML
+16. Deep and Peacefull Sleep
     
