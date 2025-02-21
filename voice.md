@@ -5,7 +5,8 @@ Daily Voice Excersize
   - 4 Toung tip
   - 5 Hmmm
   - 6 Non-Voiced Sounds - sssss, ssssss
-  - 7 Voiced Sounds - Zhaaaaaa, ffff
+  - 7 Voiced Sounds - Zhaaaaaa, ffff, Vi
+  - 8 bottle and straw exercise - humming, sirens, 7min
   - 14 Saregam - 
   - 21 min - fast English reading (phrases)
   - 28 Toung twister
