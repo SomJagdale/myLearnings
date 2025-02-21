@@ -14,10 +14,11 @@ Morning Routine
 /////////////////////////////////////////////
 
   14. Health Eating
-  15. Reading News Paper
-  16. Learning, Training Session, Assigments
-  17. Daily One Call to strenthen relationship or networking
-  18. Gym
+  15. Keeping High and positive enery with excitment
+  16. Reading News Paper
+  17. Learning, Training Session, Assigments
+  18. Daily One Call to strenthen relationship or networking
+  19. Gym
 
 ///////////////////////////////////////////
 
