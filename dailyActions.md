@@ -13,6 +13,5 @@ Morning Routine
 
 Evening Routine    
 14. Gratitude Journel EOD.
-
 15. Revision for Maths, Python, ML
     
