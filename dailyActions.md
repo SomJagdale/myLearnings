@@ -12,6 +12,7 @@ Morning Routine
 12. Video Recording for 5min.
 
 Evening Routine    
-14. Gratitude Journel EOD
+14. Gratitude Journel EOD.
+
 15. Revision for Maths, Python, ML
     
