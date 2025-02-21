@@ -22,6 +22,6 @@ Morning Routine
 
 ///////////////////////////////////////////
 
-  17. Gratitude Journel EOD.
-  18. Revision for Maths, Python, ML
-  19. Deep and Peacefull Sleep
+  20. Gratitude Journel EOD.
+  21. Revision for Maths, Python, ML
+  22. Deep and Peacefull Sleep
