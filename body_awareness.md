@@ -19,7 +19,7 @@
 ✅ Have I taken a break to reset? (Yes/No)  
 ✅ How is my breathing? (☑️ Deep & relaxed / 😤 Shallow & tense)  
 
-📌 **Action:** Pause, deep breathe, stretch, and check in with yourself emotionally.
+📌 **Action:** Pause, deep breathe, stretch, and check in with yourself emotionally(apply 4R).
 
 ---
 
