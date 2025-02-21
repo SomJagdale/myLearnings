@@ -1,3 +1,4 @@
+Morning Routine
 1. Gratitude Journel
 2. Daily Voice Excersize
 4. Life Skeleton
@@ -9,5 +10,8 @@
 10. Daily Problem Solution
 11. Daily C++ Concept
 12. Video Recording for 5min.
-13. Gratitude Journel EOD
+
+Evening Routine    
+14. Gratitude Journel EOD
+15. Revision for Maths, Python, ML
     
