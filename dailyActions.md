@@ -11,15 +11,12 @@ Morning Routine
   11. Daily C++ Concept
   12. Video Recording for 5min.
 
-
-
-
+/////////////////////////////////////////////
   14. Health Eating
   15. Learning, Training Session, Assigments
+  16. Daily One Call to strenthen relationship or networking
 
-
-
-
-  16. Gratitude Journel EOD.
-  17. Revision for Maths, Python, ML
-  18. Deep and Peacefull Sleep
+///////////////////////////////////////////
+  17. Gratitude Journel EOD.
+  18. Revision for Maths, Python, ML
+  19. Deep and Peacefull Sleep
