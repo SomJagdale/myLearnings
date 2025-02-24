@@ -6,6 +6,7 @@ Daily Voice Excersize
   - 5 Hmmm
   - 6 Non-Voiced Sounds - sssss, shsss
   - 7 Voiced Sounds - Zhaaaaaa, ffff, Vi
+  - 1 min ha ha ha
   - 8 bottle and straw exercise - humming, sirens, 7min
   - 14 Saregam - 
   - 21 min - fast English reading (phrases)
