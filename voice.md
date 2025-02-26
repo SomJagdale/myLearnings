@@ -8,8 +8,8 @@ Daily Voice Excersize
   - 7 Voiced Sounds - Zhaaaaaa, ffff, Vi
   - 1 min ha ha ha
   - 8 bottle and straw exercise - humming, sirens, 7min
+  - 9 Plank - 2 min - sssss, shsss, Zhaaaaaa, ffff, Vi, Saregam
   - 14 Saregam - 
-  - 21 min - fast English reading (phrases)
   - 28 Toung twister
 Here are some **variations** of the plank-based voice exercises to further enhance your **breath control, vocal strength, and endurance**:  
 
