@@ -3,7 +3,7 @@ Daily Voice Excersize
   - 2 Jaw
   - 3 Lips
   - 4 Toung tip
-  - 5 Hmmm
+  - 5 Mmmmmm, Nnnnnnn, Ng" (as in "sing", Me, May, Mah, Mo, Moo, Moon, Noon, Soon, Hello, How Are You?
   - 6 Non-Voiced Sounds - sssss, shsss
   - 7 Voiced Sounds - Zhaaaaaa, ffff, Vi
   - 1 min ha ha ha
