@@ -157,24 +157,22 @@ Rate each statement from **1 to 5** (1 = Strongly Disagree, 5 = Strongly Agree).
 ✅ 1. I understand my emotions and what triggers them.  
 ✅ 2. I can describe how I feel in different situations.  
 ✅ 3. I recognize when my emotions affect my decisions.  
-✅ 4. I can tell when stress is affecting my performance.  
-✅ 5. I reflect on my emotions and actions to improve myself.  
+✅ 4. I reflect on my emotions and actions to improve myself.  
 
 ---
 
 ### **2. Self-Regulation** (Managing Emotions Effectively)  
-✅ 6. I stay calm under pressure and don’t overreact.  
+✅ 6. I stay calm under pressure
 ✅ 7. I think before I respond to challenging situations.  
-✅ 8. I control my impulses and don’t let emotions drive my actions.  
+✅ 8. I control my impulses
 ✅ 9. I can handle criticism without getting defensive.  
 ✅ 10. I adapt well to change and unexpected situations.  
 
 ---
 
 ### **3. Motivation** (Inner Drive & Resilience)  
-✅ 11. I stay positive even when things don’t go my way.  
+✅ 11. I stay positive
 ✅ 12. I am passionate about what I do and work towards my goals.  
-✅ 13. I don’t give up easily when faced with obstacles.  
 ✅ 14. I enjoy learning from challenges and setbacks.  
 ✅ 15. I set long-term goals and work consistently to achieve them.  
 
