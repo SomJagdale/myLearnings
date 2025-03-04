@@ -162,19 +162,19 @@ Rate each statement from **1 to 5** (1 = Strongly Disagree, 5 = Strongly Agree).
 ---
 
 ### **2. Self-Regulation** (Managing Emotions Effectively)  
-✅ 6. I stay calm under pressure
+✅ 6. I stay calm under pressure  
 ✅ 7. I think before I respond to challenging situations.  
-✅ 8. I control my impulses
+✅ 8. I control my impulses  
 ✅ 9. I can handle criticism without getting defensive.  
 ✅ 10. I adapt well to change and unexpected situations.  
 
 ---
 
 ### **3. Motivation** (Inner Drive & Resilience)  
-✅ 11. I stay positive
+✅ 11. I stay positive  
 ✅ 12. I am passionate about what I do and work towards my goals.  
 ✅ 14. I enjoy learning from challenges and setbacks.  
-✅ 15. I set long-term goals and work consistently to achieve them.  
+✅ 15. I set long-term goals and work consistently to achieve them.    
 
 ---
 
