@@ -1,11 +1,10 @@
 Daily Voice Excersize 
-  - 1 Diaphram Breathing
-  - 2 Jaw
-  - 3 Lips
-  - 4 Toung tip
+  - 1 Body stance, relaxing body part - voice is activity of all body
+  - 2 Neck, Shoulder, Jaw, Lips, Toung tip, 
+  - Diaphram Breathing
+  - 6 Non-Voiced Sounds - sssss, shsss, f
+  - 7 Voiced Sounds - Zhaaaaaa, ffff, Vi, with siren
   - 5 Mmmmmm, Nnnnnnn, Ng" (as in "sing", Me, May, Mah, Mo, Moo, Moon, Noon, Soon, Hello, How Are You?
-  - 6 Non-Voiced Sounds - sssss, shsss
-  - 7 Voiced Sounds - Zhaaaaaa, ffff, Vi
   - 1 min ha ha ha
   - 8 bottle and straw exercise - humming, sirens, 7min
   - 9 Plank - 2 min - sssss, shsss, Zhaaaaaa, ffff, Vi, Saregam
@@ -14,6 +13,8 @@ Daily Voice Excersize
 Here are some **variations** of the plank-based voice exercises to further enhance your **breath control, vocal strength, and endurance**:  
 
 ---
+
+
 
 ### **🔹 Variations of Plank-Based Voice Exercises**  
 
