@@ -44,43 +44,40 @@ Practicing mindfulness means being fully present in the moment, without judgment
 
 Practicing mindfulness has several benefits, both mentally and physically. Here are some key advantages:  
 
-### **1. Reduces Stress & Anxiety**  
-- Lowers cortisol levels (stress hormone).  
-- Helps manage worry and overthinking.  
 
-### **2. Improves Focus & Concentration**  
+### **1. Improves Focus & Concentration**  
 - Enhances attention span.  
 - Trains the brain to stay present instead of being distracted.  
 
-### **3. Boosts Emotional Regulation**  
+### **2. Boosts Emotional Regulation**  
 - Helps respond calmly instead of reacting impulsively.  
 - Strengthens self-awareness and control over emotions.  
 
-### **4. Enhances Memory & Cognitive Function**  
+### **3. Enhances Memory & Cognitive Function**  
 - Improves working memory and decision-making.  
 - Increases brain gray matter density, which supports learning.  
 
-### **5. Promotes Better Sleep**  
+### **4. Promotes Better Sleep**  
 - Reduces racing thoughts that cause insomnia.  
 - Encourages relaxation and a peaceful mind before sleep.  
 
-### **6. Increases Self-Awareness**  
+### **5. Increases Self-Awareness**  
 - Helps recognize thought patterns and habits.  
 - Leads to a deeper understanding of yourself.  
 
-### **7. Strengthens Relationships**  
+### **6. Strengthens Relationships**  
 - Improves listening skills and empathy.  
 - Reduces conflicts by fostering patience and understanding.  
 
-### **8. Boosts Creativity & Problem-Solving**  
+### **7. Boosts Creativity & Problem-Solving**  
 - Clears mental clutter, allowing new ideas to flow.  
 - Encourages open-minded thinking.  
 
-### **9. Improves Physical Health**  
+### **8. Improves Physical Health**  
 - Lowers blood pressure.  
 - Strengthens the immune system.  
 - Helps manage chronic pain.  
 
-### **10. Encourages a Positive Mindset**  
+### **9. Encourages a Positive Mindset**  
 - Increases gratitude and appreciation for the present moment.  
 - Helps break negative thought cycles.  
