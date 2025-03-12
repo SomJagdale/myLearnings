@@ -179,11 +179,10 @@ Rate each statement from **1 to 5** (1 = Strongly Disagree, 5 = Strongly Agree).
 ---
 
 ### **4. Empathy** (Understanding Others' Feelings)  
-✅ 16. I notice when others are feeling down or stressed.  
+✅ 16. I listen carefully when someone shares their feelings.  
 ✅ 17. I try to put myself in other people’s shoes before reacting.  
-✅ 18. I listen carefully when someone shares their feelings.  
-✅ 19. I can sense unspoken emotions in conversations.  
-✅ 20. I adjust my communication based on how others feel.  
+✅ 18. I adjust my communication based on how others feel.  
+
 
 ---
 
