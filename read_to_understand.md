@@ -1,7 +1,5 @@
 Applying intonation while reading aloud (especially for audiobooks or storytelling) makes your voice engaging and natural. Here’s how you can do it effectively:
 
-⸻
-
 1. Understand Intonation Basics
 
 Intonation is the rise and fall of your voice to convey meaning, emotion, and emphasis. It helps listeners stay engaged and understand the mood.
@@ -12,7 +10,6 @@ Intonation is the rise and fall of your voice to convey meaning, emotion, and em
 	•	Neutral Intonation (→) – Your tone stays steady (used for lists, explanations, casual speech).
 	•	Example: “Today, we’ll cover chapter one, two, and three. (→)”
 
-⸻
 
 2. Match Intonation with Emotion
 	•	Excitement or Surprise – Increase pitch, speak faster.
@@ -24,7 +21,6 @@ Intonation is the rise and fall of your voice to convey meaning, emotion, and em
 	•	Commands or Statements – Use falling intonation to sound firm.
 	•	“Sit down. (↘️)”
 
-⸻
 
 3. Use Pauses for Effect
 	•	Before important words to build suspense.
@@ -32,7 +28,7 @@ Intonation is the rise and fall of your voice to convey meaning, emotion, and em
 	•	After key phrases to let them sink in.
 	•	“This was it. The moment she had been waiting for.”
 
-⸻
+
 
 4. Practice with Different Sentence Types
 
@@ -42,7 +38,7 @@ Try reading these with different intonations:
 	3.	*“Did you see that?” (Question – rising tone)
 	4.	*“She whispered, ‘It’s a secret.’” (Soft, slow, dramatic tone)
 
-⸻
+
 
 5. Record & Listen to Yourself
 	•	Play back your recording and notice where you sound monotone.
