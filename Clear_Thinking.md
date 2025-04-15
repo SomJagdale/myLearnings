@@ -156,3 +156,73 @@ Looking confident in a technical interview is crucial for making a positive impr
 * **Be yourself:** Authenticity is key. Let your personality shine through while maintaining professionalism.
 
 **In summary, looking confident in a technical interview is a combination of thorough preparation, positive body language, clear communication, and a confident mindset. Practice these aspects, and you'll significantly increase your chances of making a strong and confident impression.**
+
+Great follow-up, Somnath! Looking confident in a technical interview is *just as important* as being confident. Even if you’re nervous inside, a few simple behaviors can project **calmness, clarity, and control** — which interviewers love.
+
+Here’s how to **look confident** in a technical interview:
+
+---
+
+### 👁️‍🗨️ 1. **Body Language (Even in virtual calls)**
+- **Sit upright** with a relaxed posture — avoid slouching or fidgeting.
+- Keep your **shoulders back** and jaw relaxed.
+- **Smile slightly** when greeting or explaining — it makes you look composed.
+- In virtual calls, **look into the camera** when speaking — it mimics eye contact.
+
+> 🔁 Practice this during Zoom calls with a friend or mirror.
+
+---
+
+### 🗣️ 2. **Speak Slowly and Clearly**
+- Nervous people **rush** — confident people **pause**.
+- Take a breath before answering. It's okay to pause and think.
+- Use phrases like:
+  - “Let me think for a second.”
+  - “That’s an interesting question.”
+  - “Here’s how I’d approach that…”
+
+---
+
+### 🧠 3. **Structure Your Answers**
+Use the **WHAT → HOW → WHY** structure:
+> “We deployed Kafka (what), using custom Helm charts in Kubernetes (how), to manage log pipelines across microservices (why).”
+
+That structure **makes you sound organized and confident** — even if you’re feeling unsure inside.
+
+---
+
+### 🧭 4. **Acknowledge Uncertainty Calmly**
+Don’t panic if you don’t know something. Say:
+> “I haven’t worked with that directly, but I’d approach it by…”  
+> “I’d look into how X component behaves in this case…”
+
+Handling uncertainty with **grace** screams confidence.
+
+---
+
+### 🧩 5. **Use Real Examples**
+Real examples = strong confidence signal. They show you're not just talking theoretically.
+
+> Instead of: *“I know how to scale Kafka.”*  
+> Say: *“In my last project, we scaled Kafka using partitioning and horizontal pods in Kubernetes because we hit a throughput bottleneck at 15K messages/sec.”*
+
+---
+
+### ✨ Bonus Tricks:
+- **Have a pen and paper nearby** for system design — sketching helps *you* and *them*.
+- **Summarize your answer** at the end. E.g., “So, to summarize, I’d choose Kafka over RabbitMQ for durability, partitioning, and better handling of backpressure.”
+
+---
+
+### TL;DR – To **Look Confident**:
+| Technique | Why it Works |
+|----------|----------------|
+| Relaxed posture | Signals ease and control |
+| Calm voice, slow pace | Builds trust and clarity |
+| Structured answers | Shows clarity of thought |
+| Smile + eye contact | Makes you relatable and at ease |
+| Honest responses | Signals maturity, not weakness |
+
+---
+
+If you want, we can do a mini practice right now — I’ll ask a mock question and help you refine your answer + presence. Just say the word.
