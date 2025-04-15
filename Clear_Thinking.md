@@ -31,15 +31,12 @@ For your technical interview, you should aim to demonstrate your understanding a
 Here's a guideline:
 
 Start with the "**What**": When you encounter a technical question, begin by clearly defining the concept, technology, or problem. This shows a foundational understanding.
-
 Example: If asked about "RESTful APIs," start by explaining what a RESTful API is (architectural style, principles like statelessness, etc.).
 
 
 Immediately move to the "**Why**": After defining the "What," explain why it's important, why it's used, or why certain design choices are made. This demonstrates deeper understanding and critical thinking.
-
 Example (continuing): Explain why REST is popular (scalability, flexibility, ease of integration) or why certain REST principles are important (statelessness for scalability).
 
 
 Conclude with the "**How**": Finally, delve into the implementation details and the "how-to." This showcases your practical skills and ability to apply your knowledge.
-
 Example (continuing): Explain how different HTTP methods (GET, POST, PUT, DELETE) are used in REST, how data is typically exchanged (JSON, XML), or how you would design a specific REST endpoint.
