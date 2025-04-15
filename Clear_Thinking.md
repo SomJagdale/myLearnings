@@ -117,42 +117,42 @@ You're not being grilled. You’re **collaborating to solve a problem** or **sha
 | 7. Shift your mindset | It's a two-way convo |
 
 
+
 Looking confident in a technical interview is crucial for making a positive impression. Here's how you can project confidence:
 
-1. Preparation is Key:
+**1. Preparation is Key:**
 
-Know your fundamentals: Brush up on core computer science concepts, data structures, algorithms, and any technologies mentioned in the job description.
-Research the company: Understand their products, services, culture, and recent achievements. This shows genuine interest.
-Practice common questions: Prepare thoughtful answers to behavioral questions ("Tell me about yourself," "Strengths and weaknesses") and technical questions. Use the STAR method for behavioral questions.   
-Practice out loud: Simulate interview scenarios with friends or mentors to get comfortable articulating your thought process.
-Review your resume: Be prepared to discuss any projects or experiences listed in detail.
-2. Body Language:
+* **Know your fundamentals:** Brush up on core computer science concepts, data structures, algorithms, and any technologies mentioned in the job description.
+* **Research the company:** Understand their products, services, culture, and recent achievements. This shows genuine interest.
+* **Practice common questions:** Prepare thoughtful answers to behavioral questions ("Tell me about yourself," "Strengths and weaknesses") and technical questions. Use the STAR method for behavioral questions.
+* **Practice out loud:** Simulate interview scenarios with friends or mentors to get comfortable articulating your thought process.
+* **Review your resume:** Be prepared to discuss any projects or experiences listed in detail.
 
-Posture: Sit up straight with your shoulders back. Avoid slouching, which can convey disinterest.   
-Eye contact: Maintain natural and steady eye contact with the interviewer. This shows engagement and sincerity. Don't stare intensely; break eye contact occasionally.
-Handshake: Offer a firm, confident handshake at the beginning and end of the interview.
-Facial expressions: Smile genuinely to show warmth and approachability. Match your expressions to the conversation's tone.
-Avoid fidgeting: Be conscious of nervous habits like tapping fingers, bouncing legs, or playing with a pen. Keep your hands still and relaxed in your lap or on the table.
-Use purposeful gestures: Use hand gestures to emphasize points, but keep them controlled and avoid excessive movement.   
-3. Communication Style:
+**2. Body Language:**
 
-Speak clearly and at a moderate pace: Avoid rushing your answers. Taking a moment to think before speaking can make you appear more thoughtful and confident.
-Articulate your thought process: For technical questions, don't just give the answer. Explain how you arrived at the solution. This demonstrates your problem-solving skills.
-Be honest about what you don't know: It's okay to say you don't know the answer to a question. Explain how you would approach finding the answer or related concepts you do know.
-Ask clarifying questions: If you're unsure about a question, don't hesitate to ask for clarification. This shows engagement and a desire to understand.
-Use confident language: Avoid hesitant language like "um," "like," or "I think." Frame your answers positively and assertively.
-4. Mindset and Demeanor:
+* **Posture:** Sit up straight with your shoulders back. Avoid slouching, which can convey disinterest.
+* **Eye contact:** Maintain natural and steady eye contact with the interviewer. This shows engagement and sincerity. Don't stare intensely; break eye contact occasionally.
+* **Handshake:** Offer a firm, confident handshake at the beginning and end of the interview.
+* **Facial expressions:** Smile genuinely to show warmth and approachability. Match your expressions to the conversation's tone.
+* **Avoid fidgeting:** Be conscious of nervous habits like tapping fingers, bouncing legs, or playing with a pen. Keep your hands still and relaxed in your lap or on the table.
+* **Use purposeful gestures:** Use hand gestures to emphasize points, but keep them controlled and avoid excessive movement.
 
-Arrive early: This reduces stress and gives you time to settle in.
-Dress professionally: Choose attire that is appropriate for the company culture. Feeling well-dressed can boost your confidence.
-Be enthusiastic and engaged: Show genuine interest in the role and the company.
-Ask insightful questions: Prepare a few thoughtful questions to ask the interviewer. This demonstrates your engagement and initiative.
-Manage anxiety: Practice deep breathing exercises before the interview to calm your nerves. Focus on your strengths and the value you bring.   
-Think positively: Visualize a successful interview. Confidence often comes from believing in your abilities.
-Be yourself: Authenticity is key. Let your personality shine through while maintaining professionalism.
-In summary, looking confident in a technical interview is a combination of thorough preparation, positive body language, clear communication, and a confident mindset. Practice these aspects, and you'll significantly increase your chances of making a strong and confident impression.
+**3. Communication Style:**
 
+* **Speak clearly and at a moderate pace:** Avoid rushing your answers. Taking a moment to think before speaking can make you appear more thoughtful and confident.
+* **Articulate your thought process:** For technical questions, don't just give the answer. Explain *how* you arrived at the solution. This demonstrates your problem-solving skills.
+* **Be honest about what you don't know:** It's okay to say you don't know the answer to a question. Explain how you would approach finding the answer or related concepts you *do* know.
+* **Ask clarifying questions:** If you're unsure about a question, don't hesitate to ask for clarification. This shows engagement and a desire to understand.
+* **Use confident language:** Avoid hesitant language like "um," "like," or "I think." Frame your answers positively and assertively.
 
-Sources and related content
+**4. Mindset and Demeanor:**
 
+* **Arrive early:** This reduces stress and gives you time to settle in.
+* **Dress professionally:** Choose attire that is appropriate for the company culture. Feeling well-dressed can boost your confidence.
+* **Be enthusiastic and engaged:** Show genuine interest in the role and the company.
+* **Ask insightful questions:** Prepare a few thoughtful questions to ask the interviewer. This demonstrates your engagement and initiative.
+* **Manage anxiety:** Practice deep breathing exercises before the interview to calm your nerves. Focus on your strengths and the value you bring.
+* **Think positively:** Visualize a successful interview. Confidence often comes from believing in your abilities.
+* **Be yourself:** Authenticity is key. Let your personality shine through while maintaining professionalism.
 
+**In summary, looking confident in a technical interview is a combination of thorough preparation, positive body language, clear communication, and a confident mindset. Practice these aspects, and you'll significantly increase your chances of making a strong and confident impression.**
