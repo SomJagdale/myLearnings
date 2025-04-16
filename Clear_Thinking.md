@@ -232,28 +232,35 @@ Below is a comprehensive framework to help you think and talk clearly in intervi
 1. Pre-Interview Preparation
 
 a. Organize Your Thoughts Using the What–Why–How Framework
-	•	What:
+•	What: 
 • Identify the core ideas or topics likely to come up.
 • Map out the key points you want to convey for each topic.
-	•	Why:
+
+
+•	Why:
 • Clarify the purpose behind each answer. Ask yourself why that skill or experience matters.
 • Understand the impact and context—for instance, why does your experience solve a problem for the employer?
-	•	How:
+
+ 
+•	How:
 • Outline the steps or processes you use to achieve your results.
 • Think of concrete examples that illustrate your approach to challenges.
 
 b. Structure Your Study and Review
-	•	Deep Reading:
+•	Deep Reading:
 • Practice active reading with focus on key texts. Use methods from How to Read a Book to highlight important arguments and structure.
-	•	Note-Taking:
+
+•	Note-Taking:
 • Summarize your insights in your own words—this reinforces clarity and helps internalize concepts.
-	•	Mind Mapping:
+
+•	Mind Mapping:
 • Visualize connections between ideas. Mind maps can help you see the relationship between what you’ve done, why it matters, and how you approached it.
 
+
 c. Practice Out Loud
-	•	Mock Interviews:
+•	Mock Interviews:
 • Engage in practice sessions, and record yourself if possible. This aids in self-observation, much like the reflective habits recommended in Thinking, Fast and Slow.
-	•	Feedback Loop:
+•	Feedback Loop:
 • Seek constructive feedback on both your content and delivery. Regular practice and revision foster confidence and clarity over time.
 
 ⸻
@@ -261,20 +268,24 @@ c. Practice Out Loud
 2. During the Interview
 
 a. Active Listening and Mental Pauses
-	•	Focus on the Question:
+
+•	Focus on the Question:
 • Listen attentively. When a question is posed, take a brief moment (a pause) to let your thoughts settle. This pause is crucial to avoid hasty or muddled answers.
-	•	Clarify If Needed:
+
+•	Clarify If Needed:
 • Don’t hesitate to ask for clarification. It shows that you care about precision and understand the importance of accurate communication.
 
 b. Deliver Answers with Structure
-	•	Use the What–Why–How Sequence in Real-Time:
+
+ 	•	Use the What–Why–How Sequence in Real-Time:
 	•	What: State the fact or situation clearly (the context of your experience).
 	•	Why: Explain why it is important or how it relates to the role you’re applying for.
 	•	How: Describe the steps you took and the results you achieved.
 	•	Examples and Narratives:
-• Support your points with specific examples. A narrative structure helps make your thought process clear and engaging.
+	• Support your points with specific examples. A narrative structure helps make your thought process clear and engaging.
 
 c. Maintain Clear, Simple, and Concise Language
+
 	•	Avoid Overcomplication:
 • Stick to clear, direct sentences. This approach minimizes the risk of misunderstandings.
 	•	Mindful Pacing:
@@ -285,13 +296,16 @@ c. Maintain Clear, Simple, and Concise Language
 3. Post-Answer Reflection and Continuous Improvement
 
 a. Self-Review and Adjustment
-	•	Evaluate Your Responses:
+	
+ 	•	Evaluate Your Responses:
 • After each answer, reflect on what went well and where you could improve. Internalize feedback as part of an ongoing learning process.
-	•	Internalize Lessons:
+	
+ 	•	Internalize Lessons:
 • Keep a journal of common questions and your responses. Over time, you can refine your language and structure to become even more effective.
 
 b. Continuous Learning
-	•	Regular Reading and Reflection:
+	
+ 	•	Regular Reading and Reflection:
 • Continue reading books like Superforecasting or On Bullshit to sharpen your analytical skills and improve your ability to filter out irrelevant information.
 	•	Practice with Peers:
 • Engage in regular discussions or study groups. This simulates a natural conversation and can help with both vocabulary and thought clarity.
