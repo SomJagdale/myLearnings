@@ -462,3 +462,45 @@ int main() {
 - Track all active allocations and detect leaks.
 - Use `mmap`/`munmap` for page-level memory control.
 
+Great question! Let's break it down:
+
+---
+
+### ✅ **Correct Usage Depends on Context**
+
+#### **1. Memory Profiling**  
+Refers specifically to:
+- **Tracking memory usage** over time (heap, stack).
+- Detecting **leaks**, **fragmentation**, **allocation sizes**, and **lifetimes**.
+- Tools: `valgrind`, `heaptrack`, `massif`, `asan`.
+
+💡 Use this term when your focus is on:
+> “How much memory is used, when, and where?”
+
+---
+
+#### **2. Application Profiling (or Performance Profiling)**  
+A **broader** term covering:
+- CPU usage
+- Function call times (hotspots)
+- Thread concurrency
+- Memory usage *(includes memory profiling as a subset)*
+
+💡 Use this term when your focus is:
+> “How does my app behave at runtime overall?”
+
+---
+
+### 🔍 Summary
+
+| Term               | Scope             | Use when... |
+|--------------------|------------------|--------------|
+| **Memory Profiling** | Only memory behavior | You're debugging leaks, usage, fragmentation |
+| **Application Profiling** | Whole app performance | You're analyzing CPU, memory, threads, etc. |
+
+---
+
+If you're analyzing memory *and* performance, you can say:
+> “I'm doing **application profiling**, including memory profiling.” ✅
+
+Let me know if you want tool recommendations for either.
