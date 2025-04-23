@@ -216,3 +216,131 @@ Think of `malloc()` as a hotel:
 - **You** = guest using the room (memory block)
 - If you write into the hallway (outside your room), you can corrupt the guest register (metadata), and the hotel manager (`free()`) gets confused.
 
+Great set of questions! Let's break them down one-by-one — these are essential topics for robust memory management and understanding memory safety in C/C++ and other systems languages like Rust.
+
+---
+
+## 🧨 1. What is **Double Free**?
+
+### 🔥 Definition:
+A **double free** happens when a program calls `free()` on the same memory address **more than once**.
+
+### 🔧 Example:
+```c
+int* ptr = malloc(100);
+free(ptr);
+free(ptr);  // 💣 Boom! Double free
+```
+
+### 🧩 Why it's bad:
+- Corrupts heap metadata.
+- Can cause program crashes or be exploited for security vulnerabilities.
+- Leads to **undefined behavior**.
+
+---
+
+## 🧰 2. What is **RAII** (Resource Acquisition Is Initialization)?
+
+### 🧠 Concept (Used in C++, Rust, etc.):
+RAII ties the **lifetime of a resource** (memory, file handle, socket) to the **lifetime of an object**.
+
+### 💡 How it works:
+- Acquire resource in the **constructor**
+- Release resource in the **destructor**
+
+### 🔧 Example (C++):
+```cpp
+class MyResource {
+public:
+    MyResource() { ptr = new int[100]; }
+    ~MyResource() { delete[] ptr; }
+private:
+    int* ptr;
+};
+```
+
+- When `MyResource` object goes out of scope → destructor called → memory freed.
+- **No need to manually call `delete`** → avoids memory leaks and double frees.
+
+---
+
+## 🦀 3. What is **Borrow Checking** (Rust concept)?
+
+### 🧠 Purpose:
+To **prevent memory errors** like:
+- Use-after-free
+- Double free
+- Dangling pointers
+
+### 📏 How:
+Rust uses a **borrow checker** to enforce rules:
+- You can either have **one mutable reference** OR **any number of immutable references**, not both.
+- Ownership ensures memory is released automatically and only once.
+
+### 🧰 Example:
+```rust
+let mut x = 5;
+let y = &x;     // immutable borrow
+let z = &mut x; // ❌ error: cannot borrow as mutable because it's already borrowed
+```
+
+Borrow checking is one of Rust’s biggest innovations for **memory safety without a garbage collector**.
+
+---
+
+## 🧪 4. ASan Output: `heap-buffer-overflow on address 0x602000000050`
+
+### 🧠 This means:
+The AddressSanitizer (ASan) detected a **heap buffer overflow**, i.e., you accessed memory beyond what you `malloc`'ed.
+
+---
+
+## 🔍 5. How to Find Function Name, File, and Line Number from ASan Address?
+
+### ✅ ASan output normally gives:
+- The **call stack**
+- The **source file and line number**
+- A shadow memory map showing corrupted zones
+
+### But if you're working only with the address and need details:
+
+### 🔧 Use `addr2line`:
+If your binary has debug symbols (`-g` flag):
+
+```sh
+addr2line -e ./your_binary 0x602000000050
+```
+
+This will print:
+```
+file.c:42
+```
+
+Or use:
+```sh
+gdb ./your_binary
+(gdb) info line *0x602000000050
+```
+
+Or in LLDB:
+```sh
+lldb ./your_binary
+(lldb) image lookup --address 0x602000000050
+```
+
+### 🧪 Tip: Always compile with debug symbols for this:
+```sh
+gcc -g -fsanitize=address main.c -o app
+```
+
+---
+
+## 🔐 Summary
+
+| Term                | Purpose                                             |
+|---------------------|-----------------------------------------------------|
+| `double free`       | Calling `free()` twice → undefined behavior         |
+| `RAII`              | Auto-manage resource lifetime (C++, Rust)           |
+| `borrow checking`   | Rust’s memory safety feature via compile-time checks|
+| `ASan heap overflow`| Runtime detection of out-of-bounds heap access      |
+| `addr2line`         | Tool to map memory addresses to source lines        |
