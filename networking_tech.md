@@ -2,11 +2,14 @@
 
 select:
 Mechanism: Uses file descriptor sets (bitmasks) to monitor multiple file descriptors for readability, writability, or exceptions.
+
 Limitations:
 Limited number of file descriptors (typically up to FD_SETSIZE, often 1024).
 Inefficient for a large number of inactive connections because it iterates through all monitored descriptors on each call.
 Requires rebuilding the file descriptor sets on each call.
+
 Advantages: Widely portable and available on most POSIX systems.
+
 Use Cases: Suitable for a small to moderate number of connections or when portability is paramount.
 
 
@@ -19,8 +22,9 @@ Use Cases: Better than select for a larger number of connections or when the fil
 
 epoll (Linux-Specific):
 Mechanism: Event-driven interface that uses an event list to return only the file descriptors that have triggered an event. Uses epoll_create, epoll_ctl, and epoll_wait system calls.
+
 Limitations: Linux-specific, not portable to all POSIX systems.
-Advantages: Highly efficient for a large number of connections, even if most are inactive, because it only returns active descriptors. Uses a constant time complexity for event notification. Supports edge-triggered (ET) and level-triggered (LT) modes.
+Advantages: Highly efficient for a large number of connections, even if most are inactive, because it only returns active descriptors. Uses a constant time complexityfor event notification. Supports edge-triggered (ET) and level-triggered (LT) modes.
 Use Cases: Ideal for high-performance network servers handling a massive number of concurrent connections.
 
 
