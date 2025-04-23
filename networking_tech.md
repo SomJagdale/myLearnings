@@ -1,4 +1,4 @@
-The Select/Poll/Epoll Showdown:
+ The Select/Poll/Epoll Showdown:
 
 select:
 Mechanism: Uses file descriptor sets (bitmasks) to monitor multiple file descriptors for readability, writability, or exceptions.
@@ -8,11 +8,15 @@ Inefficient for a large number of inactive connections because it iterates throu
 Requires rebuilding the file descriptor sets on each call.
 Advantages: Widely portable and available on most POSIX systems.
 Use Cases: Suitable for a small to moderate number of connections or when portability is paramount.
+
+
 poll:
 Mechanism: Uses an array of pollfd structures, providing more information about the events to monitor.
 Limitations: Still iterates through all monitored descriptors to check for events, so performance degrades with a large number of inactive connections.
 Advantages: Overcomes the FD_SETSIZE limit of select. Provides more detailed event information.
 Use Cases: Better than select for a larger number of connections or when the file descriptor limit is a concern.
+
+
 epoll (Linux-Specific):
 Mechanism: Event-driven interface that uses an event list to return only the file descriptors that have triggered an event. Uses epoll_create, epoll_ctl, and epoll_wait system calls.
 Limitations: Linux-specific, not portable to all POSIX systems.
