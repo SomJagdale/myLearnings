@@ -1,4 +1,5 @@
 
+
 3-Month Sabbatical Plan
 🔹 Month 1: Foundation & Skill Building
 1. Deep dive into Generative AI (Theory + Hands-on projects).
