@@ -1,8 +1,10 @@
 
  Write C code to switch a socket to non-blocking mode. What happens to recv() and accept() in this case?
+ 
 🧠 Use fcntl() to set O_NONBLOCK. recv() or accept() will return -1 with errno == EAGAIN.
 
 13. Describe how TCP’s congestion window (CWND) works. Can you simulate it in code or data structure?
+14. 
 🧠 A sliding window. Can simulate with circular buffer or two pointers over an array.
 
 
