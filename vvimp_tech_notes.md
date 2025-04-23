@@ -344,3 +344,121 @@ gcc -g -fsanitize=address main.c -o app
 | `borrow checking`   | Rust’s memory safety feature via compile-time checks|
 | `ASan heap overflow`| Runtime detection of out-of-bounds heap access      |
 | `addr2line`         | Tool to map memory addresses to source lines        |
+
+
+Absolutely! Writing custom allocation wrappers is a great way to learn how memory management works under the hood — and to add safety mechanisms like guard bytes (a.k.a. **canaries**) to detect overflows or corruptions.
+
+---
+
+## 🎯 Goal
+We’ll wrap `malloc`/`free` to:
+- Track allocation sizes.
+- Add **canaries** before and after the allocated memory.
+- Validate integrity on `free`.
+
+---
+
+## 🔐 Design
+
+```
++-----------+----------------------+------------+
+| CanaryL   |   User Memory        |  CanaryR   |
++-----------+----------------------+------------+
+^           ^                      ^            ^
+|           |                      |            |
+Ptr-Canary  Actual ptr (returned)  End Ptr      Free checks integrity
+```
+
+---
+
+## ✅ Implementation in C
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+
+#define CANARY 0xDEADBEEF
+#define CANARY_SIZE sizeof(uint32_t)
+
+typedef struct {
+    size_t size;
+    uint32_t canaryL;
+    // Followed by actual data
+} Header;
+
+void* custom_malloc(size_t size) {
+    size_t total_size = sizeof(Header) + size + CANARY_SIZE;
+
+    // Allocate raw memory
+    void* raw_ptr = malloc(total_size);
+    if (!raw_ptr) return NULL;
+
+    Header* header = (Header*)raw_ptr;
+    header->size = size;
+    header->canaryL = CANARY;
+
+    void* user_ptr = (void*)(header + 1);  // Skip header
+
+    // Set the right canary
+    uint32_t* canaryR = (uint32_t*)((char*)user_ptr + size);
+    *canaryR = CANARY;
+
+    return user_ptr;
+}
+
+void custom_free(void* user_ptr) {
+    if (!user_ptr) return;
+
+    Header* header = ((Header*)user_ptr) - 1;
+
+    // Validate left canary
+    if (header->canaryL != CANARY) {
+        fprintf(stderr, "[ERROR] Left canary corrupted! Possible underflow.\n");
+    }
+
+    // Validate right canary
+    uint32_t* canaryR = (uint32_t*)((char*)user_ptr + header->size);
+    if (*canaryR != CANARY) {
+        fprintf(stderr, "[ERROR] Right canary corrupted! Possible overflow.\n");
+    }
+
+    // Optionally: wipe memory before freeing (security)
+    memset(header, 0, sizeof(Header) + header->size + CANARY_SIZE);
+    free(header);
+}
+```
+
+---
+
+## 🧪 Example Usage
+
+```c
+int main() {
+    int* arr = (int*)custom_malloc(5 * sizeof(int));
+
+    for (int i = 0; i < 5; i++) {
+        arr[i] = i * 10;
+    }
+
+    // Intentional overflow to test canary
+    arr[5] = 999;  // 💥 This will corrupt the right canary
+
+    custom_free(arr);  // Will print a warning
+    return 0;
+}
+```
+
+---
+
+## 🧠 Bonus Ideas
+
+- Log all allocations/frees with `file:line` using macros like:
+  ```c
+  #define malloc(x) custom_malloc_debug(x, __FILE__, __LINE__)
+  ```
+- Add a hash of data to detect tampering.
+- Track all active allocations and detect leaks.
+- Use `mmap`/`munmap` for page-level memory control.
+
