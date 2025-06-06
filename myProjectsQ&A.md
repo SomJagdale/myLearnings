@@ -11,17 +11,25 @@ However, our system was originally stateful. Each message in a transaction neede
 To solve this, we moved the state storage from the in-memory cache to Couchbase. All transaction-related data was now stored centrally, making it accessible across instances.
 
 The trade-offs were:
-
 Performance impact due to the added read/write to Couchbase per message.
-
 Increased database storage as more state was persisted.
-
 But the benefits were significant:
-
 The system became horizontally scalable.
-
 We could now tolerate instance failures without losing state.
-
 It enabled true container-native behavior under Kubernetes."**
+
+
+
+Q2:
+You mentioned storing state in Couchbase. How did you ensure consistency and avoid race conditions or stale reads, especially when multiple instances might access or update the same transaction?
+
+Since our application works in the telecom domain, each subscriber is uniquely identified by an IMSI. We leveraged this uniqueness to design our data access pattern.
+
+In our system, we used the IMSI as the key for storing and retrieving data in Couchbase. To ensure consistency and avoid race conditions, we implemented a per-IMSI locking mechanism. This way, even if multiple instances processed messages related to the same subscriber concurrently, only one thread or instance could update the state for that IMSI at a time.
+
+
+Q3:
+Can you explain the difference between std::unique_ptr and std::shared_ptr, and give a scenario where using one over the other was critical in your project?
+
 
 
