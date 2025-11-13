@@ -1,3 +1,12 @@
+discard local branch changes 
+git fetch origin
+git reset --hard origin/main
+
+xclip -sel clip < roamerdata.log
+
+grep MISMATCH 20AugustDesc | awk -F'Reason:' '{print $2}' | sort | uniq -c | sort -nr
+
+
 opaque
 convolutional
 recurrent
