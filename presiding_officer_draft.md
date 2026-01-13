@@ -31,8 +31,11 @@ Presiding Officer's Opening Scripts
 
 
 
-Presiding Officer's Closing Scripts
+
+### Presiding Officer's Closing Scripts
 	1. How was all three segments?
+	
+	
 	2. Reflection   - Speaker
 			- Evaluator
 			- Role Players
