@@ -3,8 +3,9 @@ Presiding Officer's Opening Scripts
 1. Reading Meeting Checklist
 
 2. A³ Framework - Acknowledge → Align → Activate
-	Acknowledge People - Members, Guests, presence, efforts - Thank you for choosing to spend your valuable time here today — your presence itself shows commitment to growth.
-	
+
+Acknowledge People - Members, Guests, presence, efforts - Thank you for choosing to spend your valuable time here today — your presence itself shows commitment to growth.
+
 	Align with TM Purpose - What is Toastmaster?
 			      - Why we are here?
 			      - How we do it?
