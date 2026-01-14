@@ -1,3 +1,9 @@
+Great goal, Somnath 👍
+Daily Table Topics practice for a month is exactly how strong speakers are built.
+
+Here are 30 diverse Table Topics, carefully designed to stretch thinking speed, structure, emotion, humor, leadership, and storytelling—perfect for a competition.
+
+⸻
 
 🔹 Day 1–10: Easy → Confidence Builders
 
@@ -61,3 +67,12 @@ For each topic:
 	3.	1–1.5 min – Speak with examples
 	4.	Last 10 sec – Strong closing line
 
+⸻
+
+If you want, next I can:
+	•	🎯 Convert these into competition-style slips
+	•	🏆 Share winning opening & closing templates
+	•	🎙️ Create Table Topic evaluation criteria like judges use
+	•	🔥 Design advanced surprise topics only champions practice
+
+Just tell me what you want next.
