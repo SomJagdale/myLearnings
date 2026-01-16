@@ -1,4 +1,4 @@
-🔹 Day 1–10: Easy → Confidence Builders
+Day 1–10: Easy → Confidence Builders
 
 Focus: clarity, structure, calm delivery
 	1.	If you had to give up one daily habit, what would it be and why?
@@ -12,9 +12,8 @@ Focus: clarity, structure, calm delivery
 	9.	What is a small habit that changed your life?
 	10.	What does “home” mean to you?
 
-⸻
 
-🔹 Day 11–20: Medium → Thinking & Opinion
+Day 11–20: Medium → Thinking & Opinion
 
 Focus: viewpoints, examples, reasoning
 	11.	Is failure more important than success? Why?
@@ -29,7 +28,7 @@ Focus: viewpoints, examples, reasoning
 	20.	What defines a good leader?
 
 
-🔹 Day 21–25: Advanced → Abstract & Creative
+Day 21–25: Advanced → Abstract & Creative
 
 Focus: originality, metaphors, depth
 	21.	If life had a “pause” button, when would you press it?
@@ -39,7 +38,7 @@ Focus: originality, metaphors, depth
 	25.	If success made a sound, what would it be?
 
 
-🔹 Day 26–30: Competition-Level → Twist & Pressure
+Day 26–30: Competition-Level → Twist & Pressure
 
 Focus: surprise handling, confidence, humor
 	26.	Speak for something you secretly disagree with.
@@ -49,7 +48,7 @@ Focus: surprise handling, confidence, humor
 	30.	You have one minute to inspire someone who wants to quit—what do you say?
 
 
-🔹 How to Practice (2-minute winning routine)
+How to Practice (2-minute winning routine)
 
 For each topic:
 	1.	5 sec – Pause & breathe
