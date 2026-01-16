@@ -1,10 +1,3 @@
-Great goal, Somnath 👍
-Daily Table Topics practice for a month is exactly how strong speakers are built.
-
-Here are 30 diverse Table Topics, carefully designed to stretch thinking speed, structure, emotion, humor, leadership, and storytelling—perfect for a competition.
-
-⸻
-
 🔹 Day 1–10: Easy → Confidence Builders
 
 Focus: clarity, structure, calm delivery
@@ -35,7 +28,6 @@ Focus: viewpoints, examples, reasoning
 	19.	Can silence be more powerful than words?
 	20.	What defines a good leader?
 
-⸻
 
 🔹 Day 21–25: Advanced → Abstract & Creative
 
@@ -46,7 +38,6 @@ Focus: originality, metaphors, depth
 	24.	If emotions had colors, what color is today?
 	25.	If success made a sound, what would it be?
 
-⸻
 
 🔹 Day 26–30: Competition-Level → Twist & Pressure
 
@@ -57,7 +48,6 @@ Focus: surprise handling, confidence, humor
 	29.	Argue why doing nothing is sometimes productive.
 	30.	You have one minute to inspire someone who wants to quit—what do you say?
 
-⸻
 
 🔹 How to Practice (2-minute winning routine)
 
@@ -67,12 +57,5 @@ For each topic:
 	3.	1–1.5 min – Speak with examples
 	4.	Last 10 sec – Strong closing line
 
-⸻
-
-If you want, next I can:
-	•	🎯 Convert these into competition-style slips
-	•	🏆 Share winning opening & closing templates
-	•	🎙️ Create Table Topic evaluation criteria like judges use
-	•	🔥 Design advanced surprise topics only champions practice
 
 Just tell me what you want next.
